@@ -11,23 +11,32 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	# in our parser.
 	def datei(self,tup,buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
-	    infoString = dispatchList(self,subTree['header'], buffer)[0]
+	    infoString, jahr = dispatchList(self,subTree['header'], buffer)[0]
 	    eintraege = dispatchList(self,subTree['sections'], buffer)[0]
 	    eintraege2 = []
 	    for e in eintraege:
 	        fach, dozent, raum, woche, tag, anfang, ende = e
-		eintraege2.append((fach, dozent, raum, woche, tag, anfang, ende, infoString))
+		eintraege2.append((fach, dozent, raum, jahr, woche, tag, anfang, ende, infoString))
 	    return eintraege2
 
 	def header(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
-	    infoString = dispatchList(self,subTree['ersteZeile'], buffer)[0]
-	    return infoString
+	    infoString, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
+	    return (infoString, jahr)
 	def ersteZeile(self, tup, buffer): 
 	    subTree = multiMap(tup[-1],buffer=buffer)
-	    infoString = dispatchList(self,subTree['infoString'], buffer)[0]
-	    return infoString
+	    infoString, jahr = dispatchList(self,subTree['infoString'], buffer)[0]
+	    return (infoString, jahr)
 	def infoString(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    jahr = dispatchList(self,subTree['semester'], buffer)[0]
+	    infoString = str(getString(tup, buffer))
+	    return (infoString, jahr)
+	def semester(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    jahr = dispatchList(self,subTree['jahr'], buffer)[0]
+	    return jahr
+	def jahr(self, tup, buffer):
 	    return str(getString(tup, buffer))
 
         def sections(self, tup, buffer):

@@ -1,3 +1,4 @@
+import time
 
 HEADER = """BEGIN:VCALENDAR
 BEGIN:VTIMEZONE
@@ -20,32 +21,35 @@ END:STANDARD
 END:VTIMEZONE"""
 
 class Icalendar:
-    def __init__(events):
+    def __init__(self, events):
         self.header = HEADER
 	self.events = []
 	for e in events:
 	    self.events.append(IcalEvent(e))
 
-    def __str__():
+    def icalStr(self):
         result = HEADER + "\n"
-	for event in events:
-	    result += str(event) + "\n"
+	for event in self.events:
+	    result += event.icalStr() + "\n"
 	result += "END:VCALENDAR"
-	return result
+	return str(result)
     
 class IcalEvent:
-    def __init__(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString):
+    def __init__(self, (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)):
         self.fach = fach
 	self.dozent = dozent
 	self.raum = raum
-	self.anfangsDatum = dateTimeString(jahr,woche,tag,anfang)
-	self.endDatum = dateTimeString(jahr,woche,tag,ende)
-	self.dateTimeStamp = dateTimeString(jetzt)
+	self.anfangsDatum = createDateTimeString(dateTime(jahr,woche,tag,anfang))
+	self.endDatum = createDateTimeString(dateTime(jahr,woche,tag,ende))
+	self.dateTimeStamp = createDateTimeString(time.localtime())
 	self.infoString = infoString
     
-    def __str__():
+    def icalStr(self):
         r  = "BEGIN:VEVENT" + "\n"
-	r += "DESCRIPTION:" + "Prof.: " + self.dozent + "\n" + self.infoString + "\n"
+	dozent = ""
+	if self.dozent != "":
+	    dozent = "Prof.: " + self.dozent + "\n"
+	r += "DESCRIPTION:" + dozent + self.infoString + "\n"
         r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + "\n"
 	r += "DTEND;TZID:Europe/Berlin:" + self.endDatum + "\n"
 	r += "DTSTAMP;TZID=Europe/Berlin:" + self.dateTimeStamp + "\n"
@@ -53,27 +57,48 @@ class IcalEvent:
 	r += "SUMMARY:" + self.fach + "\n"
 	r += "UID:" + createUid(self.dateTimeStamp) + "\n"
 	r += "END:VEVENT"
+	return r
 
-def dateTimeString(jahr, woche, tag, uhrzeit):
-    yyyy = "20" + jahr
-    mm, dd = monthAndDay(yyyy, woche, tag)
+def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
+    """@return: time.struct_time"""
+
+    jahr = "20" + jahrKuerzel
+
+    wochentage = {"mo": "1", "di": "2", "mi": "3", "do": "4", "fr": "5", "sa": "6", "so": "0"}
+    wochentag = wochentage[wochentag.lower()]
 
     stunde, minute = uhrzeit
-    HH = "%.2d" % int(stunde)
-    MM = "%.2d" % int(minute)
 
-    return yyyy + mm + dd + "T" + HH + MM + "00" + "Z"
+    struct_time = time.strptime(jahr + " " + wochennummer + " " + wochentag + " " + stunde + " " + minute,
+                                "%Y %W %w %H %M")
+    return struct_time
+
+def createDateTimeString(struct_time):
+    """result: date string with (non-utc) time"""
+    t = struct_time
+
+    yyyy = "%.4d" % t.tm_year
+    mm = "%.2d" % int(t.tm_mon)
+    dd = "%.2d" % int(t.tm_mday)
+
+    HH = "%.2d" % int(t.tm_hour)
+    MM = "%.2d" % int(t.tm_min)
+    SS = "%.2d" % int(t.tm_sec)
+
+    return yyyy + mm + dd + "T" + HH + MM + SS
 
 def monthAndDay(jahr, woche, tag):
-    return ("mm", "dd")
+    return (woche, tag)
 
 def createUid(dateTime):
     import random
     rand = reduce(lambda x,y : str(x) + str(random.randint(0,9)), [random.randint(0,9)] + range(9))
-    return dateTime + " Atomkraft? Nein Danke! " + rand + "@informatik.haw-hamburg.de"
+    return dateTime + " Atomkraft? Nein Danke! " + rand + "@theno.eu"
 
 def test():
-    print dateTimeString("80", "5", "Freitag", ("12", "30"))
+    dateTimeString = createDateTimeString(time.localtime())
+    print dateTimeString
+    print createUid(dateTimeString)
 
 if __name__ == "__main__":
     test()
