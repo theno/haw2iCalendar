@@ -1,4 +1,7 @@
 import time
+from logging import Logger
+
+from veranstaltungen import fullNames
 
 HEADER = """BEGIN:VCALENDAR
 BEGIN:VTIMEZONE
@@ -41,21 +44,34 @@ class IcalEvent:
 	self.raum = raum
 	self.anfangsDatum = createDateTimeString(dateTime(jahr,woche,tag,anfang))
 	self.endDatum = createDateTimeString(dateTime(jahr,woche,tag,ende))
-	self.dateTimeStamp = createDateTimeString(time.localtime())
+	self.dateTimeStamp = createDateTimeString(time.gmtime())
 	self.infoString = infoString
     
     def icalStr(self):
-        r  = "BEGIN:VEVENT" + "\n"
+        r  = "BEGIN:VEVENT" + "\r\n"
+	summary = "SUMMARY:"
+	if fullNames[self.fach]:
+	    summary += fullNames[self.fach]
+	else:
+	    Logger.warn("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
+	    summary += self.fach + "\r\n"
+	r += summary
+
 	dozent = ""
 	if self.dozent != "":
-	    dozent = "Prof.: " + self.dozent + "\n"
-	r += "DESCRIPTION:" + dozent + self.infoString + "\n"
-        r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + "\n"
-	r += "DTEND;TZID:Europe/Berlin:" + self.endDatum + "\n"
-	r += "DTSTAMP;TZID=Europe/Berlin:" + self.dateTimeStamp + "\n"
-	r += "LOCATION:" + "Rm. " + self.raum + "\n"
-	r += "SUMMARY:" + self.fach + "\n"
-	r += "UID:" + createUid(self.dateTimeStamp) + "\n"
+	    dozent = "Prof.: " + self.dozent + "\\n\\n"
+	r += "DESCRIPTION:" + dozent + "\r\n " + self.infoString + "\r\n"
+
+        r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + "\r\n"
+	r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + "\r\n"
+	r += "DTSTAMP:" + self.dateTimeStamp + "\r\n"
+
+	raum = ""
+	if self.raum != "":
+	    raum = "Rm. " + self.raum
+	r += "LOCATION:" + raum + "\r\n"
+
+	r += "UID:" + createUid(self.dateTimeStamp) + "\r\n"
 	r += "END:VEVENT"
 	return r
 
@@ -100,5 +116,8 @@ def test():
     print dateTimeString
     print createUid(dateTimeString)
 
+
 if __name__ == "__main__":
     test()
+
+# validator: http://severinghaus.org/projects/icv/

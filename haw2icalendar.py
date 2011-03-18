@@ -1,33 +1,27 @@
-from hawParser import HawParser
+from hawCalendar import HawCalendar
 from hawDispatchProcessor import HawDispatchProcessor
+from hawParser import HawParser
 
 if __name__ == "__main__":
-    file = open("/home/theno/hawicalendar/masterMin.txt", "r")
-    text = file.read()
+    file = open("/home/theno/hawicalendar/Sem_I.txt", "r")
+    text_cp1252 = file.read()
     file.close()
+    text_unicode = text_cp1252.decode("cp1252")
+    text_utf8 = text_unicode.encode("utf-8")
     
-    success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
-    eventList = resultList[0]
-    
-    print "result:"
-    for e in eventList:
-        print e
+    success, resultList, strIndex = HawParser.parse(text_utf8, processor=HawDispatchProcessor())
 
-    # filtern
-    faecher = ["Vorkurs PRG", "BAI1-OE I"]
-    newEventList = []
-    for e in eventList:
-        fach, dozent, raum, jahr, woche, tag, anfang, ende, infoString = e
-	if fach in faecher:
-	    newEventList.append(e)
+    hawCal = HawCalendar(resultList)
 
-    print "after filtering:"
-    for e in newEventList:
-        print e
+#    semestergruppen = ["M-INF2", "B-AI1"]
+    semestergruppen = ["M-INF2"]
+#    semestergruppen = ["B-AI1"]
+    hawCal.keepOnlyBySemestergruppen(semestergruppen)
+#    hawCal.keepOnly(["MINF2-TH1", "MINF2-TH1UE"])
 
-    # icalendar erzeugen
-    import icalendar
-    ical = icalendar.Icalendar(eventList)
-#    print ical.icalStr()
-    # ausgeben
+#    print str(hawCal.getSemestergruppen())
+#    print str(hawCal.getVeranstaltungen())
+#    print str(len(hawCal.getVeranstaltungen()))
+
+    print(hawCal.icalStr())
 

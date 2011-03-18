@@ -2,27 +2,25 @@ from simpleparse import dispatchprocessor
 from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
 
 class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
-#        def init(self):
-#	    self.general = None
-#	    self.events = None
 	"""Processor sub-class defining processing functions for the productions"""
 	# you'd likely provide a "resetBeforeParse" method
 	# in a real-world application, but we don't store anything
 	# in our parser.
-	def datei(self,tup,buffer):
+	def semestergruppe(self,tup,buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
-	    infoString, jahr = dispatchList(self,subTree['header'], buffer)[0]
+	    infoString, jahr, gruppenKuerzel = dispatchList(self,subTree['header'], buffer)[0]
 	    eintraege = dispatchList(self,subTree['sections'], buffer)[0]
 	    eintraege2 = []
 	    for e in eintraege:
-	        fach, dozent, raum, woche, tag, anfang, ende = e
-		eintraege2.append((fach, dozent, raum, jahr, woche, tag, anfang, ende, infoString))
-	    return eintraege2
+	        fach, dozent, raum, woche, wochentag, anfang, ende = e
+		eintraege2.append((fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
+	    return gruppenKuerzel, eintraege2
 
 	def header(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
-	    return (infoString, jahr)
+	    gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
+	    return (infoString, jahr, gruppenKuerzel)
 	def ersteZeile(self, tup, buffer): 
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr = dispatchList(self,subTree['infoString'], buffer)[0]
@@ -38,6 +36,12 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    return jahr
 	def jahr(self, tup, buffer):
 	    return str(getString(tup, buffer))
+	def zweiteZeile(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    gruppenKuerzel = dispatchList(self,subTree['gruppenKuerzel'], buffer)[0]
+	    return gruppenKuerzel
+	def gruppenKuerzel(self, tup, buffer):
+	    return str(getString(tup, buffer))
 
         def sections(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
@@ -51,14 +55,36 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    eintraegeMitWoche = []
 	    for woche in wochen:
 	        for e in eintraege:
-		    fach, dozent, raum, tag, anfang, ende = e
-		    eintraegeMitWoche.append((fach, dozent, raum, woche, tag, anfang, ende))
+		    fach, dozent, raum, wochentag, anfang, ende = e
+		    eintraegeMitWoche.append((fach, dozent, raum, woche, wochentag, anfang, ende))
 	    return eintraegeMitWoche
 
 	def wochen(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
-	    wochen = dispatchList(self,subTree['woche'], buffer)
+	    wochenList = dispatchList(self,subTree['wocheOrWochenRange'], buffer)
+	    wochen = [item for sublist in wochenList for item in sublist]
 	    return wochen
+	def wocheOrWochenRange(self,tup,buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    wochen = []
+	    if 'woche' in subTree:
+	        wochen = dispatchList(self,subTree['woche'], buffer)
+	    if 'wochenRange' in subTree:
+ 	        wochen = dispatchList(self,subTree['wochenRange'], buffer)[0]
+	    return wochen
+	def wochenRange(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    anfangsWoche = dispatchList(self,subTree['anfangsWoche'], buffer)[0]
+	    endWoche = dispatchList(self,subTree['endWoche'], buffer)[0]
+	    return map(lambda x: str(x), range(int(anfangsWoche), int(endWoche)+1) )
+	def anfangsWoche(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    anfangsWoche = dispatchList(self,subTree['woche'], buffer)[0]
+	    return anfangsWoche
+	def endWoche(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    endWoche = dispatchList(self,subTree['woche'], buffer)[0]
+	    return endWoche
 	def woche(self,tup,buffer):
 	    return str(getString(tup, buffer))
 	def eintrag(self, tup, buffer):
@@ -66,17 +92,17 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    fach = dispatchList(self,subTree['fach'], buffer)[0]
 	    dozent = dispatchList(self,subTree['dozent'], buffer)[0]
 	    raum = dispatchList(self,subTree['raum'], buffer)[0]
-	    tag = dispatchList(self,subTree['tag'], buffer)[0]
+	    wochentag = dispatchList(self,subTree['wochentag'], buffer)[0]
 	    anfang = dispatchList(self,subTree['anfang'], buffer)[0]
 	    ende = dispatchList(self,subTree['ende'], buffer)[0]
-	    return (fach, dozent, raum, tag, anfang, ende)
+	    return (fach, dozent, raum, wochentag, anfang, ende)
 	def fach(self, tup, buffer):
 	    return str(getString(tup, buffer))
 	def dozent(self, tup, buffer):
 	    return str(getString(tup, buffer))
 	def raum(self, tup, buffer):
 	    return str(getString(tup, buffer))
-	def tag(self, tup, buffer):
+	def wochentag(self, tup, buffer):
 	    return str(getString(tup, buffer))
 	def anfang(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
@@ -95,3 +121,4 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    return str(getString(tup, buffer))
 	def m(self, tup, buffer):
 	    return str(getString(tup, buffer))
+
