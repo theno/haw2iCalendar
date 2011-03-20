@@ -1,0 +1,16 @@
+- Statt pro Vorlesung/Veranstaltung lauter Einzeltermine einen Serientermin erstellen
+
+- Kürzel-ProfName-Dict erstellen, um darauf basierend volle Namen
+  einzutragen
+
+- Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
+
+- ics-UID statt @theno.eu lokale ip: @123.123.123.123
+
+- Ablauf:
+  + aus EBNF-Parser erzeugen
+  + Quelldatei parsen
+  + mit dispatcher Ereignisse erzeugen
+  + nur gewünschte Ereignisse herausfiltern
+  + ical-head + ereignisse
+

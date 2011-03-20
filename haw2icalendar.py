@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from hawCalendar import HawCalendar
 from hawDispatchProcessor import HawDispatchProcessor
 from hawParser import HawParser
@@ -13,11 +15,17 @@ if __name__ == "__main__":
 
     hawCal = HawCalendar(resultList)
 
-#    semestergruppen = ["M-INF2", "B-AI1"]
     semestergruppen = ["M-INF2"]
-#    semestergruppen = ["B-AI1"]
     hawCal.keepOnlyBySemestergruppen(semestergruppen)
-#    hawCal.keepOnly(["MINF2-TH1", "MINF2-TH1UE"])
+
+#    hawCal.keepOnly(["MINF2-TH1", "MINF2-AW2", "MINF2-TT2", "MINF2-PJ1"])
+#    hawCal.keepOnly(["MINF2-TH1", "MINF2-AW2", "MINF2-TT2"])
+
+#    hawCal.keepOnly(["MINF2-TH\xc3\x9c1/01"])
+    hawCal.keepOnly(["MINF2-TH\xc3\x9c1/02"])
+#
+#    hawCal.keepOnly(["MINF2-TTP2/01"])
+#    hawCal.keepOnly(["MINF2-TTP2/02"])
 
 #    print str(hawCal.getSemestergruppen())
 #    print str(hawCal.getVeranstaltungen())

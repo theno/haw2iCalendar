@@ -8,7 +8,7 @@ fullNames = {
 "MINF1-MT"      : "Vorl. Modellierung Technischer Systeme",
 "MINF1-MI"      : "Vorl. Modellierung von Informationssystemen",
 
-"MINF2-TH"      : "Vorl. Theoretische Informatik",
+"MINF2-TH1"      : "Vorl. Theoretische Informatik",
 "MINF2-THÜ/01"  : "Übung Theoretische Informatik (Gruppe 1)",
 "MINF2-THÜ/02"  : "Übung Theoretische Informatik (Gruppe 2)",
 "MINF2-AW2"     : "Seminar Anwendungen 2",

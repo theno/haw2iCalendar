@@ -92,9 +92,8 @@ class TestParser(unittest.TestCase):
 	    testData = tokenTestData[token]
 	    for testDatum in testData:
 	        success, children, nextcharacter = HawParser.parse(testDatum, production)
-		from pprint import pformat
 		def errStr():
-		    from pprint import pprint
+		    from pprint import pformat
 		    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
 		             repr(testDatum), production, nextcharacter, len(testDatum))
 	            r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))

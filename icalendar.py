@@ -1,5 +1,5 @@
 import time
-from logging import Logger
+import logging
 
 from veranstaltungen import fullNames
 
@@ -48,24 +48,32 @@ class IcalEvent:
 	self.infoString = infoString
     
     def icalStr(self):
-        r  = "BEGIN:VEVENT" + "\r\n"
 	summary = "SUMMARY:"
-	if fullNames[self.fach]:
+	description = "DESCRIPTION:"
+
+	# SUMMARY
+        r  = "BEGIN:VEVENT" + "\r\n"
+	if self.fach in fullNames:
 	    summary += fullNames[self.fach]
+	    description += self.fach + "\\n"
 	else:
-	    Logger.warn("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
-	    summary += self.fach + "\r\n"
-	r += summary
+	    logging.info("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
+	    summary += self.fach
+	r += summary + "\r\n"
 
-	dozent = ""
+        # DESCRIPTION
 	if self.dozent != "":
-	    dozent = "Prof.: " + self.dozent + "\\n\\n"
-	r += "DESCRIPTION:" + dozent + "\r\n " + self.infoString + "\r\n"
+	    description += "Prof.: " + self.dozent + "\\n\\n" + "\r\n " 
+	else:
+	    description += "\\n"
+	r += description + self.infoString + "\r\n"
 
+        # DATETIME
         r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + "\r\n"
 	r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + "\r\n"
 	r += "DTSTAMP:" + self.dateTimeStamp + "\r\n"
 
+	# LOCATION
 	raum = ""
 	if self.raum != "":
 	    raum = "Rm. " + self.raum
