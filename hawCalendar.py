@@ -39,5 +39,5 @@ class HawCalendar:
 
     def getVeranstaltungenFromSemestergruppe(self, semestergruppe):
         veranstaltungen = self.data[semestergruppe]
-	return map(lambda (veranstaltung, b,c,d,e,f,g,h,i): veranstaltung, veranstaltungen)
+	return set(map(lambda (veranstaltung, b,c,d,e,f,g,h,i): veranstaltung, veranstaltungen))
 

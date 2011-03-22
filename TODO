@@ -1,3 +1,9 @@
+- OptionParse
+
+- StateMachine
+
+- Klickibunti: GUI basteln (xml-basiert, wx-Glade)
+
 - Statt pro Vorlesung/Veranstaltung lauter Einzeltermine einen Serientermin erstellen
 
 - Kürzel-ProfName-Dict erstellen, um darauf basierend volle Namen
