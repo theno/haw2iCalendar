@@ -34,7 +34,7 @@ class Icalendar:
         result = HEADER + "\n"
 	for event in self.events:
 	    result += event.icalStr() + "\n"
-	result += "END:VCALENDAR"
+	result += "END:VCALENDAR\n"
 	return str(result)
     
 class IcalEvent:
