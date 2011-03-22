@@ -13,6 +13,10 @@
 
 - ics-UID statt @theno.eu lokale ip: @123.123.123.123
 
+- Logging-Infos rückmelden
+
+- ParserTests: Gleiches zusammenfassen
+
 - Ablauf:
   + aus EBNF-Parser erzeugen
   + Quelldatei parsen

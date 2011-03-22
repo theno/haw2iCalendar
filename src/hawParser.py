@@ -21,7 +21,6 @@ gruppenKuerzel     := -lb+
 sections           := section, ((t/lb)+, section)*
 section            := wochen, lb, bezeichner, (lb, eintrag)+
 
-#wochen             := woche, (", ", woche)*
 wochen             := wocheOrWochenRange, (", ", wocheOrWochenRange)*
 wocheOrWochenRange := wochenRange / woche
 wochenRange        := anfangsWoche, "-", endWoche
