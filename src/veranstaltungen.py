@@ -15,12 +15,13 @@ praktikum            := semesterkuerzel, "-", prakKuerzel, no?, "/", gruppe
 projekt              := "INF-PRO ", gruppe
 seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
 uebung               := semesterkuerzel, "-", kuerzel, "Ü", no?, "/", gruppe
-#vorlesung            := semesterkuerzel, "-", kuerzel, no?
+#vorlesung           := semesterkuerzel, "-", kuerzel, no?
 vorlesung            := semesterkuerzel, "-", kuerzel
 vorkurs              := "Vorkurs ", fachKuerzel
 vorlUebung           := semesterkuerzel, "-", kuerzel, "/", kuerzel, "Ü"
 wahlpflichtmodul     := "INF-WP-", alphanumGruppe, no
 wpPraktikum          := "INF-WPP-", alphanumGruppe, no, "/", gruppe
+#catch all:
 unknown              := -[$]+
 
 semesterkuerzel      := -"-"+
