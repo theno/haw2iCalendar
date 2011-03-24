@@ -3,50 +3,52 @@
 from simpleparse.common import numbers #for token 'int'
 from simpleparse.parser import Parser
 
-# Beispiele:
-#
-# Vorlesung:       BAI1-PR1                 Programmieren I
-# Praktikum:       BAI1-PRP1/02             Praktikum Programmieren I
-# Übung:           MINF2-THÜ/01             Übung Theoretische Informatik (Gruppe 1)
-# VorlÜbung:       BAI1-GI/GIÜ              Vorl./Übung Grundlagen der Informatik
-# Wahlpflichtfach: INF-WPP-B2/01 INF-WP-C1  Wachlpflichtmodul
-# Seminar:         BAI5-AIS+BTI5-TIS        Seminar
-#                  MINF2-AW2                Seminar Anwendungen II
-# Projekt:         INF-PRO 8                Projekt (Gruppe 8)
-# Vorkurs:         Vorkurs PRG              Vorkurs Programmieren
-# Geswissensch.    GWu DANN                 GW-Kurs DANN
-#                  GWb SRHF_TK              GW-Kurs SRHF_TK
-# Orientierungse.  BAI1-OE I                Orientierungseinheit
-
 declaration = r'''#<token> := <definition>
-Veranstaltung := Vorlesung / Uebung / VorlUebung / Vorkurs / Orientierungseinheit /
-                  Wahlpflichtmodul / WpPraktikum / Seminar / Projekt / Praktikum / GwKurs
+root          := veranstaltung
+veranstaltung := uebung / vorlUebung / vorkurs / orientierungseinheit /
+                  wahlpflichtmodul / wpPraktikum / seminar / projekt /
+                  praktikum / gwKurs / vorlesung / unknown
 
-GwKurs              := "GW", [ub], " ", GwKuerzel
-Orientierungseinheit := Semesterkuerzel, "OE I", "I"?
-Praktikum            := Semesterkuerzel, "-", Kuerzel, "P", No?, "/", Gruppe
-Projekt              := "INF-PRO ", Gruppe
-Seminar              := Semesterkuerzel, "-", ("AIS"/"TIS"), "+", Semesterkuerzel, "-", ("AIS"/"TIS")
-Uebung               := Semesterkuerzel, "-", Kuerzel, "Ü", No?, "/", Gruppe
-Vorlesung            := Semesterkuerzel, "-", Kuerzel, No?
-Vorkurs              := "Vorkurs ", FachKuerzel
-VorlUebung           := Semesterkuerzel, "-", Kuerzel, "/", Kuerzel, "Ü"
-Wahlpflichtmodul     := "INF-WP-", AlphanumGruppe, No
-WpPraktikum         := "INF-WPP-", AlphanumGruppe, No, "/", Gruppe
+gwKurs               := "GW", [ub], " ", gwKuerzel
+orientierungseinheit := semesterkuerzel, "-", "OE ", (oe2 / oe1)
+praktikum            := semesterkuerzel, "-", prakKuerzel, no?, "/", gruppe
+projekt              := "INF-PRO ", gruppe
+seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
+uebung               := semesterkuerzel, "-", kuerzel, "Ü", no?, "/", gruppe
+#vorlesung            := semesterkuerzel, "-", kuerzel, no?
+vorlesung            := semesterkuerzel, "-", kuerzel
+vorkurs              := "Vorkurs ", fachKuerzel
+vorlUebung           := semesterkuerzel, "-", kuerzel, "/", kuerzel, "Ü"
+wahlpflichtmodul     := "INF-WP-", alphanumGruppe, no
+wpPraktikum          := "INF-WPP-", alphanumGruppe, no, "/", gruppe
+unknown              := -[$]+
 
-Semesterkuerzel      := -"-"+
-Kuerzel              := FachKuerzel, Nummer?
-FachKuerzel          := -int+
-GwKuerzel            := [a-zA-Z_-]+
-Nummer               := int
-No                   := int
-Gruppe               := int
-AlphanumGruppe       := [A-Z]
-
-ue                   := "Ü"
+semesterkuerzel      := -"-"+
+>kuerzel<            := fachKuerzel, nummer?
+prakKuerzel          := ([A-O,Q-Z]*, "P")+
+fachKuerzel          := [A-Z]+
+gwKuerzel            := [A-Z_-]+
+oe1                  := "I"
+oe2                  := "II"
+nummer               := int
+no                   := int
+gruppe               := int
+alphanumGruppe       := [A-Z]
 '''
-VeranstaltungParser = Parser(declaration)
+VeranstaltungParser = Parser(declaration, root="root")
 
+def test2():
+    from simpleparse import dispatchprocessor
+    from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
+    
+    from veranstaltungenDispatchProcessor import VeranstaltungDispatchProcessor
+    #success, children, nextcharacter = VeranstaltungParser.parse("BAI1-PR1")
+    from pprint import pprint
+    pprint(VeranstaltungParser.parse("BAI1-PR1", processor=VeranstaltungDispatchProcessor()))
+#    pprint(VeranstaltungParser.parse("fooBarBaz", processor=VeranstaltungDispatchProcessor()))
+
+
+############################################################
 fullNames = {
 
 # Master Informatik
@@ -78,10 +80,19 @@ fullNames = {
 "MINF4-MAK"     : "Kolloquium"
 }
 
+def tryGetFullName(veranstaltung):
+    from veranstaltungenDispatchProcessor import VeranstaltungDispatchProcessor
+
+    fullName = ""
+    success, result, nextcharacter = VeranstaltungParser.parse(veranstaltung, processor=VeranstaltungDispatchProcessor())
+    if success:
+        fullName = result[0]
+    return fullName
+
 def test():
     from pprint import pprint
     pprint(fullNames)
     
 if __name__ == "__main__":
-    test()
+    test2()
 

@@ -4,30 +4,44 @@ import unittest
 
 from veranstaltungen import VeranstaltungParser
 
+tokenTestData = {
+    # low level token
+    "semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2"],
+    "kuerzel" : ["PJ1", "AW2", "DB"],
+    "fachKuerzel" : ["PJ", "AW", "DB"],
+    "gwKuerzel" : ["DANN", "ZOEL", "STFF_Z", "SRHF_TK"],
+
+    # mid level token
+    "gwKurs" : ["GWb SRHF_TK", "GWu STFF_Z", "GWu ZOEL", "GWu DANN"],
+    "orientierungseinheit" : ["BTI1-OE I", "BTI2-OE II"],
+    "praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02"],
+    "projekt" : ["INF-PRO 8", "INF-PRO 4"],
+    "seminar" : ["BAI5-AIS+BTI5-TIS"],
+    "uebung" : ["MINF2-THÜ/01"],
+    "vorlesung" : ["BAI1-PR1"],
+    "vorkurs" : ["Vorkurs PRG"],
+    "vorlUebung" : ["BAI1-GI/GIÜ"],
+    "wahlpflichtmodul" : ["INF-WP-C1"],
+    "wpPraktikum" : ["INF-WPP-B4/01", "INF-WPP-A1/01"],
+
+    # high level token
+    "veranstaltung" : ["INF-WPP-B4/01", "INF-WPP-A1/01",
+                       "GWb SRHF_TK", "GWu STFF_Z",
+                       "GWu ZOEL", "GWu DANN",
+                       "BTI1-OE I", "BTI2-OE II",
+                       "BAI1-PRP1/02", "BTI1-GTP/02",
+                       "INF-PRO 8", "INF-PRO 4",
+                       "BAI5-AIS+BTI5-TIS",
+                       "MINF2-THÜ/01",
+                       "BAI1-PR1",
+                       "Vorkurs PRG",
+                       "BAI1-GI/GIÜ",
+                       "INF-WP-C1"]
+}
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
-        tokenTestData = {
-            "Semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2"],
-            "Kuerzel" : ["PJ1", "AW2", "DB"],
-            "FachKuerzel" : ["PJ", "AW", "DB"],
-            "GwKuerzel" : ["DANN", "ZOEL", "STFF_Z", "SRHF_TK"],
-
-            "GwKurs" : ["GWb SRHF_TK", "GWu STFF_Z", "GWu ZOEL", "GWu DANN"],
-            "Orientierungseinheit" : ["BTI1-OE I", "BTI2-OE II"],
-            "Praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02"],
-            "Projekt" : ["INF-PRO 8", "INF-PRO 4"],
-            "Seminar" : ["BAI5-AIS+BTI5-TIS"],
-            "Uebung" : ["MINF2-THÜ/01"],
-            "Vorlesung" : ["BAI1-PR1"],
-            "Vorkurs" : ["Vorkurs PRG"],
-            "VorlUebung" : ["BAI1-GI/GIÜ"],
-            "Wahlpflichtmodul" : ["INF-WP-C1"],
-            "WpPraktikum" : ["INF-WPP-B4/01", "INF-WPP-A1/01"],
-
-            "ue" : ["Ü"]
-	}
-
 	for token in tokenTestData:
 	    production = token
 	    testData = tokenTestData[token]

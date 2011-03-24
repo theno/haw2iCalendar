@@ -2,10 +2,6 @@ from simpleparse import dispatchprocessor
 from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
 
 class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
-	"""Processor sub-class defining processing functions for the productions"""
-	# you'd likely provide a "resetBeforeParse" method
-	# in a real-world application, but we don't store anything
-	# in our parser.
 	def semestergruppe(self,tup,buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr, gruppenKuerzel = dispatchList(self,subTree['header'], buffer)[0]

@@ -41,7 +41,7 @@ class Controller:
 	else:
 	    sys.stdout.write(icalStr)
 
-	# FIXME: very dirty (because HawCalendar is mutable)
+	#FIXME: very dirty (because HawCalendar is mutable)
 	text = self.__fetchInputText(self.__inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
@@ -57,4 +57,8 @@ class Controller:
 
     def unselectVeranstaltungen(self, veranstaltungen):
         self.selectedVeranstaltungen -= veranstaltungen
+
+    def tryGetFullName(self, veranstaltung):
+        from veranstaltungen import tryGetFullName
+        return tryGetFullName(veranstaltung)
 

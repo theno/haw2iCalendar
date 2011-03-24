@@ -4,12 +4,6 @@ import sys
 
 import controller
 
-def pd(str):
-    """(global) Dialog printer;
-       prints NOT to stdout, instead to stderr
-    """
-    print >> sys.stderr, str
-
 class CommandGui:
     def __init__(self, controller):
 	self.controller = controller
@@ -20,6 +14,12 @@ class CommandGui:
     def setState(self, state):
         self.curState = state
 	self.curState.onEntry()
+
+def pd(str):
+    """(global) dialog printer;
+       prints NOT to stdout, instead to stderr
+    """
+    print >> sys.stderr, str
 
 class State:
     def __init__(self, fsm):
@@ -159,11 +159,24 @@ class VeranstaltungenState(State):
     # state specific behavior
 
     def printVeranstaltungen(self):
+        maxLen = len(reduce(lambda x,y: max(x,y, key=len), self.veranstaltungen))
+        pd("maxLen " + str(maxLen))
         for i in range(0, len(self.veranstaltungen)):
+            veranstaltung = self.veranstaltungen[i]
+
 	    selected = "  "
-	    if self.veranstaltungSelected(self.veranstaltungen[i]):
+	    if self.veranstaltungSelected(veranstaltung):
 	        selected = " *"
-    	    pd("%.2d" % i + selected + self.veranstaltungen[i])
+
+            fullName = self.fsm.controller.tryGetFullName(veranstaltung)
+
+            formatter = "{0:<" + str(maxLen+2) + "}"
+            leftAlignedVeranstaltung = formatter.format(veranstaltung)
+            #FIXME: dirty hack (a 'Ü' is represented in utf-8 by 2Byte)
+            if 'Ü' in leftAlignedVeranstaltung:
+                leftAlignedVeranstaltung += " "
+
+    	    pd("%.2d" % i + selected + leftAlignedVeranstaltung + fullName)
 
     def printVeranstaltungenAuswahlDialog(self):
         pd("back: b, toggle selection: <number>, write&quit: wq")

@@ -48,5 +48,5 @@ m                  := int
 <bezeichner>       := -lb+
 '''
 
-HawParser = Parser(declaration, "datei")
+HawParser = Parser(declaration, root="datei")
 

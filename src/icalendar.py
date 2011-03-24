@@ -53,12 +53,15 @@ class IcalEvent:
 
 	# SUMMARY
         r  = "BEGIN:VEVENT" + "\r\n"
-	if self.fach in fullNames:
-	    summary += fullNames[self.fach]
+
+        from veranstaltungen import tryGetFullName
+        fullName = tryGetFullName(self.fach)
+        if fullName != "":
+            summary += fullName
 	    description += self.fach + "\\n"
-	else:
+        else:
+            summary += self.fach
 	    logging.info("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
-	    summary += self.fach
 	r += summary + "\r\n"
 
         # DESCRIPTION
