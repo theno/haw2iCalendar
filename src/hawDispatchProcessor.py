@@ -3,6 +3,14 @@ from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
 
 class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	def semestergruppe(self,tup,buffer):
+            """@result: 
+            
+            (semestergruppenKuerzel, [(fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
+                                      (eintrag-Tupel),
+                                      ...
+                                     ]
+            )
+            """
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr, gruppenKuerzel = dispatchList(self,subTree['header'], buffer)[0]
 	    eintraege = dispatchList(self,subTree['sections'], buffer)[0]

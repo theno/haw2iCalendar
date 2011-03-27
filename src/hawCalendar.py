@@ -2,10 +2,22 @@ from icalendar import Icalendar
 
 class HawCalendar:
     def __init__(self, eventTupelLists):
-        # data = {gruppenKuerzel:  [(fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
+        """
+        @param eventTupelLists:
+        [ 
+         (gruppenKuerzel, [(fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
+                           ...
+                          ]
+         ),
+         (gruppenKuerzel, veranstaltungenList),
+         ...
+        ]
+        """
+
+        # data = {gruppenKuerzel : [(fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
         #                          ...
-        #                         ],
-	#         gruppenKuerzel: veranstaltungen,
+        #                          ],
+	#         gruppenKuerzel : veranstaltungenList,
         #         ...
         #        }
         self.data = {}

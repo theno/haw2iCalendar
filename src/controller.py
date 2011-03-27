@@ -3,6 +3,7 @@ import sys
 from hawCalendar import HawCalendar
 from hawDispatchProcessor import HawDispatchProcessor
 from hawParser import HawParser
+from veranstaltungenParser import tryGetFullName
 
 class Controller:
 
@@ -41,7 +42,9 @@ class Controller:
 	else:
 	    sys.stdout.write(icalStr)
 
-	#FIXME: very dirty (because HawCalendar is mutable)
+        #"reset" mutable HawCalendar object self.__hawCal to contain all
+        #events again which was removed after the 'keepOnly()' call
+	#FIXME: very dirty (needed because HawCalendar is mutable)
 	text = self.__fetchInputText(self.__inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
@@ -59,6 +62,5 @@ class Controller:
         self.selectedVeranstaltungen -= veranstaltungen
 
     def tryGetFullName(self, veranstaltung):
-        from veranstaltungen import tryGetFullName
         return tryGetFullName(veranstaltung)
 

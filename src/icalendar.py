@@ -1,7 +1,7 @@
 import time
 import logging
 
-from veranstaltungen import fullNames
+from veranstaltungenParser import tryGetFullName
 
 HEADER = """BEGIN:VCALENDAR
 BEGIN:VTIMEZONE
@@ -54,7 +54,6 @@ class IcalEvent:
 	# SUMMARY
         r  = "BEGIN:VEVENT" + "\r\n"
 
-        from veranstaltungen import tryGetFullName
         fullName = tryGetFullName(self.fach)
         if fullName != "":
             summary += fullName
@@ -120,7 +119,13 @@ def monthAndDay(jahr, woche, tag):
 def createUid(dateTime):
     import random
     rand = reduce(lambda x,y : str(x) + str(random.randint(0,9)), [random.randint(0,9)] + range(9))
-    return dateTime + " Atomkraft? Nein Danke! " + rand + "@theno.eu"
+
+    import socket
+    #FIXME: Does not handle with ipv6
+    ip = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
+              if not ip.startswith("127.")][0]
+
+    return dateTime + " Atomkraft? Nein Danke! " + rand + "@" + ip
 
 def test():
     dateTimeString = createDateTimeString(time.localtime())

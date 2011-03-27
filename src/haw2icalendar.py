@@ -13,15 +13,25 @@ Parse a haw calendar text file (Sem_I.txt),
 select dates, convert the dates to icalendar format (rfc5545)
 and write them to stdout."""
 
+# (grober) Ablauf:
+#  + aus EBNF Parser erzeugen
+#  + Quelldatei parsen
+#  + mit dispatcher Ereignisse erzeugen
+#  + nur gewuenschte Ereignisse herausfiltern
+#  + .ics ausgeben: icalendar-head + ereignisse + END:VCALENDAR
+
 def parseOpts():
     optParse = OptionParser(usage)
     optParse.add_option("-o", dest="outFile", default=None, metavar="FILE",
                        help="write ics-output to file instead stdout")
+
     (options, args) = optParse.parse_args()
+
     if len(args) != 1:
-        print "only one argument allowed (use option '--help' for info)"
-	sys.exit()
+        print >> sys.stderr, "only exactly one argument allowed (use option '--help' for info)"
+	sys.exit(0)
     inFile = args[0]
+
     return (inFile, options.outFile)
 
 if __name__ == "__main__":

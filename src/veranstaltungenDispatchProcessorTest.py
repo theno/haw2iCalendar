@@ -1,6 +1,6 @@
 import unittest
 
-from veranstaltungen import VeranstaltungParser
+from veranstaltungenParser import VeranstaltungParser
 from veranstaltungenDispatchProcessor import VeranstaltungDispatchProcessor
 from veranstaltungenParserTest import tokenTestData
 

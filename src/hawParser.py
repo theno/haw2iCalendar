@@ -8,7 +8,6 @@ semestergruppe     := header, (t/lb)*, sections
 header             := ersteZeile, lb, zweiteZeile
 
 ersteZeile         := "Stundenplan", ts, infoString
-#ersteZeile         := (-t)+, ts, infoString
 infoString         := semester, ts, "(Vers.", version, " vom ", versionsDatum, ")"
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int

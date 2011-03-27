@@ -3,14 +3,18 @@
 from simpleparse import dispatchprocessor
 from simpleparse.dispatchprocessor import dispatch, dispatchList, getString, multiMap
 
-from veranstaltungen import VeranstaltungParser
+from veranstaltungenParser import VeranstaltungParser
 
 class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def veranstaltung(self, tup, buffer):
         subTree = multiMap(tup[-1], buffer=buffer)
+
         def get(veranstaltung):
             return dispatchList(self, subTree[veranstaltung], buffer)[0]
-        if "gwKurs" in subTree:
+
+        if "awSeminar" in subTree:
+            result = get("awSeminar")
+        elif "gwKurs" in subTree:
             result = get("gwKurs")
         elif "orientierungseinheit" in subTree:
             result = get("orientierungseinheit")
@@ -20,6 +24,8 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
             result = get("projekt")
         elif "seminar" in subTree:
             result = get("seminar")
+        elif "teamStudienEinstieg" in subTree:
+            result = get("teamStudienEinstieg")
         elif "uebung" in subTree:
             result = get("uebung")
         elif "vorlesung" in subTree:
@@ -36,6 +42,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
             result = buffer # no mappings found
         else:
             raise Exception("wrong control flow! Veranstaltungskuerzel = " + buffer)
+
         return result
 
     def gwKurs(self, tup, buffer):
@@ -45,6 +52,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 
     def orientierungseinheit(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
+
         roemNr = ""
         if "oe1" in subTree:
             roemNr = dispatchList(self, subTree["oe1"], buffer)[0]
@@ -52,6 +60,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
             roemNr = dispatchList(self, subTree["oe2"], buffer)[0]
         else:
             raise Exception("wrong control flow! Veranstaltungskuerzel = " + buffer)
+
         return orientierungseinheit2FullName(roemNr)
 
     def praktikum(self, tup, buffer):
@@ -70,11 +79,37 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 
     def projekt(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
-        gruppe = dispatchList(self, subTree['gruppe'], buffer)[0]
-        return projekt2FullName(gruppe)
+
+        gruppe = ""
+        if "gruppe" in subTree:
+            gruppe = dispatchList(self, subTree['gruppe'], buffer)[0]
+
+        nummer = ""
+        if "nummer" in subTree:
+            nummer = dispatchList(self, subTree['nummer'], buffer)[0]
+
+        return veranstaltung2FullName("PJ", nummer=nummer, gruppe=gruppe)
 
     def seminar(self, tup, buffer):
         return seminar2FullName()
+
+    def awSeminar(self, tup, buffer):
+        subTree = multiMap(tup[-1],buffer=buffer)
+
+        fachKuerzel = "AW"
+
+        if "nummer" in subTree:
+            nummer = dispatchList(self, subTree['nummer'], buffer)[0]
+            return seminar2FullName(fachKuerzel, nummer)
+
+        return seminar2FullName(fachKuerzel)
+
+    def teamStudienEinstieg(self, tup, buffer):
+        subTree = multiMap(tup[-1],buffer=buffer)
+
+        gruppe = dispatchList(self, subTree['gruppe'], buffer)[0]
+
+        return veranstaltung2FullName("TSE", gruppe=gruppe)
 
     def uebung(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
@@ -160,7 +195,6 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def oe2(self, tup, buffer):
         return getString(tup, buffer)
 
-from Faecher import faecher
 
 def gwKurs2FullName(gwKuerzel):
     return "GW-Kurs " + gwKuerzel
@@ -171,40 +205,44 @@ def orientierungseinheit2FullName(roemNr):
 # helper
 def fachOrFachKuerzel(fachKuerzel):
     fach = fachKuerzel
+
+    from faecher import faecher
     if fachKuerzel in faecher:
         fach = faecher[fachKuerzel]
+
     return fach
 
 # helper
-def veranstaltung2FullName(veranstaltung, fachKuerzel, nummer="", gruppe=""):
+def veranstaltung2FullName(fachKuerzel, veranstaltung="", nummer="", gruppe=""):
     fach = fachOrFachKuerzel(fachKuerzel)
-    result = veranstaltung + " " + fach
+    result = fach
+
+    if veranstaltung != "":
+        result = veranstaltung + " " + result
     if nummer != "":
         result += " " + nummer
     if gruppe != "":
         result += " (Gruppe " + gruppe + ")"
+
     return result
 
 def praktikum2FullName(fachKuerzel, nummer, gruppe):
-    return veranstaltung2FullName("Praktikum", fachKuerzel, nummer, gruppe)
+    return veranstaltung2FullName(fachKuerzel, "Praktikum", nummer, gruppe)
 
-def projekt2FullName(gruppe):
-    return "Projekt (Gruppe" + gruppe + ")"
-
-def seminar2FullName():
-    return "Seminar"
+def seminar2FullName(fachKuerzel="", nummer=""):
+    return veranstaltung2FullName(fachKuerzel, "Seminar", nummer)
 
 def uebung2FullName(fachKuerzel, nummer, gruppe):
-    return veranstaltung2FullName("Übung", fachKuerzel, nummer, gruppe)
+    return veranstaltung2FullName(fachKuerzel, "Übung", nummer, gruppe)
      
 def vorlesung2FullName(fachKuerzel, nummer):
-    return veranstaltung2FullName("Vorlesung", fachKuerzel, nummer)
+    return veranstaltung2FullName(fachKuerzel, "Vorlesung", nummer)
     
 def vorkurs2FullName(fachKuerzel, nummer):
-    return veranstaltung2FullName("Vorkurs", fachKuerzel, nummer)
+    return veranstaltung2FullName(fachKuerzel, "Vorkurs", nummer)
 
 def vorlUebung2FullName(fachKuerzel, nummer):
-    return veranstaltung2FullName("Vorl./Übung", fachKuerzel, nummer)
+    return veranstaltung2FullName(fachKuerzel, "Vorl./Übung", nummer)
 
 def wahlpflichtmodul2FullName(alphanumGruppe, no):
     return "Wahlpflichtmodul " + alphanumGruppe + no

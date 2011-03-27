@@ -2,7 +2,7 @@
 
 import unittest
 
-from veranstaltungen import VeranstaltungParser
+from veranstaltungenParser import VeranstaltungParser
 
 tokenTestData = {
     # low level token
@@ -16,7 +16,9 @@ tokenTestData = {
     "orientierungseinheit" : ["BTI1-OE I", "BTI2-OE II"],
     "praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02"],
     "projekt" : ["INF-PRO 8", "INF-PRO 4"],
+    "teamStudienEinstieg" :["BTI1-TSE/02", "BTI1-TSE/01", "BAI1-TSE/02"],
     "seminar" : ["BAI5-AIS+BTI5-TIS"],
+    "awSeminar" : ["MINF1-AW1", "MINF2-AW2"],
     "uebung" : ["MINF2-THÜ/01"],
     "vorlesung" : ["BAI1-PR1"],
     "vorkurs" : ["Vorkurs PRG"],
@@ -36,7 +38,8 @@ tokenTestData = {
                        "BAI1-PR1",
                        "Vorkurs PRG",
                        "BAI1-GI/GIÜ",
-                       "INF-WP-C1"]
+                       "INF-WP-C1",
+                       "MINF1-AW1", "MINF2-AW2"]
 }
 
 class TestParser(unittest.TestCase):

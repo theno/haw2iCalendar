@@ -1,16 +1,25 @@
-- AW wird statt als Seminar als Vorlesung erkannt
-- Was ist mit PJ?
-- was mit Seminar SEM?
-- Sem1 TSE keine Vorlesung
-- Bei GW-Kursen wird nicht das ganze Kürzel übernommen
+- ChangeLog einführen
 
-- Command-Gui - 0 vor einstelligen Ziffern wegmachen
+- Was passiert mit der Terminen bei Überschneidungen, wird da ev. gemischt?
 
-- Faecher dict auffüllen
+- Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
 
-- OptionParse
+- Anwendung in Module unterteilen
 
-- StateMachine
+- GPL-Lizenz-Datei beilegen
+
+- Command-Gui: onEntry() zu groß - Aktionen in Methoden auslagern
+
+- Für den E&I-Kalender anpassen:
+  + Nicht nach den im Header angegebenen Semestergruppen sortieren, sondern
+   nach den Semestergruppen des jeweiligen Eintrags selber (aber wo wird dann
+   z.B. der Vorkurs einsortiert?)
+   Im E&I-Kalender gibt es nur eine 'große Semestergruppe' über alle
+   Semestergruppen, die dann über 350 Veranstaltungen beinhaltet --
+   tendenziell unpraktisch.
+  + E&I-Fächer in das Faecher-dict aufnehmen (besser: zwei separate Dicts
+   pflegen, falls es Kürzel-Kollisionen gibt => woran erkennt man
+   zuverlässig einen E&I-Kalender-Textdatei?)
 
 - Klickibunti: GUI basteln (xml-basiert, wx-Glade)
 
@@ -19,18 +28,7 @@
 - Kürzel-ProfName-Dict erstellen, um darauf basierend volle Namen
   einzutragen
 
-- Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
-
-- ics-UID statt @theno.eu lokale ip: @123.123.123.123
-
 - Logging-Infos rückmelden
 
-- ParserTests: Gleiches zusammenfassen
-
-- Ablauf:
-  + aus EBNF-Parser erzeugen
-  + Quelldatei parsen
-  + mit dispatcher Ereignisse erzeugen
-  + nur gewünschte Ereignisse herausfiltern
-  + ical-head + ereignisse
+- unter Windoof ausprobieren
 

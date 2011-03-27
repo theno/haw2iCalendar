@@ -64,7 +64,7 @@ class KeineAuswahlState(State):
 	#navigate
 	m = re.match(r"n([0-9]+)", result)
 	if m != None:
-	    number = int(m.group(1))
+	    number = int(m.group(1)) -1
 	    pd(str(number))
 	    semestergruppe = self.semestergruppen[number]
 
@@ -74,7 +74,7 @@ class KeineAuswahlState(State):
 	    # toggle selection
 	    m = re.match("([0-9]+)", result)
 	    if m != None:
-	        number = int(m.group(1))
+	        number = int(m.group(1)) -1
 	        semestergruppe = self.semestergruppen[number]
 
 		if self.gruppePartialOrFullSelected(semestergruppe):
@@ -97,13 +97,18 @@ class KeineAuswahlState(State):
 
     def printSemestergruppen(self):
         for i in range(0, len(self.semestergruppen)):
+            formatter = "{0:>" + str(len(str(len(self.semestergruppen)))) + "}"
+            lineNumber = formatter.format(i+1)
+
 	    semestergruppe = self.semestergruppen[i]
+
 	    selected = "  "
 	    if self.gruppeFullSelected(semestergruppe):
 	        selected = " *"
 	    elif self.gruppePartialOrFullSelected(semestergruppe):
 	        selected = " +"
-    	    pd("%.2d" % i + selected + semestergruppe)
+
+    	    pd(lineNumber + selected + semestergruppe)
 
     def printGruppenauswahlDialog(self):
         pd("navigate: n<number>, select/unselect all: <number>, write&quit: wq")
@@ -144,7 +149,7 @@ class VeranstaltungenState(State):
 	    # toggle selection
 	    m = re.match("([0-9]+)", result)
 	    if m != None:
-	        number = int(m.group(1))
+	        number = int(m.group(1)) -1
 	        pd("toggle selection")
 		pd(self.veranstaltungen[number])
 		self.toggleVeranstaltung(self.veranstaltungen[number])
@@ -160,9 +165,12 @@ class VeranstaltungenState(State):
 
     def printVeranstaltungen(self):
         maxLen = len(reduce(lambda x,y: max(x,y, key=len), self.veranstaltungen))
-        pd("maxLen " + str(maxLen))
+
         for i in range(0, len(self.veranstaltungen)):
             veranstaltung = self.veranstaltungen[i]
+
+            formatter = "{0:>" + str(len(str(len(self.veranstaltungen)))) + "}"
+            lineNumber = formatter.format(i+1)
 
 	    selected = "  "
 	    if self.veranstaltungSelected(veranstaltung):
@@ -172,11 +180,11 @@ class VeranstaltungenState(State):
 
             formatter = "{0:<" + str(maxLen+2) + "}"
             leftAlignedVeranstaltung = formatter.format(veranstaltung)
-            #FIXME: dirty hack (a 'Ü' is represented in utf-8 by 2Byte)
+            #FIXME: dirty hack (a 'Ü' is represented in utf-8 by 2 byte)
             if 'Ü' in leftAlignedVeranstaltung:
                 leftAlignedVeranstaltung += " "
 
-    	    pd("%.2d" % i + selected + leftAlignedVeranstaltung + fullName)
+    	    pd(lineNumber + selected + leftAlignedVeranstaltung + fullName)
 
     def printVeranstaltungenAuswahlDialog(self):
         pd("back: b, toggle selection: <number>, write&quit: wq")
