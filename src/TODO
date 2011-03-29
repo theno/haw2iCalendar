@@ -1,7 +1,3 @@
-- ChangeLog einführen
-
-- Was passiert mit der Terminen bei Überschneidungen, wird da ev. gemischt?
-
 - Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
 
 - Anwendung in Module unterteilen
@@ -11,12 +7,6 @@
 - Command-Gui: onEntry() zu groß - Aktionen in Methoden auslagern
 
 - Für den E&I-Kalender anpassen:
-  + Nicht nach den im Header angegebenen Semestergruppen sortieren, sondern
-   nach den Semestergruppen des jeweiligen Eintrags selber (aber wo wird dann
-   z.B. der Vorkurs einsortiert?)
-   Im E&I-Kalender gibt es nur eine 'große Semestergruppe' über alle
-   Semestergruppen, die dann über 350 Veranstaltungen beinhaltet --
-   tendenziell unpraktisch.
   + E&I-Fächer in das Faecher-dict aufnehmen (besser: zwei separate Dicts
    pflegen, falls es Kürzel-Kollisionen gibt => woran erkennt man
    zuverlässig einen E&I-Kalender-Textdatei?)

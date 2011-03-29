@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 import unittest
 
 from hawParser import HawParser
@@ -61,7 +63,7 @@ Name,Dozent,Raum,Tag,Anfang,Ende
 MINF2-TH1/ue,HFFM,0480,Di,12:30,15:45
 MINF2-TH1,HFFM,0480,Di,12:30,15:45"""
 
-f = open("Sem_I.txt", 'r')
+f = open("../Sem_I.txt", 'r')
 dateiTestDatum4 = f.read()
 f.close()
 
@@ -69,6 +71,8 @@ class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
         tokenTestData = {
+            "gruppe" : ["BAI1", "GWu", "INF", "Vorkurs"],
+            "fach" : ["BAI1-GI/GIÜ", "GWu DANN", "INF-WPP-C2/01", "Vorkurs PRG", "BAI4-CI"],
             "uhrzeit" : ["17:00", "9:00", "8:15", "24:66"],
 	    "wochentag" : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So", "mo", "mO", "MO"],
 	    "raum" : ["1260", "1101b", "1101a", "irgendwasOhneKomma"],

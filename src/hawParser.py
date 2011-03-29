@@ -28,7 +28,8 @@ endWoche           := woche
 woche              := int
 
 eintrag            := fach, tr, dozent, tr, raum, tr, wochentag, tr, anfang, tr, ende
-fach               := keinTrenner+
+fach               := gruppe, ( [ -], keinTrenner+ )?
+gruppe             := -("Name" / [ -])+
 dozent             := keinTrenner*
 raum               := keinTrenner*
 wochentag          := c"Mo"/c"Di"/c"Mi"/c"Do"/c"Fr"/c"Sa"/c"So"

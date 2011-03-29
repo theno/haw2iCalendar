@@ -65,7 +65,6 @@ class KeineAuswahlState(State):
 	m = re.match(r"n([0-9]+)", result)
 	if m != None:
 	    number = int(m.group(1)) -1
-	    pd(str(number))
 	    semestergruppe = self.semestergruppen[number]
 
 	    self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
