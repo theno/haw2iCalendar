@@ -1,5 +1,9 @@
 2011-03-29 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
 
+        * haw2icalendar.py: Made description in usage string more clear
+
+2011-03-29 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
+
         Several changes made to group by semestergroups enclosed in the entry
         itself instead to group by the semestergroup from the header.
         Goal: get on with the Sem_EuI.txt calendar-text file.
@@ -15,7 +19,4 @@
         * hawCalendar.py(__init__): changed type of param
          eventTupelLists to account for the changes in the result-format
          from the HawDispatchProcessor
-
-        * commandGui.py(KeineAuswahlState OnEntry): removed 'debugging'
-         print command
 

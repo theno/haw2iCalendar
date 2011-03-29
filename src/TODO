@@ -1,5 +1,7 @@
 - Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
 
+- Ungültige Eingaben abfangen (statt index out of bounds error)
+
 - Anwendung in Module unterteilen
 
 - GPL-Lizenz-Datei beilegen
@@ -7,6 +9,8 @@
 - Command-Gui: onEntry() zu groß - Aktionen in Methoden auslagern
 
 - Für den E&I-Kalender anpassen:
+  + veranstaltungenParser anpassen (Es gibt Kürzel mit zwei '-'; TSE hat
+  keine Gruppe)
   + E&I-Fächer in das Faecher-dict aufnehmen (besser: zwei separate Dicts
    pflegen, falls es Kürzel-Kollisionen gibt => woran erkennt man
    zuverlässig einen E&I-Kalender-Textdatei?)

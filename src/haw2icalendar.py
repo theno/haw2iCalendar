@@ -7,9 +7,9 @@ from optparse import OptionParser
 from commandGui import *
 from controller import Controller
 
-usage = """%prog [-o FILE] Sem_I.txt
+usage = """%prog [-o ICS-FILE] INFILE
 
-Parse a haw calendar text file (Sem_I.txt),
+Parse a haw calendar text file (Sem_I.txt or Sem_IuE.txt),
 select dates, convert the dates to icalendar format (rfc5545)
 and write them to stdout."""
 
@@ -22,7 +22,7 @@ and write them to stdout."""
 
 def parseOpts():
     optParse = OptionParser(usage)
-    optParse.add_option("-o", dest="outFile", default=None, metavar="FILE",
+    optParse.add_option("-o", dest="outFile", default=None, metavar="ICS-FILE",
                        help="write ics-output to file instead stdout")
 
     (options, args) = optParse.parse_args()
