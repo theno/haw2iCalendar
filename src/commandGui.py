@@ -29,10 +29,10 @@ class State:
 
     def write(self):
 	if self.fsm.controller.selectedVeranstaltungen != set([]):
-	    self.fsm.controller.writeIcalendar()
-	    pd("Icalendar written")
+	    sum = self.fsm.controller.writeIcalendar()
+	    pd("\niCalendar with %i events written" % sum)
 	else:
-	    pd("no events selected -> no icalendar written")
+	    pd("\nno events selected -> no icalendar written")
 
     def toggleVeranstaltung(self, veranstaltung):
         if veranstaltung in self.fsm.controller.selectedVeranstaltungen:
@@ -48,6 +48,10 @@ class State:
         if veranstaltung not in self.fsm.controller.selectedVeranstaltungen:
 	    self.fsm.controller.selectedVeranstaltungen.add(veranstaltung)
 
+    def handleInvalidInput(self):
+	pd("invalid input")
+	self.fsm.setState(self)
+
 class KeineAuswahlState(State):
     def __init__(self, fsm):
         State.__init__(self, fsm)
@@ -59,39 +63,69 @@ class KeineAuswahlState(State):
         self.printSemestergruppen()
 	self.printGruppenauswahlDialog()
 
-	result = sys.stdin.readline()
+	input = sys.stdin.readline()
         
-	#navigate
-	m = re.match(r"n([0-9]+)", result)
+        if self.couldNavigate(input): pass
+        elif self.couldToggleSelection(input): pass
+        elif self.couldWriteAndQuit(input): pass
+        else:
+            self.handleInvalidInput()
+
+    # handle with input and change state
+
+    def couldNavigate(self, input):
+        result = False
+
+	m = re.match(r"n([0-9]+)", input)
 	if m != None:
 	    number = int(m.group(1)) -1
-	    semestergruppe = self.semestergruppen[number]
-
-	    self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
-
-	else:
-	    # toggle selection
-	    m = re.match("([0-9]+)", result)
-	    if m != None:
-	        number = int(m.group(1)) -1
+            if 0 <= number and number < len(self.semestergruppen):
+                # navigate
 	        semestergruppe = self.semestergruppen[number]
+	        self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
+                result = True
+            else:
+                # wrong index number
+                self.handleInvalidInput()
+                result = True
 
-		if self.gruppePartialOrFullSelected(semestergruppe):
-	            pd("unselect all in " + semestergruppe)
-		    for veranstaltung in self.fsm.controller.getVeranstaltungen(semestergruppe):
-		        self.unselectVeranstaltung(veranstaltung)
-		else:
-	            pd("select all in " + semestergruppe)
-		    for veranstaltung in self.fsm.controller.getVeranstaltungen(semestergruppe):
-		        self.selectVeranstaltung(veranstaltung)
-		self.fsm.setState(self)
-	    # write and quit
-	    elif re.match("wq", result) != None:
-		self.write()
-	    else:
-	        pd("invalid input")
-	        self.fsm.setState(self)
+        return result
 
+    def couldToggleSelection(self, input):
+        result = False
+
+        m = re.match("([0-9]+)", input)
+        if m != None:
+            number = int(m.group(1)) -1
+            if 0 <= number and number < len(self.semestergruppen):
+                semestergruppe = self.semestergruppen[number]
+
+                if self.gruppePartialOrFullSelected(semestergruppe):
+                    pd("unselect all in " + semestergruppe)
+                    for veranstaltung in self.fsm.controller.getVeranstaltungen(semestergruppe):
+                        self.unselectVeranstaltung(veranstaltung)
+                else:
+                    pd("select all in " + semestergruppe)
+                    for veranstaltung in self.fsm.controller.getVeranstaltungen(semestergruppe):
+                        self.selectVeranstaltung(veranstaltung)
+
+                self.fsm.setState(self)
+            else:
+                self.handleInvalidInput()
+
+            result = True
+
+        return result
+
+    def couldWriteAndQuit(self, input):
+        result = False
+
+	if re.match("wq", input) != None:
+            self.write()
+            result = True
+
+        return result
+                    
     # state specific behavior
 
     def printSemestergruppen(self):
@@ -149,10 +183,15 @@ class VeranstaltungenState(State):
 	    m = re.match("([0-9]+)", result)
 	    if m != None:
 	        number = int(m.group(1)) -1
-	        pd("toggle selection")
-		pd(self.veranstaltungen[number])
-		self.toggleVeranstaltung(self.veranstaltungen[number])
-		self.fsm.setState(self)
+                if 0 <= number and number < len(self.veranstaltungen):
+	            pd("toggle selection")
+		    pd(self.veranstaltungen[number])
+		    self.toggleVeranstaltung(self.veranstaltungen[number])
+		    self.fsm.setState(self)
+                else:
+                    # wrong input
+                    pd("invalid input")
+                    self.fsm.setState(self)
 	    # write and quit
 	    elif re.match("wq", result) != None:
 		self.write()

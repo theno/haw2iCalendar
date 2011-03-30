@@ -1,12 +1,10 @@
-- Standardkonformität zu icalendar-rfc überprüfen (Vers.Nr. vonnöten?)
-
-- Ungültige Eingaben abfangen (statt index out of bounds error)
-
 - Anwendung in Module unterteilen
 
 - GPL-Lizenz-Datei beilegen
 
-- Command-Gui: onEntry() zu groß - Aktionen in Methoden auslagern
+- Option --prof einbauen
+
+- Logging-Infos rückmelden
 
 - Für den E&I-Kalender anpassen:
   + veranstaltungenParser anpassen (Es gibt Kürzel mit zwei '-'; TSE hat
@@ -15,14 +13,15 @@
    pflegen, falls es Kürzel-Kollisionen gibt => woran erkennt man
    zuverlässig einen E&I-Kalender-Textdatei?)
 
-- Klickibunti: GUI basteln (xml-basiert, wx-Glade)
+- Klickibunti: GUI basteln (wxGlade)
 
-- Statt pro Vorlesung/Veranstaltung lauter Einzeltermine einen Serientermin erstellen
+- Statt lauter Einzeltermine pro Vorlesung/Veranstaltung einen Serientermin erstellen
 
 - Kürzel-ProfName-Dict erstellen, um darauf basierend volle Namen
   einzutragen
 
-- Logging-Infos rückmelden
+- Beispiel-Script schreiben, dass für alle Semstergruppen ohne deren Gruppen und deren Gruppen jeweils
+  eine ics erzeugt (und ein mit allen Terminen)
 
-- unter Windoof ausprobieren
+- unter Windows und Mac-OS ausprobieren
 

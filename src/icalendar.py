@@ -3,39 +3,48 @@ import logging
 
 from veranstaltungenParser import tryGetFullName
 
-HEADER = """BEGIN:VCALENDAR
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE"""
+# iCalendar validator:  http://icalvalid.cloudapp.net/
+
+CRLF = "\r\n"
+
+HEADER =  "BEGIN:VCALENDAR" + CRLF
+HEADER += "VERSION:2.0" + CRLF
+HEADER += "PRODID:-//haw2icalendar//de" + CRLF 
+HEADER += "BEGIN:VTIMEZONE" + CRLF
+HEADER += "TZID:Europe/Berlin" + CRLF
+HEADER += "X-LIC-LOCATION:Europe/Berlin" + CRLF
+HEADER += "BEGIN:DAYLIGHT" + CRLF
+HEADER += "TZOFFSETFROM:+0100" + CRLF
+HEADER += "TZOFFSETTO:+0200" + CRLF
+HEADER += "TZNAME:CEST" + CRLF
+HEADER += "DTSTART:19700329T020000" + CRLF
+HEADER += "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU" + CRLF
+HEADER += "END:DAYLIGHT" + CRLF
+HEADER += "BEGIN:STANDARD" + CRLF
+HEADER += "TZOFFSETFROM:+0200" + CRLF
+HEADER += "TZOFFSETTO:+0100" + CRLF
+HEADER += "TZNAME:CET" + CRLF
+HEADER += "DTSTART:19701025T030000" + CRLF
+HEADER += "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU" + CRLF
+HEADER += "END:STANDARD" + CRLF
+HEADER += "END:VTIMEZONE"+ CRLF
 
 class Icalendar:
     def __init__(self, events):
+        """@param events:
+               [ (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString), ... ]
+        """
         self.header = HEADER
 	self.events = []
 	for e in events:
 	    self.events.append(IcalEvent(e))
 
     def icalStr(self):
-        result = HEADER + "\n"
+        result = HEADER
 	for event in self.events:
-	    result += event.icalStr() + "\n"
-	result += "END:VCALENDAR\n"
-	return str(result)
+	    result += event.icalStr()
+	result += "END:VCALENDAR" + CRLF
+	return result
     
 class IcalEvent:
     def __init__(self, (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)):
@@ -52,7 +61,7 @@ class IcalEvent:
 	description = "DESCRIPTION:"
 
 	# SUMMARY
-        r  = "BEGIN:VEVENT" + "\r\n"
+        r  = "BEGIN:VEVENT" + CRLF
 
         fullName = tryGetFullName(self.fach)
         if fullName != "":
@@ -61,28 +70,28 @@ class IcalEvent:
         else:
             summary += self.fach
 	    logging.info("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
-	r += summary + "\r\n"
+	r += summary + CRLF
 
         # DESCRIPTION
 	if self.dozent != "":
-	    description += "Prof.: " + self.dozent + "\\n\\n" + "\r\n " 
+	    description += "Prof.: " + self.dozent + "\\n\\n" + CRLF + " " 
 	else:
 	    description += "\\n"
-	r += description + self.infoString + "\r\n"
+	r += description + self.infoString + CRLF
 
         # DATETIME
-        r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + "\r\n"
-	r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + "\r\n"
-	r += "DTSTAMP:" + self.dateTimeStamp + "\r\n"
+        r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + CRLF
+	r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + CRLF
+	r += "DTSTAMP:" + self.dateTimeStamp + CRLF
 
 	# LOCATION
 	raum = ""
 	if self.raum != "":
 	    raum = "Rm. " + self.raum
-	r += "LOCATION:" + raum + "\r\n"
+	r += "LOCATION:" + raum + CRLF
 
-	r += "UID:" + createUid(self.dateTimeStamp) + "\r\n"
-	r += "END:VEVENT"
+	r += "UID:" + createUid(self.dateTimeStamp) + CRLF
+	r += "END:VEVENT" + CRLF
 	return r
 
 def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
@@ -136,4 +145,3 @@ def test():
 if __name__ == "__main__":
     test()
 
-# validator: http://severinghaus.org/projects/icv/

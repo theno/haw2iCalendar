@@ -9,7 +9,6 @@ class HawCalendar:
         [
           [ 
             (gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
-            (eintrag-Tupel),
             ...
           ],
           ...

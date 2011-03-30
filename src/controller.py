@@ -33,6 +33,8 @@ class Controller:
 	return text_utf8
 
     def writeIcalendar(self):
+        """@return: sum of written iCalendar events"""
+
 	self.__hawCal.keepOnly(self.selectedVeranstaltungen)
         icalStr = self.__hawCal.icalStr()
         if self.__outFileName != None:
@@ -42,12 +44,16 @@ class Controller:
 	else:
 	    sys.stdout.write(icalStr)
 
+        sumEvents = icalStr.count("BEGIN:VEVENT\r\n")
+
         #"reset" mutable HawCalendar object self.__hawCal to contain all
         #events again which was removed after the 'keepOnly()' call
 	#FIXME: very dirty (needed because HawCalendar is mutable)
 	text = self.__fetchInputText(self.__inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
+
+        return sumEvents
 
     def getSemestergruppen(self):
         return self.__hawCal.getSemestergruppen()

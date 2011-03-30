@@ -1,6 +1,17 @@
+2011-03-30 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
+
+        * commandGui.py(write): The sum of written iCalendar events will now
+         be reported.
+
+        * controller.py(writeIcalendar): Returns now the sum of written
+         iCalendar events.
+
+        * commandGui.py: Invalid numbers will be catched. Several methods
+         for handling user input within KeineAuswahlState.
+
 2011-03-29 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
 
-        * haw2icalendar.py: Made description in usage string more clear
+        * haw2icalendar.py: Made description in usage string more clear.
 
 2011-03-29 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
 
