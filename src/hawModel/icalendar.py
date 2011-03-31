@@ -1,7 +1,7 @@
 import time
 import logging
 
-from veranstaltungenParser import tryGetFullName
+from veranstaltungen.veranstaltungenParser import tryGetFullName
 
 # iCalendar validator:  http://icalvalid.cloudapp.net/
 

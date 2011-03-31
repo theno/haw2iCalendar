@@ -63,7 +63,7 @@ Name,Dozent,Raum,Tag,Anfang,Ende
 MINF2-TH1/ue,HFFM,0480,Di,12:30,15:45
 MINF2-TH1,HFFM,0480,Di,12:30,15:45"""
 
-f = open("../Sem_I.txt", 'r')
+f = open("testData/Sem_I.txt", 'r')
 dateiTestDatum4 = f.read()
 f.close()
 

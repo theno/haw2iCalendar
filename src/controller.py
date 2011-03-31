@@ -1,9 +1,9 @@
 import sys
 
-from hawCalendar import HawCalendar
-from hawDispatchProcessor import HawDispatchProcessor
-from hawParser import HawParser
-from veranstaltungenParser import tryGetFullName
+from hawModel.hawCalendar import HawCalendar
+from hawModel.hawDispatchProcessor import HawDispatchProcessor
+from hawModel.hawParser import HawParser
+from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
 
@@ -11,7 +11,7 @@ class Controller:
 
 	self.__inFileName = inFileName
 	self.__outFileName = outFileName
-    
+
 	text = self.__fetchInputText(inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
@@ -48,7 +48,7 @@ class Controller:
 
         #"reset" mutable HawCalendar object self.__hawCal to contain all
         #events again which was removed after the 'keepOnly()' call
-	#FIXME: very dirty (needed because HawCalendar is mutable)
+	#FIXME: this is very dirty (needed because HawCalendar is mutable)
 	text = self.__fetchInputText(self.__inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
