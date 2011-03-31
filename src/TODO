@@ -8,10 +8,11 @@
 
 - Für den E&I-Kalender anpassen:
   + veranstaltungenParser anpassen (Es gibt Kürzel mit zwei '-'; TSE hat
-  keine Gruppe)
-  + E&I-Fächer in das Faecher-dict aufnehmen (besser: zwei separate Dicts
-   pflegen, falls es Kürzel-Kollisionen gibt => woran erkennt man
-   zuverlässig einen E&I-Kalender-Textdatei?)
+  keine Gruppe, was sind xxL-Veranstaltungen?, z.B. DIL, ETL, SOL,  ADL)
+  + woran erkennt man zuverlässig einen E&I-Kalender-Textdatei?
+  clashes von Fächerkürzel
+
+- Github
 
 - Klickibunti: GUI basteln (wxGlade)
 

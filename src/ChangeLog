@@ -1,3 +1,9 @@
+2011-03-31 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
+
+        * faecher.py: faecher renamed to infFaecher. etechFaecher: new.
+         faecher now is a merge of both. Due to clashes in the abbreviations
+         for courses in etech there is more work to do...
+
 2011-03-30 Theodor Nolte <nolte_t@informatik.haw-hamburg.de>
 
         * commandGui.py(write): The sum of written iCalendar events will now
