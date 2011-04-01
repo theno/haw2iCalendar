@@ -2,6 +2,25 @@
 
 # -*- coding: utf-8 -*-
 
+###########################################################################
+#  Copyright 2011 Theodor Nolte                                           #
+#                                                                         #
+#  This file is part of haw2iCalendar.                                    #
+#                                                                         #
+#  haw2iCalendar is free software: you can redistribute it and/or modify  #
+#  it under the terms of the GNU General Public License as published by   #
+#  the Free Software Foundation, either version 3 of the License, or      #
+#  (at your option) any later version.                                    #
+#                                                                         #
+#  haw2iCalendar is distributed in the hope that it will be useful,       #
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of         #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          #
+#  GNU General Public License for more details.                           #
+#                                                                         #
+#  You should have received a copy of the GNU General Public License      #
+#  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
+###########################################################################
+
 from optparse import OptionParser
 
 from commandGui import *
@@ -10,7 +29,7 @@ from controller import Controller
 usage = """%prog [-o ICS-FILE] INFILE
 
 Parse a haw calendar text file (Sem_I.txt or Sem_IuE.txt),
-select dates, convert the dates to icalendar format (rfc5545)
+select dates, convert the dates to the iCalendar format (rfc5545)
 and write them to stdout."""
 
 # (grober) Ablauf:
@@ -23,7 +42,7 @@ and write them to stdout."""
 def parseOpts():
     optParse = OptionParser(usage)
     optParse.add_option("-o", dest="outFile", default=None, metavar="ICS-FILE",
-                       help="write ics-output to file instead stdout")
+                       help="write iCalendar-output to file instead stdout")
 
     (options, args) = optParse.parse_args()
 
