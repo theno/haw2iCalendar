@@ -19,23 +19,34 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
+import os
 import sys
 
 from controller import Controller
+from hawModel.hawCalendar import SEMESTERGRUPPE, GRUPPENKUERZEL, DOZENT
 
 if len(sys.argv) != 2:
-    print "usage: allGroups2iCalendar HAW_TEXT_FILE"
+    print "usage: allGroups2iCalendar HAW_CALENDAR_TEXT_FILE"
     sys.exit(1)
 
 inFile = sys.argv[1]
 outFile = None
 
-controller = Controller(inFile, outFile)
+def writeIcals(subfolder):
+    for key in sorted(controller.getKeys()):
+        controller.selectVeranstaltungen(set(controller.getVeranstaltungen(key)))
+        fileName = key.replace('/','-').replace('[','(').replace(']',')') + ".ics"
+        if fileName==".ics": fileName = "aaa_noName.ics"
+        try: os.mkdir(subfolder)
+        except OSError: pass
+        controller.setOutfile(subfolder + fileName)
+        sumEvents = controller.writeIcalendar()
+        print key + ": iCalendar '" + fileName + "' created (" + str(sumEvents) + " Events)"
+        controller.selectedVeranstaltungen = set()
 
-for semestergruppe in controller.getSemestergruppen():
-    controller.selectVeranstaltungen(set(controller.getVeranstaltungen(semestergruppe)))
-    fileName = semestergruppe + ".ics"
-    controller.setOutfile(fileName)
-    sumEvents = controller.writeIcalendar()
-    print semestergruppe + ": iCalendar '" + fileName + "' created (" + str(sumEvents) + " Events)"
+controller = Controller(inFile, outFile, tupelKeyIndex=SEMESTERGRUPPE)
+writeIcals(subfolder="Studentensicht/")
+
+controller.tupelKeyIndex = DOZENT
+writeIcals(subfolder="Dozentensicht/")
 

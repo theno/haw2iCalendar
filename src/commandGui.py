@@ -76,11 +76,11 @@ class KeineAuswahlState(State):
     def __init__(self, fsm):
         State.__init__(self, fsm)
 
-        self.semestergruppen = sorted(self.fsm.controller.getSemestergruppen())
+        self.groups = sorted(self.fsm.controller.getKeys())
 
     def onEntry(self):
 	self.printLegend()
-        self.printSemestergruppen()
+        self.printGroups()
 	self.printGruppenauswahlDialog()
 
 	input = sys.stdin.readline()
@@ -99,9 +99,9 @@ class KeineAuswahlState(State):
 	m = re.match(r"n([0-9]+)", input)
 	if m != None:
 	    number = int(m.group(1)) -1
-            if 0 <= number and number < len(self.semestergruppen):
+            if 0 <= number and number < len(self.groups):
                 # navigate
-	        semestergruppe = self.semestergruppen[number]
+	        semestergruppe = self.groups[number]
 	        self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
                 result = True
             else:
@@ -117,8 +117,8 @@ class KeineAuswahlState(State):
         m = re.match("([0-9]+)", input)
         if m != None:
             number = int(m.group(1)) -1
-            if 0 <= number and number < len(self.semestergruppen):
-                semestergruppe = self.semestergruppen[number]
+            if 0 <= number and number < len(self.groups):
+                semestergruppe = self.groups[number]
 
                 if self.gruppePartialOrFullSelected(semestergruppe):
                     pd("unselect all in " + semestergruppe)
@@ -148,12 +148,12 @@ class KeineAuswahlState(State):
                     
     # state specific behavior
 
-    def printSemestergruppen(self):
-        for i in range(0, len(self.semestergruppen)):
-            formatter = "{0:>" + str(len(str(len(self.semestergruppen)))) + "}"
+    def printGroups(self):
+        for i in range(0, len(self.groups)):
+            formatter = "{0:>" + str(len(str(len(self.groups)))) + "}"
             lineNumber = formatter.format(i+1)
 
-	    semestergruppe = self.semestergruppen[i]
+	    semestergruppe = self.groups[i]
 
 	    selected = "  "
 	    if self.gruppeFullSelected(semestergruppe):

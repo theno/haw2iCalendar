@@ -20,17 +20,19 @@
 
 import sys
 
-from hawModel.hawCalendar import HawCalendar
+from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser
 from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
 
-    def __init__(self, inFileName, outFileName):
+    def __init__(self, inFileName, outFileName, tupelKeyIndex=GRUPPENKUERZEL):
 
 	self.__inFileName = inFileName
 	self.__outFileName = outFileName
+
+        self.tupelKeyIndex = tupelKeyIndex
 
 	text = self.__fetchInputText(inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
@@ -55,8 +57,9 @@ class Controller:
     def writeIcalendar(self):
         """@return: sum of written iCalendar events"""
 
-	self.__hawCal.keepOnly(self.selectedVeranstaltungen)
-        icalStr = self.__hawCal.icalStr()
+	cal = self.__hawCal.onlyWithVeranstaltungen(self.selectedVeranstaltungen)
+        icalStr = cal.icalStr()
+
         if self.__outFileName != None:
 	    f = open(self.__outFileName, "w")
 	    f.write(icalStr)
@@ -65,21 +68,13 @@ class Controller:
 	    sys.stdout.write(icalStr)
 
         sumEvents = icalStr.count("BEGIN:VEVENT\r\n")
-
-        #"reset" mutable HawCalendar object self.__hawCal to contain all
-        #events again which was removed after the 'keepOnly()' call
-	#FIXME: this is very dirty (needed because HawCalendar is mutable)
-	text = self.__fetchInputText(self.__inFileName)
-	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
-	self.__hawCal = HawCalendar(resultList)
-
         return sumEvents
 
-    def getSemestergruppen(self):
-        return self.__hawCal.getSemestergruppen()
+    def getKeys(self):
+        return self.__hawCal.getKeys(self.tupelKeyIndex)
 
-    def getVeranstaltungen(self, semestergruppe):
-        return self.__hawCal.getVeranstaltungenFromSemestergruppe(semestergruppe)
+    def getVeranstaltungen(self, key):
+        return self.__hawCal.getVeranstaltungenFromKey(key, self.tupelKeyIndex)
 
     def selectVeranstaltungen(self, veranstaltungen):
         self.selectedVeranstaltungen |= veranstaltungen

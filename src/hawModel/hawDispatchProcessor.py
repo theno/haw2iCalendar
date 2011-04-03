@@ -26,28 +26,27 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
             """@result: 
             
             [
-              (gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
+              (semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
               (eintrag-Tupel), ...
             ]
             """
 	    subTree = multiMap(tup[-1],buffer=buffer)
 
-	    infoString, jahr = dispatchList(self,subTree['header'], buffer)[0]
+	    infoString, jahr, semestergruppe = dispatchList(self,subTree['header'], buffer)[0]
 	    eintraege = dispatchList(self,subTree['sections'], buffer)[0]
 
 	    result = []
 	    for e in eintraege:
 	        gruppenKuerzel, fach, dozent, raum, woche, wochentag, anfang, ende = e
-		result.append((gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
+		result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
 
 	    return result
 
 	def header(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
-	    #gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
-	    #return (infoString, jahr, gruppenKuerzel)
-	    return infoString, jahr
+	    gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
+	    return (infoString, jahr, gruppenKuerzel)
 	def ersteZeile(self, tup, buffer): 
 	    subTree = multiMap(tup[-1],buffer=buffer)
 	    infoString, jahr = dispatchList(self,subTree['infoString'], buffer)[0]

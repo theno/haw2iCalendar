@@ -1,3 +1,12 @@
+2011-03-03 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+
+        * allGroups2iCalendar.py, commandGui.py, controller.py, 
+          haw2iCalendar.py, hawCalendar.py, hawDispatchProcessor:
+         Grouping is now flexlible. The 'key' now is exchangeable.
+
+        * haw2iCalendar.py: New Options '--prof' and '--alternative'.
+        * hawCalendar.py: changed from a mutable to a immutable design.
+
 2011-03-02 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * allGroups2iCalendar.py: new, This script shows you how to

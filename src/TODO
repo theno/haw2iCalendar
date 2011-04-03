@@ -1,6 +1,4 @@
-- Option --prof einbauen
-
-- Logging-Infos rückmelden
+- Logging-Infos rückmelden (logfile schreiben)
 
 - Für den E&I-Kalender anpassen:
   + veranstaltungenParser anpassen (Es gibt Kürzel mit zwei '-'; TSE hat
