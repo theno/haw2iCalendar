@@ -39,7 +39,7 @@ and write them to stdout."""
 #  + nur gewuenschte Ereignisse herausfiltern
 #  + .ics ausgeben: icalendar-head + ereignisse + END:VCALENDAR
 
-def parseOpts():
+def parseArgsAndOpts():
     optParse = OptionParser(usage)
     optParse.add_option("-o", dest="outFile", default=None, metavar="ICS-FILE",
                        help="write iCalendar-output to file instead stdout")
@@ -54,7 +54,7 @@ def parseOpts():
     return (inFile, options.outFile)
 
 if __name__ == "__main__":
-    inFile, outFile = parseOpts()
+    inFile, outFile = parseArgsAndOpts()
 
     controller = Controller(inFile, outFile)
     CommandGui(controller)

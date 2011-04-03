@@ -1,3 +1,10 @@
+2011-03-02 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+
+        * allGroups2iCalendar.py: new, This script shows you how to
+         use haw2iCalendar without a gui.
+
+        * controller.py(setOutfile): new, used in allGroups2iCalendar.py
+
 2011-03-31 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * Set haw2iCalendar under the terms of the GPLv3.

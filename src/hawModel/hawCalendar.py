@@ -55,6 +55,9 @@ class HawCalendar:
 	            logging.info("HawCalendar(__init__): redundant event rejected: " + str(eventTupel))
 
     def keepOnly(self, veranstaltungen):
+        """@param veranstaltungen: String (Veranstaltungskuerzel)
+           @result: void
+        """
 	for key in self.data:
 	    l = self.data[key]
 	    newL = []

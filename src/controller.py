@@ -90,3 +90,6 @@ class Controller:
     def tryGetFullName(self, veranstaltung):
         return tryGetFullName(veranstaltung)
 
+    def setOutfile(self, outFileName):
+	self.__outFileName = outFileName
+
