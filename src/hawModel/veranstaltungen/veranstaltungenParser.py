@@ -25,34 +25,38 @@ from simpleparse.parser import Parser
 declaration = r'''#<token> := <definition>
 root          := veranstaltung
 veranstaltung := uebung / vorlUebung / vorkurs / orientierungseinheit /
-                  wahlpflichtmodul / wpPraktikum / seminar /
-                  teamStudienEinstieg / awSeminar / projekt /
+                  wahlpflichtmodul / wpPraktikum / seminar / verbundprojekt /
+                  teamStudienEinstieg / awSeminar / projekt / labor / tutorium /
                   praktikum / gwKurs / vorlesung / unknown
 
-gwKurs               := "GW", [ub], " ", gwKuerzel
-orientierungseinheit := semesterkuerzel, "-", "OE ", (oe2 / oe1)
-praktikum            := semesterkuerzel, "-", prakKuerzel, no?, "/", gruppe
-projekt              := ("INF-PRO ", gruppe) / ("MINF", int, "-PJ", nummer)
-teamStudienEinstieg  := semesterkuerzel, "-TSE/", gruppe
-seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
 awSeminar            := semesterkuerzel, "-", "AW", nummer
-uebung               := semesterkuerzel, "-", kuerzel, "Ü", no?, "/", gruppe
-#vorlesung           := semesterkuerzel, "-", kuerzel, no?
-vorlesung            := semesterkuerzel, "-", kuerzel
+gwKurs               := "GW", [ub], " ", gwKuerzel
+labor                := semesterkuerzel, "-", labKuerzel, no?, ("/", gruppe)?
+orientierungseinheit := semesterkuerzel, "-", "OE ", (oe2 / oe1)?
+praktikum            := semesterkuerzel, "-", prakKuerzel, no?, ("/", gruppe)?
+projekt              := ("INF-PRO ", gruppe) / ("MINF", int, "-PJ", nummer)
+seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
+teamStudienEinstieg  := semesterkuerzel, "-TSE", ("/", gruppe)?
+tutorium             := semesterkuerzel, "-", kuerzel, " Tutor"
+uebung               := semesterkuerzel, "-", kuerzel, " "?, ("Ü"/"U"), no?, "/", gruppe
+verbundprojekt       := semesterkuerzel, "-", verbKuerzel, no?, ("/", gruppe)?
 vorkurs              := "Vorkurs ", fachKuerzel
+vorlesung            := semesterkuerzel, "-", kuerzel, ("/", gruppe)?
 vorlUebung           := semesterkuerzel, "-", kuerzel, "/", kuerzel, "Ü"
 wahlpflichtmodul     := "INF-WP-", alphanumGruppe, no
 wpPraktikum          := "INF-WPP-", alphanumGruppe, no, "/", gruppe
 #catch all:
 unknown              := -[$]+
 
-semesterkuerzel      := -"-"+
+semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / -"-"+
 >kuerzel<            := fachKuerzel, nummer?
-prakKuerzel          := ([A-O,Q-Z]*, "P")+
-fachKuerzel          := [A-Z]+
+prakKuerzel          := [A-Z], [A-Z], "P"
+verbKuerzel          := [A-Z], [A-Z], "J"
+labKuerzel           := ([A-Z], [A-Z], "L") / (fachKuerzel, " L")
 gwKuerzel            := [A-Z_-]+, (" ", [a-zA-Z]+)?
 oe1                  := "I"
 oe2                  := "II"
+fachKuerzel          := [a-zA-Z]+
 nummer               := int
 no                   := int
 gruppe               := int

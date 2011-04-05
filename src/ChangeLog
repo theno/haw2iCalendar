@@ -1,4 +1,16 @@
-2011-03-03 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+2011-04-05 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+
+        * veranstaltungenParser.py: Several modifications to improve parsing
+         of Sem_EuI.txt files (..L -> Labor .., TSE without any group,
+         Tutorium and Verbundveranstaltung also added).
+         Two 'special cases' of Semesterkürzel with to hyphens ('-') will be
+         recognized now.
+         This leads to several changes in:
+        * veranstaltungenParserTest.py: see above
+        * veranstaltungenDispatchProcessor.py: -"-
+        * veranstaltungenDispatchProcessorTest.py: -"-
+
+2011-04-03 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * allGroups2iCalendar.py, commandGui.py, controller.py, 
           haw2iCalendar.py, hawCalendar.py, hawDispatchProcessor:
@@ -7,7 +19,7 @@
         * haw2iCalendar.py: New Options '--prof' and '--alternative'.
         * hawCalendar.py: changed from a mutable to a immutable design.
 
-2011-03-02 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+2011-04-02 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * allGroups2iCalendar.py: new, This script shows you how to
          use haw2iCalendar without a gui.

@@ -43,14 +43,14 @@ and write them to stdout."""
 
 def parseArgsAndOpts():
     optParse = OptionParser(usage)
-    optParse.add_option("--prof", action="store_const", dest="keyIndex",
+    optParse.add_option("-p", "--prof", action="store_const", dest="keyIndex",
                           const=DOZENT, default=GRUPPENKUERZEL,
                             help="group by lecturers")
-    optParse.add_option("--alternative", action="store_const", dest="keyIndex",
+    optParse.add_option("-i", "--informatik", action="store_const", dest="keyIndex",
                           const=SEMESTERGRUPPE,
                             help="alternative grouping (by semestergruppe from header)")
     optParse.add_option("-o", dest="outFile", default=None, metavar="ICS-FILE",
-                         help="write iCalendar-output to file instead stdout")
+                          help="write iCalendar-output to file instead stdout")
 
     (options, args) = optParse.parse_args()
 

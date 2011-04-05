@@ -34,14 +34,20 @@ outFile = None
 
 def writeIcals(subfolder):
     for key in sorted(controller.getKeys()):
-        controller.selectVeranstaltungen(set(controller.getVeranstaltungen(key)))
-        fileName = key.replace('/','-').replace('[','(').replace(']',')') + ".ics"
+        veranstaltungen = controller.getVeranstaltungen(key)
+        controller.selectVeranstaltungen(veranstaltungen)
+
+        fileName = key.replace('/','_').replace('[','(').replace(']',')') + ".ics"
         if fileName==".ics": fileName = "aaa_noName.ics"
+
         try: os.mkdir(subfolder)
         except OSError: pass
+
         controller.setOutfile(subfolder + fileName)
         sumEvents = controller.writeIcalendar()
+
         print key + ": iCalendar '" + fileName + "' created (" + str(sumEvents) + " Events)"
+
         controller.selectedVeranstaltungen = set()
 
 controller = Controller(inFile, outFile, tupelKeyIndex=SEMESTERGRUPPE)

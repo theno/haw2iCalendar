@@ -133,7 +133,7 @@ etechFaecher = {
     "TI"  : "Theoretische Informatik",
     "TK"  : "Telekommunikation",
     "VD"  : "Besondere Verfahren Digitaler Signalverarbeitung",
-    "VP"  : "Veranstaltung Verbundprojekt Autonome Systeme",
+    "VP"  : "Verbundprojekt Autonome Systeme",
     "WA"  : "Wissenschaftliches Arbeiten",
     "WP"  : "Wahlpflichtmodul",
     "ZR"  : "Zustandsregelung"

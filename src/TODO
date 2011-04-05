@@ -1,22 +1,35 @@
-- Logging-Infos rückmelden (logfile schreiben)
-
 - Für den E&I-Kalender anpassen:
-  + veranstaltungenParser anpassen (Es gibt Kürzel mit zwei '-'; TSE hat
-  keine Gruppe, was sind xxL-Veranstaltungen?, z.B. DIL, ETL, SOL,  ADL)
+  + veranstaltungenParser anpassen
   + woran erkennt man zuverlässig einen E&I-Kalender-Textdatei?
-  clashes von Fächerkürzel
+  + woran erkennt man den englischsprachigen Studiengang?
+  clashes von Fächerkürzel vermeiden
+
+- Logging-Infos rückmelden (logfile schreiben)
+  + Was ist zu loggen?
+    * Wenn geschrieben wurde, welche Veranstaltungen (mit jeweiligem Umfang +
+      Zusammenfassung)
+    * Bei Warnings auch einen log-Eintrag sowie bei errors
+    * Wenns knallt (Exception) loggen mit Stacktrace
+
+- Beispiel-Script schreiben, dass für alle Semstergruppen ohne deren Gruppen
+  und deren Gruppen jeweils eine ics erzeugt (und ein mit allen Terminen)
+
+- unter Windows und Mac-OS ausprobieren
+
+- README fertig schreiben
 
 - Github
 
+- Kollisionen von Terminen aufzeigen
+
+
+-- -- nach 1.0 -- --
+
 - Klickibunti: GUI basteln (wxGlade)
 
-- Statt lauter Einzeltermine pro Vorlesung/Veranstaltung einen Serientermin erstellen
+- Statt lauter Einzeltermine pro Vorlesung/Veranstaltung einen Serientermin
+  erstellen
 
 - Kürzel-ProfName-Dict erstellen, um darauf basierend volle Namen
   einzutragen
-
-- Beispiel-Script schreiben, dass für alle Semstergruppen ohne deren Gruppen und deren Gruppen jeweils
-  eine ics erzeugt (und ein mit allen Terminen)
-
-- unter Windows und Mac-OS ausprobieren
 

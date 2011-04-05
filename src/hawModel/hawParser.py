@@ -49,7 +49,8 @@ woche              := int
 
 eintrag            := fach, tr, dozent, tr, raum, tr, wochentag, tr, anfang, tr, ende
 fach               := gruppe, ( [ -], keinTrenner+ )?
-gruppe             := -("Name" / [ -])+
+#("A-M", [0-9]) / ("IK-M", [0-9]) /
+gruppe             := ("A-M", [0-9]) / ("IK-M", [0-9]) / -("Name" / [ -])+ 
 dozent             := keinTrenner*
 raum               := keinTrenner*
 wochentag          := c"Mo"/c"Di"/c"Mi"/c"Do"/c"Fr"/c"Sa"/c"So"

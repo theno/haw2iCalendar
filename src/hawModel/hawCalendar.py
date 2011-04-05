@@ -38,14 +38,13 @@ class HawCalendar:
           ],
           ...
         ]
-        @param keyIndex: Index (int) of the eventTupelLists (sub-) element which will be the key in the data dict
         """
 
         # eventTupelList = [eventTupel,
         #                   (semestergruppe, gruppenkuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
         #                   (a,b,c,d,e,f,g,h,i,j,k),
         #                   ...
-        #                  ],
+        #                  ]
         self.eventTupelList = [event for eventTupelList in eventTupelLists for event in eventTupelList] 
 
     def onlyWithVeranstaltungen(self, veranstaltungen):
@@ -55,13 +54,6 @@ class HawCalendar:
         return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k): veranstaltung in veranstaltungen,
                                     self.eventTupelList)])
 
-#    def onlyWithSemestergruppen(self, semestergruppen):
-#        """@param semestergruppen: List of type String (Semestergruppenkuerzel ~ gruppenkuerzel)
-#           @result: HawCalendar
-#        """
-#        return HawCalendar([filter(lambda (a, gruppenkuerzel, c,d,e,f,g,h,i,j,k): gruppenkuerzel in semestergruppen,
-#                                    self.eventTupelList)])
-
     def icalStr(self):
         events = [(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
                    for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
@@ -69,19 +61,10 @@ class HawCalendar:
         ical = Icalendar(events)
         return ical.icalStr()
 
-#    def getSemestergruppen(self):
-#        return set([gruppenKuerzel for (a, gruppenKuerzel, c,d,e,f,g,h,i,j,k) in self.eventTupelList])
-
-#    def getVeranstaltungen(self):
-#        return set([veranstaltung for (a,b, veranstaltung, d,e,f,g,h,i,j,k) in self.eventTupelList])
-
-#    def getVeranstaltungenFromSemestergruppe(self, semestergruppe):
-#        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k
-#                    in filter(lambda (a, gruppe, c,d,e,f,g,h,i,j,k): gruppe==semestergruppe, self.eventTupelList)])
-
     def getKeys(self, tupelKeyIndex):
         return set([eventTupel[tupelKeyIndex] for eventTupel in self.eventTupelList])
 
     def getVeranstaltungenFromKey(self, key, tupelKeyIndex):
         return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k
                     in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
+
