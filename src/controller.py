@@ -18,6 +18,7 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
+import logging
 import sys
 
 from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL
@@ -59,15 +60,17 @@ class Controller:
 
 	cal = self.__hawCal.onlyWithVeranstaltungen(self.selectedVeranstaltungen)
         icalStr = cal.icalStr()
+        sumEvents = icalStr.count("BEGIN:VEVENT\r\n")
 
         if self.__outFileName != None:
 	    f = open(self.__outFileName, "w")
 	    f.write(icalStr)
 	    f.close()
+            logging.info("Written iCalendar file '" + self.__outFileName + "' with " + str(sumEvents) + " events")
 	else:
 	    sys.stdout.write(icalStr)
+            logging.info("Printed iCalendar with " + str(sumEvents) + " events to stdout")
 
-        sumEvents = icalStr.count("BEGIN:VEVENT\r\n")
         return sumEvents
 
     def getKeys(self):

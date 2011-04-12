@@ -19,6 +19,8 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
+import logging
+
 from simpleparse import dispatchprocessor
 from simpleparse.dispatchprocessor import dispatch, dispatchList, getString, multiMap
 
@@ -26,6 +28,8 @@ from veranstaltungenParser import VeranstaltungParser
 
 class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def veranstaltung(self, tup, buffer):
+        """@return: String - full event name
+        """
         subTree = multiMap(tup[-1], buffer=buffer)
 
         def get(veranstaltung):
@@ -64,6 +68,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         elif "wpPraktikum" in subTree:
             result = get("wpPraktikum")
         elif "unknown" in subTree:
+            logging.warning("veranstaltungenParser could not parse this: " + buffer)
             result = buffer # no mappings found
         else:
             raise Exception("wrong control flow! Veranstaltungskuerzel = " + buffer)
@@ -186,7 +191,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         subTree = multiMap(tup[-1],buffer=buffer)
 
         verbKuerzel = dispatchList(self, subTree['verbKuerzel'], buffer)[0]
-        #remove the trailing 'P'
+        #remove the trailing 'J'
         fachKuerzel = verbKuerzel[0:len(verbKuerzel)-1]
 
         no = ""
@@ -279,7 +284,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def verbKuerzel(self, tup, buffer):
         return getString(tup, buffer)
 
-
+# TODO: replace this four methods with a (modified) veranstaltung2FullName
 def gwKurs2FullName(gwKuerzel):
     return "GW-Kurs " + gwKuerzel
 

@@ -89,7 +89,7 @@ class IcalEvent:
 	    description += self.fach + "\\n"
         else:
             summary += self.fach
-	    logging.info("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
+	    logging.warning("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
 	r += summary + CRLF
 
         # DESCRIPTION
@@ -107,7 +107,11 @@ class IcalEvent:
 	# LOCATION
 	raum = ""
 	if self.raum != "":
-	    raum = "Rm. " + self.raum
+	    raum = "Rm. "
+            if len(self.raum) == 4 and self.raum.isdigit():
+                raum += self.raum[0:2] + "." + self.raum[2:4]
+            else:
+                raum += self.raum
 	r += "LOCATION:" + raum + CRLF
 
 	r += "UID:" + createUid(self.dateTimeStamp) + CRLF

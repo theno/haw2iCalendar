@@ -21,6 +21,7 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
+import logging
 import sys
 from optparse import OptionParser
 
@@ -62,9 +63,24 @@ def parseArgsAndOpts():
 
     return (inFile, options.outFile, options.keyIndex)
 
+
 if __name__ == "__main__":
+
+    # create a logfile only when warnings or errors occur
+    logging.basicConfig(level=logging.WARNING)
+    handler = logging.FileHandler(filename="haw2iCalendar.log", delay=True)
+    formatter = logging.Formatter('%(asctime)s %(levelname)-8s %(message)s')
+    handler.setFormatter(formatter)
+    logging.getLogger("").addHandler(handler) #add handler to the root logger
+
+
     inFile, outFile, keyIndex = parseArgsAndOpts()
 
-    controller = Controller(inFile, outFile, tupelKeyIndex=keyIndex)
-    CommandGui(controller)
+    try:
+        controller = Controller(inFile, outFile, tupelKeyIndex=keyIndex)
+        CommandGui(controller)
+
+    except Exception as e:
+        logging.exception(e)
+        raise e
 

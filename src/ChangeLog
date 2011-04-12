@@ -1,3 +1,12 @@
+2011-04-12 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+
+        * haw2iCalendar.py(__main__): A logfile 'haw2iCalendar.log' will
+         only be created when warnings or exceptions (or failures) occur.
+         Exceptions will be logged with stacktrace.
+
+        * icalendar.py(IcalEvent.icalStr): Changed format for locations from
+         'Rm. 1234' to 'Rm. 12.34'.
+
 2011-04-05 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * veranstaltungenParser.py: Several modifications to improve parsing
@@ -7,8 +16,9 @@
          recognized now.
          This leads to several changes in:
         * veranstaltungenParserTest.py: see above
-        * veranstaltungenDispatchProcessor.py: -"-
         * veranstaltungenDispatchProcessorTest.py: -"-
+        * veranstaltungenDispatchProcessor.py(labor, tutorium,
+            verbundprojekt, labKuerzel, verbKuerzel): new
 
 2011-04-03 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 

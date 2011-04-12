@@ -4,13 +4,6 @@
   + woran erkennt man den englischsprachigen Studiengang?
   clashes von Fächerkürzel vermeiden
 
-- Logging-Infos rückmelden (logfile schreiben)
-  + Was ist zu loggen?
-    * Wenn geschrieben wurde, welche Veranstaltungen (mit jeweiligem Umfang +
-      Zusammenfassung)
-    * Bei Warnings auch einen log-Eintrag sowie bei errors
-    * Wenns knallt (Exception) loggen mit Stacktrace
-
 - Beispiel-Script schreiben, dass für alle Semstergruppen ohne deren Gruppen
   und deren Gruppen jeweils eine ics erzeugt (und ein mit allen Terminen)
 
