@@ -139,5 +139,15 @@ etechFaecher = {
     "ZR"  : "Zustandsregelung"
 }
 
+etechFaecherEngl = {
+    "DI" : "Digital Circuits",
+    "ET" : "Electronics",
+    "GE" : "German",
+    "LS"  : "Learning and Study Methods",
+    "SO" : "Software Construction",
+    "SS" : "Entwurf schneller Schaltungen",
+    "TE"  : "Technical Englisch"
+}
+
 faecher = dict(etechFaecher, **infFaecher) # when keys overlapping: inf overwrites etech
 

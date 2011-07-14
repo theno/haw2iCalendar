@@ -1,7 +1,7 @@
 2011-04-12 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * haw2iCalendar.py(__main__): A logfile 'haw2iCalendar.log' will
-         only be created when warnings or exceptions (or failures) occur.
+         only be created when warnings or errors (or failures) occur.
          Exceptions will be logged with stacktrace.
 
         * icalendar.py(IcalEvent.icalStr): Changed format for locations from
