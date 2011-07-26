@@ -1,3 +1,17 @@
+2011-07-26 Theodor Nolte <nolte_t@{informatik.}haw-hamburg.de>
+
+        * klickiBunti.{py,xrc}: new
+          A real (wxpython) gui for mices.
+        * controller.py(setOutfile,getInfoString,optimalGruppenKeyIndex): new,
+          used from the new gui KlickiBunti.
+        * Anleitung,About: new, used from the new gui KlickiBunti.
+
+        * hawModel/hawDispatchProcessor.py,hawModel/hawParser.py,
+          hawModel/hawParserTest.py,hawModel/veranstaltungen/veranstaltungenParser.py,
+          hawModel/veranstaltungen/veranstaltungenParserTest.py:
+         Several small changes to parse new formulations in the 1.10
+         versions of the SoSe2011 text files (Inf and EuI).
+
 2011-04-12 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
         * haw2iCalendar.py(__main__): A logfile 'haw2iCalendar.log' will

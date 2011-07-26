@@ -23,7 +23,7 @@ from simpleparse.parser import Parser
 
 declaration = r'''#<token> := <definition>
 datei              := semestergruppe, ((t/lb)*, semestergruppe)*, (t/lb)*
-semestergruppe     := header, (t/lb)*, sections
+semestergruppe     := header, (t/lb)*, sections?
 
 header             := ersteZeile, lb, zweiteZeile
 

@@ -77,7 +77,7 @@ if __name__ == "__main__":
     inFile, outFile, keyIndex = parseArgsAndOpts()
 
     try:
-        controller = Controller(inFile, outFile, tupelKeyIndex=keyIndex)
+        controller = Controller(inFile, outFile, tupleKeyIndex=keyIndex)
         CommandGui(controller)
 
     except Exception as e:

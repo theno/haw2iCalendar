@@ -50,9 +50,9 @@ def writeIcals(subfolder):
 
         controller.selectedVeranstaltungen = set()
 
-controller = Controller(inFile, outFile, tupelKeyIndex=SEMESTERGRUPPE)
+controller = Controller(inFile, outFile, tupleKeyIndex=SEMESTERGRUPPE)
 writeIcals(subfolder="Studentensicht/")
 
-controller.tupelKeyIndex = DOZENT
+controller.tupleKeyIndex = DOZENT
 writeIcals(subfolder="Dozentensicht/")
 

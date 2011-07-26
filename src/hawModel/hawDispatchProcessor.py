@@ -33,12 +33,14 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    subTree = multiMap(tup[-1],buffer=buffer)
 
 	    infoString, jahr, semestergruppe = dispatchList(self,subTree['header'], buffer)[0]
-	    eintraege = dispatchList(self,subTree['sections'], buffer)[0]
 
 	    result = []
-	    for e in eintraege:
-	        gruppenKuerzel, fach, dozent, raum, woche, wochentag, anfang, ende = e
-		result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
+            if "sections" in subTree:
+	        eintraege = dispatchList(self,subTree['sections'], buffer)[0]
+
+	        for e in eintraege:
+	            gruppenKuerzel, fach, dozent, raum, woche, wochentag, anfang, ende = e
+	            result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
 
 	    return result
 

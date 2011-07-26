@@ -30,14 +30,16 @@ veranstaltung := uebung / vorlUebung / vorkurs / orientierungseinheit /
                   praktikum / gwKurs / vorlesung / unknown
 
 awSeminar            := semesterkuerzel, "-", "AW", nummer
-gwKurs               := "GW", [ub], " ", gwKuerzel
+gwKurs               := "GW", [ub]?, " ", gwKuerzel
 labor                := semesterkuerzel, "-", labKuerzel, no?, ("/", gruppe)?
 orientierungseinheit := semesterkuerzel, "-", "OE ", (oe2 / oe1)?
 praktikum            := semesterkuerzel, "-", prakKuerzel, no?, ("/", gruppe)?
 projekt              := ("INF-PRO ", gruppe) / ("MINF", int, "-PJ", nummer)
 seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
 teamStudienEinstieg  := semesterkuerzel, "-TSE", ("/", gruppe)?
-tutorium             := semesterkuerzel, "-", kuerzel, " Tutor"
+#tutorium             := semesterkuerzel, "-", kuerzel, " Tutor"
+#TODO: very special case:
+tutorium             := (semesterkuerzel, "-") / ("E4a/b "), kuerzel, " Tutor"
 uebung               := semesterkuerzel, "-", kuerzel, " "?, ("Ü"/"U"), no?, "/", gruppe
 verbundprojekt       := semesterkuerzel, "-", verbKuerzel, no?, ("/", gruppe)?
 vorkurs              := "Vorkurs ", fachKuerzel

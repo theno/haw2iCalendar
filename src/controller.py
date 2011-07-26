@@ -21,19 +21,19 @@
 import logging
 import sys
 
-from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL
+from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser
 from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
 
-    def __init__(self, inFileName, outFileName, tupelKeyIndex=GRUPPENKUERZEL):
+    def __init__(self, inFileName, outFileName, tupleKeyIndex=GRUPPENKUERZEL):
 
 	self.__inFileName = inFileName
 	self.__outFileName = outFileName
 
-        self.tupelKeyIndex = tupelKeyIndex
+        self.tupleKeyIndex = tupleKeyIndex
 
 	text = self.__fetchInputText(inFileName)
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
@@ -55,6 +55,9 @@ class Controller:
         text_utf8 = text_unicode.encode("utf-8")
 	return text_utf8
 
+    def setOutFileName(self, name):
+        self.__outFileName = name
+
     def writeIcalendar(self):
         """@return: sum of written iCalendar events"""
 
@@ -74,10 +77,10 @@ class Controller:
         return sumEvents
 
     def getKeys(self):
-        return self.__hawCal.getKeys(self.tupelKeyIndex)
+        return self.__hawCal.getKeys(self.tupleKeyIndex)
 
     def getVeranstaltungen(self, key):
-        return self.__hawCal.getVeranstaltungenFromKey(key, self.tupelKeyIndex)
+        return self.__hawCal.getVeranstaltungenFromKey(key, self.tupleKeyIndex)
 
     def selectVeranstaltungen(self, veranstaltungen):
         self.selectedVeranstaltungen |= veranstaltungen
@@ -90,4 +93,17 @@ class Controller:
 
     def setOutfile(self, outFileName):
 	self.__outFileName = outFileName
+
+    def getInfoString(self):
+        a,b,c,d,e,f,g,h,i,j,infoString = self.__hawCal.eventTupelList[0]
+        return infoString
+
+    def optimalGruppenKeyIndex(self):
+        keyIndex = SEMESTERGRUPPE
+
+        sumOfGroupsInGroup = len(sorted(self.getKeys())[0].split())
+        if sumOfGroupsInGroup > 10:
+            keyIndex = GRUPPENKUERZEL
+
+        return keyIndex
 

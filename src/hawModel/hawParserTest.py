@@ -63,7 +63,7 @@ MINF2-TH1/ue,HFFM,0480,Di,12:30,15:45
 MINF2-TH1,HFFM,0480,Di,12:30,15:45"""
 
 
-dateiTestDatum = semestergruppeTestDatum
+dateiTestDatum1 = semestergruppeTestDatum
 dateiTestDatum2 = semestergruppeTestDatum + "\n" + semestergruppeTestDatum2
 dateiTestDatum3 = """Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)
 Semestergruppe  M-AI1
@@ -84,6 +84,20 @@ MINF2-TH1,HFFM,0480,Di,12:30,15:45"""
 
 f = open("testData/Sem_I.txt", 'r')
 dateiTestDatum4 = f.read()
+f.close()
+
+f = open("testData/Sem_I.v11.txt", 'r')
+dateiTestDatum5 = f.read()
+f.close()
+
+# only one semestergruppe containig all gruppenKuerzel
+f = open("testData/Sem_IuE.SoSe2011.v10.txt", 'r')
+dateiTestDatum6 = f.read()
+f.close()
+
+# header but no sections:
+f = open("testData/Sem_IuE.SoSe2011.v11.txt", 'r')
+dateiTestDatum7 = f.read()
 f.close()
 
 class TestParser(unittest.TestCase):
@@ -107,7 +121,9 @@ class TestParser(unittest.TestCase):
 	    "zweiteZeile" : ["Semestergruppe  M-AI1"],
 	    "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1"],
 	    "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
-	    "datei" : [dateiTestDatum, dateiTestDatum2, dateiTestDatum3, dateiTestDatum4]
+	    "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
+                       dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
+                       dateiTestDatum7]
 	}
 
 	for token in tokenTestData:
