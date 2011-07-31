@@ -1,4 +1,14 @@
-2011-07-31 Theodor Nolte <nolte_t@{informatik.}haw-hamburg.de>
+2011-07-31 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+
+        * klickiBunti.py: wx.TreeCtrl and wx.StaticText will be feeded 
+         now only with unicode-strings to show umlauts correct also on
+         Windows.
+         wx.TreeCtrl under Windows can't retreive the content of a
+         'virtual root item' -- using another method instead
+         (and I don't like wxpython).
+        * haw2iCalendar-1.0.exe: new, executable binary for windows
+
+2011-07-31 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
         * About,Anleitung, symbolic link haw2iCalendar: removed
         * texts.py: new, Contains text from About and Anleitung
@@ -7,7 +17,7 @@
          feasable to create a single binary file containing all needed
          contents.
 
-2011-07-26 Theodor Nolte <nolte_t@{informatik.}haw-hamburg.de>
+2011-07-26 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
         * klickiBunti.{py,xrc}: new
           A real (wxpython) gui for mices.

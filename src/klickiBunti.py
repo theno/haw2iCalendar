@@ -302,9 +302,12 @@ class MyFrame(wx.Frame):
 
             groups = sorted(self.ctrl.getKeys())
             treeCtrl.DeleteAllItems()
-            root = treeCtrl.AddRoot('root')
+            rootName = "root"
+            rootName_unicode = rootName.decode("utf-8")
+            root = treeCtrl.AddRoot(rootName_unicode)
             for key in groups:
-                parent = treeCtrl.AppendItem(root, key)
+                key_unicode = key.decode("utf-8")
+                parent = treeCtrl.AppendItem(root, key_unicode)
                 veranstaltungen = sorted(self.ctrl.getVeranstaltungen(key))
 
                 maxLen = len(reduce(lambda x,y: max(x,y, key=len), veranstaltungen))
@@ -316,7 +319,8 @@ class MyFrame(wx.Frame):
                     if 'Ü' in leftAlignedVeranstaltung:
                         leftAlignedVeranstaltung += " "
                     s = leftAlignedVeranstaltung + self.ctrl.tryGetFullName(veranstaltung)
-                    treeCtrl.AppendItem(parent, s)
+                    s_unicode = s.decode("utf-8")
+                    treeCtrl.AppendItem(parent, s_unicode)
 
         self.ctrl.tupleKeyIndex = DOZENT
         fillTree(self.treeCtrl_Doz)
@@ -354,13 +358,9 @@ class MyFrame(wx.Frame):
         text_unicode = treeCtrl.GetItemText(itemId)
         text_utf8 = text_unicode.encode("utf-8")
 
-        parentId = treeCtrl.GetItemParent(itemId)
-        parent_text = treeCtrl.GetItemText(parentId)
-
-        isVeranstaltung = not (parent_text == "root")
+        isVeranstaltung = not treeCtrl.ItemHasChildren(itemId)
 
         if not isVeranstaltung:
-            keyItemId = itemId
             key = text_utf8
             veranstaltungen = self.ctrl.getVeranstaltungen(key)
             if self.groupFullSelected(key):
@@ -471,27 +471,28 @@ class MyFrame(wx.Frame):
 
     def onMenuItem_Anleitung(self, event):
 
-        text = texts.anleitung
+        text_unicode = texts.anleitung.decode("utf-8")
 
-        dlg = ScrollableDialog(None, text, title="Anleitung")
+        dlg = ScrollableDialog(None, text_unicode, title="Anleitung")
         dlg.ShowModal()
         dlg.Destroy()
 
     def onMenuItem_GPL(self, event):
 
         text = texts.gpl
-
         text = " " + text.replace("\n", "\n ")
+        text_unicode = text.decode("utf-8")
 
-        dlg = ScrollableDialog(self, text, title="GPL")
+        dlg = ScrollableDialog(self, text_unicode, title="GPL")
         dlg.ShowModal()
         dlg.Destroy()
 
     def onMenuItem_About(self, event):
 
         text = texts.version + "\n\n" + texts.homepage + "\n\n" + texts.about
+        text_unicode = text.decode("utf-8")
 
-        dlg = wx.MessageDialog(self, text, caption="About", style=wx.OK)
+        dlg = wx.MessageDialog(self, text_unicode, caption="About", style=wx.OK)
         dlg.ShowModal()
         dlg.Destroy()
 
