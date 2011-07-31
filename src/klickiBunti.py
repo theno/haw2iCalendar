@@ -10,10 +10,10 @@ import urllib
 import webbrowser
 
 import wx
-from wx import xrc
 
 from controller import Controller
 from hawModel.hawCalendar import DOZENT, SEMESTERGRUPPE, GRUPPENKUERZEL
+import texts
 
 def iterChildren(treeCtrl, itemId):
     curId, curItem = treeCtrl.GetFirstChild(itemId)
@@ -162,58 +162,124 @@ class RunningBatchExportDialog(wx.Dialog):
         self.btnOk.Enable()
         self.btnCancel.Disable()
 
-class KlickiBunti(wx.App):
-    def OnInit(self):
+ITEM_BATCH_EXPORT_ID = wx.NewId()
 
-        self.res = xrc.XmlResource('klickiBunti.xrc')
-        self.frame = self.res.LoadFrame(parent=None, name='frame')
+ITEM_EUI_ID = wx.NewId()
+ITEM_EUI_LOAD_ID = wx.NewId()
+ITEM_INF_ID = wx.NewId()
+ITEM_INF_LOAD_ID = wx.NewId()
+ITEM_GOOGLE_CALENDAR_ID = wx.NewId()
+ITEM_RFC5545_ID = wx.NewId()
 
-        self.initFrame()
-        self.initMenu()
+ITEM_HELP_ID = wx.NewId()
+ITEM_GPL_ID = wx.NewId()
+ITEM_ABOUT_ID = wx.NewId()
 
-        self.frame.SetSize(wx.Size(900,800))
-        self.frame.Show()
+BTN_LOAD_ID = wx.NewId()
+BTN_EXPORT_ID = wx.NewId()
+TXT_INFO_STRING_ID = wx.NewId()
+TREE_CTRL_STUD_ID = wx.NewId()
+TREE_CTRL_DOZ_ID = wx.NewId()
 
-        return True
+class MyFrame(wx.Frame):
+    def __init__(self, *args, **kwds):
+        # begin wxGlade: MyFrame.__init__
+        kwds["style"] = wx.DEFAULT_FRAME_STYLE
+        wx.Frame.__init__(self, *args, **kwds)
+        self.notebook_1 = wx.Notebook(self, -1, style=wx.NB_BOTTOM)
+        self.notebook_1_pane_2 = wx.Panel(self.notebook_1, -1)
+        self.notebook_1_pane_1 = wx.Panel(self.notebook_1, -1)
+        self.panel_1 = wx.Panel(self, -1)
+        
+        # Menu Bar
+        self.menuBar = wx.MenuBar()
 
-    def initFrame(self):
-        self.button_Load = xrc.XRCCTRL(self.frame, 'button_Load')
-        self.button_Load.Bind(wx.EVT_BUTTON, self.onButton_Load)
+        menu = wx.Menu()
+        menu.Append(ITEM_BATCH_EXPORT_ID, u"für alle Semestergruppen und Dozenten exportieren", "", wx.ITEM_NORMAL)
+        self.menuBar.Append(menu, "Batch")
 
-        self.button_Export = xrc.XRCCTRL(self.frame, 'button_Export')
-        self.button_Export.Bind(wx.EVT_BUTTON, self.onButton_Export)
-        self.button_Export.Disable()
+        menu = wx.Menu()
+        menu.Append(ITEM_EUI_ID, "Elektrotechnik und Informatik", "", wx.ITEM_NORMAL)
+        menu.Append(ITEM_EUI_LOAD_ID, "            -> direkt einlesen", "", wx.ITEM_NORMAL)
+        menu.Append(ITEM_INF_ID, "Informatik", "", wx.ITEM_NORMAL)
+        menu.Append(ITEM_INF_LOAD_ID, "            -> direkt einlesen", "", wx.ITEM_NORMAL)
+        menu.AppendSeparator()
+        menu.Append(ITEM_GOOGLE_CALENDAR_ID, "Google Calendar", "", wx.ITEM_NORMAL)
+        menu.AppendSeparator()
+        menu.Append(ITEM_RFC5545_ID, "iCalendar rfc5545", "", wx.ITEM_NORMAL)
+        self.menuBar.Append(menu, "Links")
 
-        self.infoString = xrc.XRCCTRL(self.frame, 'staticText_infoString')
-        self.space = "      "
+        menu = wx.Menu()
+        menu.Append(ITEM_HELP_ID, "Anleitung", "", wx.ITEM_NORMAL)
+        menu.Append(ITEM_GPL_ID, "GPL", "", wx.ITEM_NORMAL)
+        menu.Append(ITEM_ABOUT_ID, "About", "", wx.ITEM_NORMAL)
+        self.menuBar.Append(menu, "Hilfe")
 
-        self.treeCtrl_Stud = xrc.XRCCTRL(self.frame, 'tree_Stud')
-        self.treeCtrl_Stud.Bind(wx.EVT_TREE_ITEM_ACTIVATED, self.onDoubleClick_Stud)
+        self.SetMenuBar(self.menuBar)
 
-        self.treeCtrl_Doz = xrc.XRCCTRL(self.frame, 'tree_Doz')
-        self.treeCtrl_Doz.Bind(wx.EVT_TREE_ITEM_ACTIVATED, self.onDoubleClick_Doz)
+        # frame pane
+        self.button_Load = wx.Button(self, BTN_LOAD_ID, "HAW-Kalender einlesen")
+        self.button_Export = wx.Button(self, BTN_EXPORT_ID, "Termin-Auswahl als iCalendar exportieren")
+        self.infoString = wx.StaticText(self.panel_1, TXT_INFO_STRING_ID, "      Bitte eine HAW-Kalender Textdatei einlesen")
+        self.treeCtrl_Stud = wx.TreeCtrl(self.notebook_1_pane_1, TREE_CTRL_STUD_ID, style=wx.TR_HIDE_ROOT|wx.TR_HAS_BUTTONS|wx.TR_NO_LINES|wx.TR_DEFAULT_STYLE|wx.SUNKEN_BORDER|wx.TR_MULTIPLE)
+        self.treeCtrl_Doz = wx.TreeCtrl(self.notebook_1_pane_2, TREE_CTRL_DOZ_ID, style=wx.TR_HIDE_ROOT|wx.TR_HAS_BUTTONS|wx.TR_NO_LINES|wx.TR_DEFAULT_STYLE|wx.SUNKEN_BORDER|wx.TR_MULTIPLE)
 
-    def initMenu(self):
-        self.menuBar = self.res.LoadMenuBar('menubar')
-        self.frame.SetMenuBar(self.menuBar)
+        self.__doLayout()
+        self.__doFrameBindings()
+        self.__doMenuBindings()
 
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_BatchStudUndDoz, id=xrc.XRCID("menuItem_BatchExport"))
-        self.menuItem_AlleSemUndDoz = self.menuBar.FindItemById(xrc.XRCID("menuItem_BatchExport"))
+        self.menuItem_AlleSemUndDoz = self.menuBar.FindItemById(ITEM_BATCH_EXPORT_ID)
         self.menuItem_AlleSemUndDoz.Enable(False)
 
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_EuI, id=xrc.XRCID("menuItem_EuI"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_EuI_load, id=xrc.XRCID("menuItem_EuI_load"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_Inf, id=xrc.XRCID("menuItem_Inf"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_Inf_load, id=xrc.XRCID("menuItem_Inf_load"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_GoogleCalendar, id=xrc.XRCID("menuItem_GoogleCalendar"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_rfc5545, id=xrc.XRCID("menuItem_rfc5545"))
+        self.space = "      "
 
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_Anleitung, id=xrc.XRCID("menuItem_Anleitung"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_GPL, id=xrc.XRCID("menuItem_GPL"))
-        self.frame.Bind(wx.EVT_MENU, self.onMenuItem_About, id=xrc.XRCID("menuItem_About"))
+    def __doLayout(self):
+        sizer_1 = wx.BoxSizer(wx.VERTICAL)
+        sizer_3 = wx.BoxSizer(wx.HORIZONTAL)
+        sizer_2 = wx.BoxSizer(wx.HORIZONTAL)
+        sizer_4 = wx.BoxSizer(wx.HORIZONTAL)
+        sizer_5 = wx.BoxSizer(wx.HORIZONTAL)
+        sizer_4.Add(self.button_Load, 0, 0, 0)
+        sizer_4.Add(self.button_Export, 0, 0, 0)
+        sizer_5.Add(self.infoString, 0, wx.ALIGN_RIGHT|wx.ALIGN_CENTER_VERTICAL, 0)
+        self.panel_1.SetSizer(sizer_5)
+        sizer_4.Add(self.panel_1, 1, wx.EXPAND|wx.ALIGN_RIGHT, 0)
+        sizer_1.Add(sizer_4, 0, 0, 0)
+        sizer_2.Add(self.treeCtrl_Stud, 1, wx.EXPAND, 0)
+        self.notebook_1_pane_1.SetSizer(sizer_2)
+        sizer_3.Add(self.treeCtrl_Doz, 1, wx.EXPAND, 0)
+        self.notebook_1_pane_2.SetSizer(sizer_3)
+        self.notebook_1.AddPage(self.notebook_1_pane_1, "Studentensicht")
+        self.notebook_1.AddPage(self.notebook_1_pane_2, "Dozentensicht")
+        sizer_1.Add(self.notebook_1, 1, wx.EXPAND, 0)
+        self.SetSizer(sizer_1)
+        sizer_1.Fit(self)
+        self.Layout()
+
+    def __doFrameBindings(self):
+        self.button_Load.Bind(wx.EVT_BUTTON, self.onButton_Load)
+        self.button_Export.Bind(wx.EVT_BUTTON, self.onButton_Export)
+        self.button_Export.Disable()
+        self.treeCtrl_Stud.Bind(wx.EVT_TREE_ITEM_ACTIVATED, self.onDoubleClick_Stud)
+        self.treeCtrl_Doz.Bind(wx.EVT_TREE_ITEM_ACTIVATED, self.onDoubleClick_Doz)
+
+    def __doMenuBindings(self):
+
+        self.Bind(wx.EVT_MENU, self.onMenuItem_BatchStudUndDoz, id=ITEM_BATCH_EXPORT_ID)
+
+        self.Bind(wx.EVT_MENU, self.onMenuItem_EuI, id=ITEM_EUI_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_EuI_load, id=ITEM_EUI_LOAD_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_Inf, id=ITEM_INF_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_Inf_load, id=ITEM_INF_LOAD_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_GoogleCalendar, id=ITEM_GOOGLE_CALENDAR_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_rfc5545, id=ITEM_RFC5545_ID)
+
+        self.Bind(wx.EVT_MENU, self.onMenuItem_Anleitung, id=ITEM_HELP_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_GPL, id=ITEM_GPL_ID)
+        self.Bind(wx.EVT_MENU, self.onMenuItem_About, id=ITEM_ABOUT_ID)
 
     def onButton_Load(self, event):
-        dlg = wx.FileDialog(self.frame, "txt-Version des Semesterplans auswählen")
+        dlg = wx.FileDialog(self, "txt-Version des Semesterplans auswählen")
         dlg.SetWildcard("nur Textdateien (*.txt)|*.txt|alle Dateien|*")
 
         if dlg.ShowModal() == wx.ID_OK:
@@ -260,7 +326,7 @@ class KlickiBunti(wx.App):
 
     def onButton_Export(self, event):
         style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT
-        dlg = wx.FileDialog(self.frame, message="iCalendar (.ics) speichern unter", style=style)
+        dlg = wx.FileDialog(self, message="iCalendar (.ics) speichern unter", style=style)
         dlg.SetWildcard("iCalendar-Dateien (*.ics)|*.ics")
 
         if dlg.ShowModal() == wx.ID_OK:
@@ -347,7 +413,7 @@ class KlickiBunti(wx.App):
 
     def onMenuItem_BatchStudUndDoz(self, event):
 
-        dlg = wx.DirDialog(self.frame, "Verzeichnis für Batch-Export auswählen")
+        dlg = wx.DirDialog(self, "Verzeichnis für Batch-Export auswählen")
 
         if dlg.ShowModal() == wx.ID_OK:
             path = dlg.GetPath()
@@ -355,7 +421,7 @@ class KlickiBunti(wx.App):
 
             batchCtrl = copy.deepcopy(self.ctrl)
 
-            dlg = RunningBatchExportDialog(parent=self.frame,
+            dlg = RunningBatchExportDialog(parent=self,
                                            text="Batch-Export gestartet:\n\n",
                                            title="Batch-Export",
                                            ctrl=batchCtrl,
@@ -405,9 +471,7 @@ class KlickiBunti(wx.App):
 
     def onMenuItem_Anleitung(self, event):
 
-        file = open("Anleitung", "r")
-        text = file.read()
-        file.close()
+        text = texts.anleitung
 
         dlg = ScrollableDialog(None, text, title="Anleitung")
         dlg.ShowModal()
@@ -415,27 +479,26 @@ class KlickiBunti(wx.App):
 
     def onMenuItem_GPL(self, event):
 
-        file = open("COPYING", "r")
-        text = file.read()
-        file.close()
+        text = texts.gpl
 
         text = " " + text.replace("\n", "\n ")
 
-        dlg = ScrollableDialog(self.frame, text, title="GPL")
+        dlg = ScrollableDialog(self, text, title="GPL")
         dlg.ShowModal()
         dlg.Destroy()
 
     def onMenuItem_About(self, event):
 
-        file = open("About", "r")
-        text = file.read()
-        file.close()
+        text = texts.version + "\n\n" + texts.homepage + "\n\n" + texts.about
 
-        dlg = wx.MessageDialog(self.frame, text, caption="About", style=wx.OK)
+        dlg = wx.MessageDialog(self, text, caption="About", style=wx.OK)
         dlg.ShowModal()
         dlg.Destroy()
 
 if __name__ == '__main__':
-    app = KlickiBunti()
+    app = wx.App()
+    frame = MyFrame(parent=None, id=-1, title="haw2iCalendar")
+    frame.SetSize(wx.Size(900,800))
+    frame.Show()
     app.MainLoop()
 
