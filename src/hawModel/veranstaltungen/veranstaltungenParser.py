@@ -37,8 +37,6 @@ praktikum            := semesterkuerzel, ("- " / "-" / " "), prakKuerzel, no?, (
 projekt              := ("INF-PRO ", gruppe) / ("MINF", int, "-PJ", nummer)
 seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
 teamStudienEinstieg  := semesterkuerzel, [- ], "TSE", ("/", gruppe)?
-#tutorium             := semesterkuerzel, "-", kuerzel, " Tutor"
-#TODO: very special case:
 tutorium             := (semesterkuerzel, "-") / ("E4a/b "), kuerzel, " Tutor"
 uebung               := semesterkuerzel, "-", kuerzel, " "?, ("Ü"/"U"), no?, "/", gruppe
 verbundprojekt       := semesterkuerzel, "-", verbKuerzel, no?, ("/", gruppe)?

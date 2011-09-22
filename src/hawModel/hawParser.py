@@ -28,12 +28,10 @@ semestergruppe     := header, (t/lb)*, sections?
 header             := ersteZeile, lb, zweiteZeile
 
 ersteZeile         := "Stundenplan", ts, infoString
-#infoString         := semester, ts, "(", "Vers.", version, " vom ", versionsDatum, ")"
 infoString         := semester, ts, "("?, "Vers.", version, " vom ", versionsDatum, ")"?
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int, ("/", int)?
 <version>          := -ts+
-#<versionsDatum>    := -')'+
 <versionsDatum>    := int, (".", int)*
 
 zweiteZeile        := "Semestergruppe",  ts, gruppenKuerzel
@@ -49,11 +47,14 @@ anfangsWoche       := woche
 endWoche           := woche
 woche              := int
 
-eintrag            := fach, tr, dozent, tr, raum, tr, wochentag, tr, anfang, tr, ende
+eintrag            := septupel / sixtupel
+sixtupel           := fach, tr, dozent, tr, raum, tr, wochentag, tr, anfang, tr, ende
+septupel           := fach, tr, dozent, tr, gebaeude, tr, raum, tr, wochentag, tr, anfang, tr, ende
+
 fach               := gruppe, ( [ -], keinTrenner+ )?
-#("A-M", [0-9]) / ("IK-M", [0-9]) /
 gruppe             := ("A-M", [0-9]) / ("IK-M", [0-9]) / -("Name" / [ -])+ 
 dozent             := keinTrenner*
+gebaeude           := keinTrenner*
 raum               := keinTrenner*
 wochentag          := c"Mo"/c"Di"/c"Mi"/c"Do"/c"Fr"/c"Sa"/c"So"
 anfang             := uhrzeit

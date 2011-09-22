@@ -1,6 +1,12 @@
 2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * src/klickiBunti.py -> haw2iCalendar-klickiBunti.py
+        * src/hawModel/hawParser.py,src/hawModel/hawDispatchProcessor.py:
+         etech text calendar file introduced a septupel with a new
+         'gebaeude'-element -> parser and dispatcher adjusted
+
+2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+
+        * src/klickiBunti.py -> haw2iCalendar-klickiBunti.py,
           src/haw2iCalendar.py -> haw2iCalendar.py: renamed
 
 2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>

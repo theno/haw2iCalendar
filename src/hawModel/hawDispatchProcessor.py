@@ -117,9 +117,26 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 	    return str(getString(tup, buffer))
 	def eintrag(self, tup, buffer):
 	    subTree = multiMap(tup[-1],buffer=buffer)
+	    if 'sixtupel' in subTree:
+              result = dispatchList(self,subTree['sixtupel'], buffer)[0]
+            else:
+              result = dispatchList(self,subTree['septupel'], buffer)[0]
+            return result
+        def sixtupel(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
 	    gruppenKuerzel, fach = dispatchList(self,subTree['fach'], buffer)[0]
 	    dozent = dispatchList(self,subTree['dozent'], buffer)[0]
 	    raum = dispatchList(self,subTree['raum'], buffer)[0]
+	    wochentag = dispatchList(self,subTree['wochentag'], buffer)[0]
+	    anfang = dispatchList(self,subTree['anfang'], buffer)[0]
+	    ende = dispatchList(self,subTree['ende'], buffer)[0]
+	    return (gruppenKuerzel, fach, dozent, raum, wochentag, anfang, ende)
+        def septupel(self, tup, buffer):
+	    subTree = multiMap(tup[-1],buffer=buffer)
+	    gruppenKuerzel, fach = dispatchList(self,subTree['fach'], buffer)[0]
+	    dozent = dispatchList(self,subTree['dozent'], buffer)[0]
+	    raum = dispatchList(self,subTree['raum'], buffer)[0]
+            raum += " (" + dispatchList(self,subTree['gebaeude'], buffer)[0] + ")"
 	    wochentag = dispatchList(self,subTree['wochentag'], buffer)[0]
 	    anfang = dispatchList(self,subTree['anfang'], buffer)[0]
 	    ende = dispatchList(self,subTree['ende'], buffer)[0]
@@ -129,10 +146,11 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
             gruppenKuerzel = dispatchList(self, subTree['gruppe'], buffer)[0]
             fach = str(getString(tup, buffer))
             return gruppenKuerzel, fach
-#	    return str(getString(tup, buffer))
         def gruppe(self, tup, buffer):
             return getString(tup, buffer)
 	def dozent(self, tup, buffer):
+	    return str(getString(tup, buffer))
+	def gebaeude(self, tup, buffer):
 	    return str(getString(tup, buffer))
 	def raum(self, tup, buffer):
 	    return str(getString(tup, buffer))
