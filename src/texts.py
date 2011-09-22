@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-version = "haw2iCalendar 1.0"
+version = "haw2iCalendar 2011-WiSe-1"
 
-homepage = "<linkToGithub>"
+homepage = "https://github.com/theno/haw2iCalendar"
 
 anleitung = r"""
  * haw2iCalendar: HAW-Kalender Textdatei einlesen, Termine auswählen
