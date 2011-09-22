@@ -25,25 +25,25 @@ from veranstaltungenParser import VeranstaltungParser
 
 tokenTestData = {
     # low level token
-    "fachKuerzel" : ["PJ", "AW", "DB"],
+    "fachKuerzel" : ["PJ", "AW", "DB", "BU"],
     "gwKuerzel" : ["DANN", "ZOEL", "STFF_Z", "SRHF_TK"],
     "kuerzel" : ["PJ1", "AW2", "DB"],
-    "semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2", "A-M2"],
+    "semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2", "A-M2", "BWI1"],
 
     # mid level token
     "awSeminar" : ["MINF1-AW1", "MINF2-AW2"],
     "gwKurs" : ["GWb SRHF_TK", "GWu STFF_Z", "GWu ZOEL", "GWu DANN", "GW MATT", "GW RDTK SL", "GW SRHF_TK"],
     "labor" : ["IE2-EEL2/01", "BMT6-Robot L"],
-    "orientierungseinheit" : ["BTI1-OE I", "BTI2-OE II"],
-    "praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02", "A-M2-PSP"],
+    "orientierungseinheit" : ["BTI1-OE I", "BTI2-OE II", "BWI1 OE I", "MINF1 OE"],
+    "praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02", "A-M2-PSP", "BMT5- BUP"],
     "projekt" : ["INF-PRO 8", "INF-PRO 4"],
     "seminar" : ["BAI5-AIS+BTI5-TIS"],
-    "teamStudienEinstieg" : ["BTI1-TSE/02", "BTI1-TSE/01", "BAI1-TSE/02", "E1a-TSE"],
+    "teamStudienEinstieg" : ["BTI1-TSE/02", "BTI1-TSE/01", "BAI1-TSE/02", "E1a-TSE", "BWI1 TSE/01"],
     "tutorium" : ["E1a-ET1 Tutor", "E1b-PH1 Tutor", "E4a/b GR Tutor"],
     "uebung" : ["MINF2-THÜ/01", "BMT2-TM2 Ü/01"],
     "verbundprojekt" : ["A-M2-VPJ"],
     "vorkurs" : ["Vorkurs PRG"],
-    "vorlesung" : ["BAI1-PR1"],
+    "vorlesung" : ["BAI1-PR1", "BMT5 BU"],
     "vorlUebung" : ["BAI1-GI/GIÜ"],
     "wahlpflichtmodul" : ["INF-WP-C1"],
     "wpPraktikum" : ["INF-WPP-B4/01", "INF-WPP-A1/01"],
@@ -64,27 +64,32 @@ tokenTestData = {
                        "A-M2-VPJ",
                        "BAI1-GI/GIÜ",
                        "INF-WP-C1",
-                       "MINF1-AW1", "MINF2-AW2"]
+                       "MINF1-AW1", "MINF2-AW2",
+                       "BWI1 OE I", "BWI1 TSE/01", "MINF1 OE",
+                       "BMT5 BU", "BMT5- BUP",
+                       "ficken macht Spaß"]
 }
 
 class TestParser(unittest.TestCase):
+
     def testDeclaration(self):
-        
 	for token in tokenTestData:
 	    production = token
 	    testData = tokenTestData[token]
 	    for testDatum in testData:
 	        success, children, nextcharacter = VeranstaltungParser.parse(testDatum, production)
+
+		from pprint import pformat
 		def errStr():
-		    from pprint import pformat
 		    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
 		             repr(testDatum), production, nextcharacter, len(testDatum))
 	            r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))
 	            r += "\n\nparsed:\n+++\n" + str(testDatum)[0:nextcharacter] + "\n+++"
 	            r += "\n\nNOT parsed:\n+++\n" + str(testDatum)[nextcharacter:len(testDatum)] + "\n+++"
 		    return r
-		assert success and nextcharacter==len(testDatum), errStr()
 
+		assert success and nextcharacter==len(testDatum), errStr()
+                print testDatum + ": " + production + " parsed, details:\n " + pformat(children)
 
 if __name__ == "__main__":
     unittest.main()

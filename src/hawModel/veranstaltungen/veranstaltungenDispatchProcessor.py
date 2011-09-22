@@ -106,7 +106,8 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         elif "oe2" in subTree:
             roemNr = dispatchList(self, subTree["oe2"], buffer)[0]
         else:
-            raise Exception("wrong control flow! Veranstaltungskuerzel = " + buffer)
+#            raise Exception("wrong control flow! Veranstaltungskuerzel = " + buffer)
+            roemNr = "" #FIXME: just a workaround
 
         return orientierungseinheit2FullName(roemNr)
 

@@ -1,3 +1,19 @@
+2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+
+        * hawModel/hawParser.py,hawModel/hawParserTest.py: Adjusted to new
+         formulations in the calendar-text file. This includes the '11 vs.
+         2011/12' thing (SoSe vs. WiSe)
+
+        * controller.py: Will no produce a logging info if there goes
+         something wrong while parsing the calendar-text file.
+
+        * hawModel/veranstaltungen/veranstaltungenDispatchProcessor.py,
+         hawModel/veranstaltungen/veranstaltungenParser.py,
+         hawModel/veranstaltungen/veranstaltungenParserTest.py:
+         Adjusted to new veranstaltungen-names.
+
+        * hawModel/testData/: Added some test data.
+
 2011-07-31 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
         * klickiBunti.py: wx.TreeCtrl and wx.StaticText will be feeded 

@@ -100,6 +100,16 @@ f = open("testData/Sem_IuE.SoSe2011.v11.txt", 'r')
 dateiTestDatum7 = f.read()
 f.close()
 
+# header but no sections:
+f = open("testData/Sem_I.WiSe2011.v101.txt", 'r')
+dateiTestDatum8 = f.read()
+f.close()
+
+# header but no sections:
+f = open("testData/Sem_IuE.WiSe2011.v10.txt", 'r')
+dateiTestDatum9 = f.read()
+f.close()
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -117,13 +127,15 @@ class TestParser(unittest.TestCase):
 	    "versionsDatum" : ["1.3.11"],
 	    "semester" : ["SoSe 11", "WiSe 10"],
 	    "ersteZeile" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
-	                    "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)"],
+	                    "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
+                            "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011"],
 	    "zweiteZeile" : ["Semestergruppe  M-AI1"],
-	    "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1"],
+	    "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
+                        "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011\nSemestergruppe  B-AI1"],
 	    "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
 	    "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
-                       dateiTestDatum7]
+                       dateiTestDatum7, dateiTestDatum8, dateiTestDatum9]
 	}
 
 	for token in tokenTestData:

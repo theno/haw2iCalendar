@@ -39,6 +39,11 @@ class Controller:
 	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
 	self.__hawCal = HawCalendar(resultList)
 
+        if (not success or not strIndex==len(text)):
+            s = "Could not parse correctly haw-calendar text file: "
+            s +="hawParser.py needs to be adjusted to a new text file format"
+            logging.error(s)
+
 	self.selectedVeranstaltungen = set()
 
     def __fetchInputText(self, inFileName):

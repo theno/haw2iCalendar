@@ -32,25 +32,25 @@ veranstaltung := uebung / vorlUebung / vorkurs / orientierungseinheit /
 awSeminar            := semesterkuerzel, "-", "AW", nummer
 gwKurs               := "GW", [ub]?, " ", gwKuerzel
 labor                := semesterkuerzel, "-", labKuerzel, no?, ("/", gruppe)?
-orientierungseinheit := semesterkuerzel, "-", "OE ", (oe2 / oe1)?
-praktikum            := semesterkuerzel, "-", prakKuerzel, no?, ("/", gruppe)?
+orientierungseinheit := semesterkuerzel, [- ], "OE", (" ", oe2 / oe1 )?
+praktikum            := semesterkuerzel, ("- " / "-" / " "), prakKuerzel, no?, ("/", gruppe)?
 projekt              := ("INF-PRO ", gruppe) / ("MINF", int, "-PJ", nummer)
 seminar              := semesterkuerzel, "-", ("AIS"/"TIS"), "+", semesterkuerzel, "-", ("AIS"/"TIS")
-teamStudienEinstieg  := semesterkuerzel, "-TSE", ("/", gruppe)?
+teamStudienEinstieg  := semesterkuerzel, [- ], "TSE", ("/", gruppe)?
 #tutorium             := semesterkuerzel, "-", kuerzel, " Tutor"
 #TODO: very special case:
 tutorium             := (semesterkuerzel, "-") / ("E4a/b "), kuerzel, " Tutor"
 uebung               := semesterkuerzel, "-", kuerzel, " "?, ("Ü"/"U"), no?, "/", gruppe
 verbundprojekt       := semesterkuerzel, "-", verbKuerzel, no?, ("/", gruppe)?
 vorkurs              := "Vorkurs ", fachKuerzel
-vorlesung            := semesterkuerzel, "-", kuerzel, ("/", gruppe)?
+vorlesung            := semesterkuerzel, ("- " / "-" / " "), kuerzel, ("/", gruppe)?
 vorlUebung           := semesterkuerzel, "-", kuerzel, "/", kuerzel, "Ü"
 wahlpflichtmodul     := "INF-WP-", alphanumGruppe, no
 wpPraktikum          := "INF-WPP-", alphanumGruppe, no, "/", gruppe
 #catch all:
 unknown              := -[$]+
 
-semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / -"-"+
+semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / ("BWI", [0-9]) / "MINF1" / "BMT5" / -"-"+
 >kuerzel<            := fachKuerzel, nummer?
 prakKuerzel          := [A-Z], [A-Z], "P"
 verbKuerzel          := [A-Z], [A-Z], "J"

@@ -121,15 +121,24 @@ class IcalEvent:
 def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     """@return: time.struct_time"""
 
-    jahr = "20" + jahrKuerzel
+    # remove the second year from a wintersemester
+    jahrKuerzel = jahrKuerzel.split("/")[0]
+
+    if (len(jahrKuerzel) == 2):
+        jahr = "20" + jahrKuerzel
+    else:
+        jahr = jahrKuerzel
+
+    if (int(wochennummer) > 52):
+      wochennummer = str(int(wochennummer) - 52)
+      jahr = "%.4d" % (int(jahr) + 1)
 
     wochentage = {"mo": "1", "di": "2", "mi": "3", "do": "4", "fr": "5", "sa": "6", "so": "0"}
     wochentag = wochentage[wochentag.lower()]
 
     stunde, minute = uhrzeit
 
-    struct_time = time.strptime(jahr + " " + wochennummer + " " + wochentag + " " + stunde + " " + minute,
-                                "%Y %W %w %H %M")
+    struct_time = time.strptime(jahr + " " + wochennummer + " " + wochentag + " " + stunde + " " + minute, "%Y %W %w %H %M")
     return struct_time
 
 def createDateTimeString(struct_time):
@@ -155,8 +164,11 @@ def createUid(dateTime):
 
     import socket
     #FIXME: Does not handle with ipv6
-    ip = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
+    try:
+      ip = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
               if not ip.startswith("127.")][0]
+    except Exception as e:
+      ip = ""
 
     return dateTime + " Atomkraft? Nein Danke! " + rand + "@" + ip
 
