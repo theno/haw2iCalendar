@@ -22,7 +22,7 @@ anleitung = r"""
   Dieses Menü kann nach den Semestern gruppiert werden (Studentensicht) oder
   nach den Dozenten gruppiert werden (Dozentensicht).
   Nun können dort Veranstaltungen per Doppelklick ausgewählt werden.
-  Anschlißend wird diese Auswahl per Knopfdruck als iCalendar-Datei (*.ics)
+  Anschließend wird diese Auswahl per Knopfdruck als iCalendar-Datei (*.ics)
   gespeichert.
   
   Das Besondere an haw2iCalender ist, daß aus einer Abkürzung der volle Name
@@ -34,7 +34,35 @@ anleitung = r"""
   
   Weiterhin gibt es auch die Möglichkeit, in einem Rutsch iCalendar-Dateien
   jeweils für alle Semestergruppen und Dozenten zu erzeugen ('Batch'-Menü).
- 
+
+
+ * Installation
+
+  haw2iCalendar ist in Python geschrieben. Neben einer Standard
+  Python-Installation (2.6.x) benötigt es noch:
+
+  - SimpleParse: <http://simpleparse.sourceforge.net/>
+  - wxglade (nur für klickiBunti.py): <http://wxglade.sourceforge.net/> 
+
+    + Unter Ubuntu 10.10 (x86_64) wird dies mit einem
+       'aptitude install python python-simpleparse python-wxglade'
+      erledigt.
+
+    + Unter Windows 7 (x86_64) ist es mir gelungen, haw2iCalendar zu verwenden,
+      sofern ich immer die 32-bit Versionen installiert habe.
+
+    + Einen Mac hatte ich bisher nicht zur Verfügung gehabt. Wenn jemand
+      hier haw2iCalendar erfolgreich zum Laufen bekommt, bitte ich um Info
+      der notwendigen Schritte.
+
+  haw2iCalendar selber wird 'installiert', indem es in einen Ordner Deiner
+  Wahl abgelegt wird.
+
+  Im Root-Dir liegen die zwei GUIs:
+  - haw2iCalendar.py: startet die commandGui.py
+                      die Referenz-GUI (läuft in einem Terminal)
+  - haw2iCalendar-klickiBunti.py: für Mausschubser ;-)
+
  
  * haw2iCalendar mit Google Calendar verwenden
  
@@ -92,14 +120,20 @@ anleitung = r"""
   Formulierungen zuverlässig angepasst werden (Ziel: wartbarer Code).
  
  
- * Welche anderen Programme gibt es noch?
+ * Welche anderen Programme gibt es noch, die sich mit diesen HAW-Kalender
+    Textdateien herumschlagen?
+
+  - HAW Stundenplan Tool:
+     <http://blog.seveq.de/haw-stundenplan-tool/>
+
+  - hawplantool
+     zu finden im pub:
+      userName@shell:/home/pub> ls **/* | grep -C 5 -i plantool)
+
+  - HAWapp:
+     <http://www.myhaw.de/board/index.php?showtopic=9080&st=0&#entry68128>
  
- - andere aufführen
- - Nicht als Quell-Code voliegen
- - Programmierübung
- - Ziel wartbarer Code
- 
- 
+
  * Wieso kein Webdienst?
  
   Ein Webdienst macht nur Sinn, wenn er auch durchgehend erreichbar ist.
