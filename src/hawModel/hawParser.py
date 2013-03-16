@@ -28,13 +28,13 @@ semestergruppe     := header, (t/lb)*, sections?
 header             := ersteZeile, lb, zweiteZeile
 
 ersteZeile         := "Stundenplan", ts, infoString
-infoString         := semester, ts, "("?, "Vers.", version, " vom ", versionsDatum, ")"?
+infoString         := semester, ts, "("?, "Vers", "."/ts, version, ts, "vom", ts, versionsDatum, ")"?
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int, ("/", int)?
 <version>          := -ts+
 <versionsDatum>    := int, (".", int)*
 
-zweiteZeile        := "Semestergruppe",  ts, gruppenKuerzel
+zweiteZeile        := "Semestergruppe", ts, gruppenKuerzel
 gruppenKuerzel     := -lb+
 
 sections           := section, ((t/lb)+, section)*

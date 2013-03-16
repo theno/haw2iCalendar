@@ -1,146 +1,155 @@
-2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
-
-        * src/hawModel/hawParser.py,src/hawModel/hawDispatchProcessor.py:
-         etech text calendar file introduced a septupel with a new
-         'gebaeude'-element -> parser and dispatcher adjusted
-
-2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
-
-        * src/klickiBunti.py -> haw2iCalendar-klickiBunti.py,
-          src/haw2iCalendar.py -> haw2iCalendar.py: renamed
+2013-03-16 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+	* src/hawModel/hawParser.py: New formulation for version string
+	* src/hawModel/hawParserTest.py: New test case for new formulation for
+	 version string
+	* src/hawModel/testData/Sem_I.WiSe2012.v12.txt: New test data
+	* haw2iCalendar-klickiBunti.py: Fix for umlauts in filenames
+	* haw2iCalendar-klickiBunti.py: Fix for umlauts in filenames
+	* src/controller.py: Replaced tabs by 8 spaces
 
 2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * hawModel/hawParser.py,hawModel/hawParserTest.py: Adjusted to new
-         formulations in the calendar-text file. This includes the '11 vs.
-         2011/12' thing (SoSe vs. WiSe)
+	* src/hawModel/hawParser.py,src/hawModel/hawDispatchProcessor.py:
+	 etech text calendar file introduced a septupel with a new
+	 'gebaeude'-element -> parser and dispatcher adjusted
 
-        * controller.py: Will no produce a logging info if there goes
-         something wrong while parsing the calendar-text file.
+2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * hawModel/veranstaltungen/veranstaltungenDispatchProcessor.py,
-         hawModel/veranstaltungen/veranstaltungenParser.py,
-         hawModel/veranstaltungen/veranstaltungenParserTest.py:
-         Adjusted to new veranstaltungen-names.
+	* src/klickiBunti.py -> haw2iCalendar-klickiBunti.py,
+	  src/haw2iCalendar.py -> haw2iCalendar.py: renamed
 
-        * hawModel/testData/: Added some test data.
+2011-09-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+
+	* hawModel/hawParser.py,hawModel/hawParserTest.py: Adjusted to new
+	 formulations in the calendar-text file. This includes the '11 vs.
+	 2011/12' thing (SoSe vs. WiSe)
+
+	* controller.py: Will no produce a logging info if there goes
+	 something wrong while parsing the calendar-text file.
+
+	* hawModel/veranstaltungen/veranstaltungenDispatchProcessor.py,
+	 hawModel/veranstaltungen/veranstaltungenParser.py,
+	 hawModel/veranstaltungen/veranstaltungenParserTest.py:
+	 Adjusted to new veranstaltungen-names.
+
+	* hawModel/testData/: Added some test data.
 
 2011-07-31 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * klickiBunti.py: wx.TreeCtrl and wx.StaticText will be feeded 
-         now only with unicode-strings to show umlauts correct also on
-         Windows.
-         wx.TreeCtrl under Windows can't retreive the content of a
-         'virtual root item' -- using another method instead
-         (and I don't like wxpython).
-        * haw2iCalendar-1.0.exe: new, executable binary for windows
+	* klickiBunti.py: wx.TreeCtrl and wx.StaticText will be feeded 
+	 now only with unicode-strings to show umlauts correct also on
+	 Windows.
+	 wx.TreeCtrl under Windows can't retreive the content of a
+	 'virtual root item' -- using another method instead
+	 (and I don't like wxpython).
+	* haw2iCalendar-1.0.exe: new, executable binary for windows
 
 2011-07-31 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * About,Anleitung, symbolic link haw2iCalendar: removed
-        * texts.py: new, Contains text from About and Anleitung
-        * klickiBunti.py: Now uses texts.py instead of About and Anleitung.
-         And also don't uses klickiBunti.xrc anymore. So 'pyinstaller' is
-         feasable to create a single binary file containing all needed
-         contents.
+	* About,Anleitung, symbolic link haw2iCalendar: removed
+	* texts.py: new, Contains text from About and Anleitung
+	* klickiBunti.py: Now uses texts.py instead of About and Anleitung.
+	 And also don't uses klickiBunti.xrc anymore. So 'pyinstaller' is
+	 feasable to create a single binary file containing all needed
+	 contents.
 
 2011-07-26 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 
-        * klickiBunti.{py,xrc}: new
-          A real (wxpython) gui for mices.
-        * controller.py(setOutfile,getInfoString,optimalGruppenKeyIndex): new,
-          used from the new gui KlickiBunti.
-        * Anleitung,About: new, used from the new gui KlickiBunti.
+	* klickiBunti.{py,xrc}: new
+	  A real (wxpython) gui for mices.
+	* controller.py(setOutfile,getInfoString,optimalGruppenKeyIndex): new,
+	  used from the new gui KlickiBunti.
+	* Anleitung,About: new, used from the new gui KlickiBunti.
 
-        * hawModel/hawDispatchProcessor.py,hawModel/hawParser.py,
-          hawModel/hawParserTest.py,hawModel/veranstaltungen/veranstaltungenParser.py,
-          hawModel/veranstaltungen/veranstaltungenParserTest.py:
-         Several small changes to parse new formulations in the 1.10
-         versions of the SoSe2011 text files (Inf and EuI).
+	* hawModel/hawDispatchProcessor.py,hawModel/hawParser.py,
+	  hawModel/hawParserTest.py,hawModel/veranstaltungen/veranstaltungenParser.py,
+	  hawModel/veranstaltungen/veranstaltungenParserTest.py:
+	 Several small changes to parse new formulations in the 1.10
+	 versions of the SoSe2011 text files (Inf and EuI).
 
 2011-04-12 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * haw2iCalendar.py(__main__): A logfile 'haw2iCalendar.log' will
-         only be created when warnings or errors (or failures) occur.
-         Exceptions will be logged with stacktrace.
+	* haw2iCalendar.py(__main__): A logfile 'haw2iCalendar.log' will
+	 only be created when warnings or errors (or failures) occur.
+	 Exceptions will be logged with stacktrace.
 
-        * icalendar.py(IcalEvent.icalStr): Changed format for locations from
-         'Rm. 1234' to 'Rm. 12.34'.
+	* icalendar.py(IcalEvent.icalStr): Changed format for locations from
+	 'Rm. 1234' to 'Rm. 12.34'.
 
 2011-04-05 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * veranstaltungenParser.py: Several modifications to improve parsing
-         of Sem_EuI.txt files (..L -> Labor .., TSE without any group,
-         Tutorium and Verbundveranstaltung also added).
-         Two 'special cases' of Semesterkürzel with to hyphens ('-') will be
-         recognized now.
-         This leads to several changes in:
-        * veranstaltungenParserTest.py: see above
-        * veranstaltungenDispatchProcessorTest.py: -"-
-        * veranstaltungenDispatchProcessor.py(labor, tutorium,
-            verbundprojekt, labKuerzel, verbKuerzel): new
+	* veranstaltungenParser.py: Several modifications to improve parsing
+	 of Sem_EuI.txt files (..L -> Labor .., TSE without any group,
+	 Tutorium and Verbundveranstaltung also added).
+	 Two 'special cases' of Semesterkürzel with to hyphens ('-') will be
+	 recognized now.
+	 This leads to several changes in:
+	* veranstaltungenParserTest.py: see above
+	* veranstaltungenDispatchProcessorTest.py: -"-
+	* veranstaltungenDispatchProcessor.py(labor, tutorium,
+	    verbundprojekt, labKuerzel, verbKuerzel): new
 
 2011-04-03 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * allGroups2iCalendar.py, commandGui.py, controller.py, 
-          haw2iCalendar.py, hawCalendar.py, hawDispatchProcessor:
-         Grouping is now flexlible. The 'key' now is exchangeable.
+	* allGroups2iCalendar.py, commandGui.py, controller.py, 
+	  haw2iCalendar.py, hawCalendar.py, hawDispatchProcessor:
+	 Grouping is now flexlible. The 'key' now is exchangeable.
 
-        * haw2iCalendar.py: New Options '--prof' and '--alternative'.
-        * hawCalendar.py: changed from a mutable to a immutable design.
+	* haw2iCalendar.py: New Options '--prof' and '--alternative'.
+	* hawCalendar.py: changed from a mutable to a immutable design.
 
 2011-04-02 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * allGroups2iCalendar.py: new, This script shows you how to
-         use haw2iCalendar without a gui.
+	* allGroups2iCalendar.py: new, This script shows you how to
+	 use haw2iCalendar without a gui.
 
-        * controller.py(setOutfile): new, used in allGroups2iCalendar.py
-
-2011-03-31 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
-
-        * Set haw2iCalendar under the terms of the GPLv3.
+	* controller.py(setOutfile): new, used in allGroups2iCalendar.py
 
 2011-03-31 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * Code sub-divided into modules (hawModel and
-         hawModel.veranstaltungen)
+	* Set haw2iCalendar under the terms of the GPLv3.
 
 2011-03-31 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * faecher.py: faecher renamed to infFaecher. etechFaecher: new.
-         faecher now is a merge of both. Due to clashes in the abbreviations
-         for courses in etech there is more work to do...
+	* Code sub-divided into modules (hawModel and
+	 hawModel.veranstaltungen)
+
+2011-03-31 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
+
+	* faecher.py: faecher renamed to infFaecher. etechFaecher: new.
+	 faecher now is a merge of both. Due to clashes in the abbreviations
+	 for courses in etech there is more work to do...
 
 2011-03-30 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * commandGui.py(write): The sum of written iCalendar events will now
-         be reported.
+	* commandGui.py(write): The sum of written iCalendar events will now
+	 be reported.
 
-        * controller.py(writeIcalendar): Returns now the sum of written
-         iCalendar events.
+	* controller.py(writeIcalendar): Returns now the sum of written
+	 iCalendar events.
 
-        * commandGui.py: Invalid numbers will be catched. Several methods
-         for handling user input within KeineAuswahlState.
-
-2011-03-29 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
-
-        * haw2icalendar.py: Made description in usage string more clear.
+	* commandGui.py: Invalid numbers will be catched. Several methods
+	 for handling user input within KeineAuswahlState.
 
 2011-03-29 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        Several changes made to group by semestergroups enclosed in the entry
-        itself instead to group by the semestergroup from the header.
-        Goal: get on with the Sem_EuI.txt calendar-text file.
+	* haw2icalendar.py: Made description in usage string more clear.
 
-        * hawParser.py(declaration): token 'fach' widened with (sub) token
-         'gruppe' 
-        * hawParserTest.py(testDeclaration): new test-case for token 'fach'
-         and 'gruppe'
+2011-03-29 Theodor Nolte <nolte_t AT informatik.haw-hamburg.de>
 
-        * hawParserDispatchProcessor(gruppe): new
-        * hawParserDispatchProcessor(fach): returns now 'fach' and 'gruppe'
+	Several changes made to group by semestergroups enclosed in the entry
+	itself instead to group by the semestergroup from the header.
+	Goal: get on with the Sem_EuI.txt calendar-text file.
 
-        * hawCalendar.py(__init__): changed type of param
-         eventTupelLists to account for the changes in the result-format
-         from the HawDispatchProcessor
+	* hawParser.py(declaration): token 'fach' widened with (sub) token
+	 'gruppe' 
+	* hawParserTest.py(testDeclaration): new test-case for token 'fach'
+	 and 'gruppe'
+
+	* hawParserDispatchProcessor(gruppe): new
+	* hawParserDispatchProcessor(fach): returns now 'fach' and 'gruppe'
+
+	* hawCalendar.py(__init__): changed type of param
+	 eventTupelLists to account for the changes in the result-format
+	 from the HawDispatchProcessor
 

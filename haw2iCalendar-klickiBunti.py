@@ -86,7 +86,12 @@ class BatchExportWorkerThread(threading.Thread):
                 veranstaltungen = self.ctrl.getVeranstaltungen(key)
                 self.ctrl.selectVeranstaltungen(veranstaltungen)
 
-                fileName = key.replace('/','_').replace('[','(').replace(']',')').replace('ß','_et_') + ".ics"
+                fileName = key.replace(' ', '_').replace('/','_').replace('[','(')
+                fileName = fileName.replace(']',')').replace('ß','_et_')
+                fileName = fileName.replace('A', 'AE').replace('ä', 'ae')
+                fileName = fileName.replace('Ö', 'OE').replace('ö', 'oe')
+                fileName = fileName.replace('Ü', 'UE').replace('ü', 'ue')
+                fileName += ".ics"
                 if fileName==".ics": fileName = "aaa_noName.ics"
 
                 try: os.mkdir(subfolder)

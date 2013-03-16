@@ -30,35 +30,35 @@ class Controller:
 
     def __init__(self, inFileName, outFileName, tupleKeyIndex=GRUPPENKUERZEL):
 
-	self.__inFileName = inFileName
-	self.__outFileName = outFileName
+        self.__inFileName = inFileName
+        self.__outFileName = outFileName
 
         self.tupleKeyIndex = tupleKeyIndex
 
-	text = self.__fetchInputText(inFileName)
-	success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
-	self.__hawCal = HawCalendar(resultList)
+        text = self.__fetchInputText(inFileName)
+        success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
+        self.__hawCal = HawCalendar(resultList)
 
         if (not success or not strIndex==len(text)):
             s = "Could not parse correctly haw-calendar text file: "
             s +="hawParser.py needs to be adjusted to a new text file format"
             logging.error(s)
 
-	self.selectedVeranstaltungen = set()
+        self.selectedVeranstaltungen = set()
 
     def __fetchInputText(self, inFileName):
         text_cp1252 = ""
 
-	if inFileName != None:
-	    f = open(inFileName, "r")
-	    text_cp1252 = f.read()
-	    f.close()
-	else:
-	    text_cp1252 = sys.stdin.read()
+        if inFileName != None:
+            f = open(inFileName, "r")
+            text_cp1252 = f.read()
+            f.close()
+        else:
+            text_cp1252 = sys.stdin.read()
 
-        text_unicode = text_cp1252.decode("cp1252")
-        text_utf8 = text_unicode.encode("utf-8")
-	return text_utf8
+            text_unicode = text_cp1252.decode("cp1252")
+            text_utf8 = text_unicode.encode("utf-8")
+        return text_utf8
 
     def setOutFileName(self, name):
         self.__outFileName = name
@@ -66,17 +66,17 @@ class Controller:
     def writeIcalendar(self):
         """@return: sum of written iCalendar events"""
 
-	cal = self.__hawCal.onlyWithVeranstaltungen(self.selectedVeranstaltungen)
+        cal = self.__hawCal.onlyWithVeranstaltungen(self.selectedVeranstaltungen)
         icalStr = cal.icalStr()
         sumEvents = icalStr.count("BEGIN:VEVENT\r\n")
 
         if self.__outFileName != None:
-	    f = open(self.__outFileName, "w")
-	    f.write(icalStr)
-	    f.close()
+            f = open(self.__outFileName, "w")
+            f.write(icalStr)
+            f.close()
             logging.info("Written iCalendar file '" + self.__outFileName + "' with " + str(sumEvents) + " events")
-	else:
-	    sys.stdout.write(icalStr)
+        else:
+            sys.stdout.write(icalStr)
             logging.info("Printed iCalendar with " + str(sumEvents) + " events to stdout")
 
         return sumEvents
@@ -97,7 +97,7 @@ class Controller:
         return tryGetFullName(veranstaltung)
 
     def setOutfile(self, outFileName):
-	self.__outFileName = outFileName
+        self.__outFileName = outFileName
 
     def getInfoString(self):
         a,b,c,d,e,f,g,h,i,j,infoString = self.__hawCal.eventTupelList[0]
@@ -111,4 +111,3 @@ class Controller:
             keyIndex = GRUPPENKUERZEL
 
         return keyIndex
-

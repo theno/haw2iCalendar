@@ -110,6 +110,10 @@ f = open("testData/Sem_IuE.WiSe2011.v10.txt", 'r')
 dateiTestDatum9 = f.read()
 f.close()
 
+f = open("testData/Sem_I.WiSe2012.v12.txt", 'r')
+dateiTestDatum10 = f.read()
+f.close()
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -117,41 +121,50 @@ class TestParser(unittest.TestCase):
             "gruppe" : ["BAI1", "GWu", "INF", "Vorkurs"],
             "fach" : ["BAI1-GI/GIÜ", "GWu DANN", "INF-WPP-C2/01", "Vorkurs PRG", "BAI4-CI"],
             "uhrzeit" : ["17:00", "9:00", "8:15", "24:66"],
-	    "wochentag" : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So", "mo", "mO", "MO"],
-	    "raum" : ["1260", "1101b", "1101a", "irgendwasOhneKomma"],
-	    "dozent" : ["SRS", "WND/[Oel]"],
-	    "wochen" : ["11", "12, 18, 21"],
-	    "bezeichner" : ["Name, Dozent, Raum, Tag, Anfang, Ende"],
-	    "section" : [ sectionTestDatum ],
+            "wochentag" : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So", "mo", "mO", "MO"],
+            "raum" : ["1260", "1101b", "1101a", "irgendwasOhneKomma"],
+            "dozent" : ["SRS", "WND/[Oel]"],
+            "wochen" : ["11", "12, 18, 21"],
+            "bezeichner" : ["Name, Dozent, Raum, Tag, Anfang, Ende"],
+            "section" : [ sectionTestDatum ],
 
-	    "versionsDatum" : ["1.3.11"],
-	    "semester" : ["SoSe 11", "WiSe 10"],
-	    "ersteZeile" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
-	                    "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
-                            "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011"],
-	    "zweiteZeile" : ["Semestergruppe  M-AI1"],
-	    "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
-                        "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011\nSemestergruppe  B-AI1"],
-	    "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
-	    "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
+            "version" : ["0.9", "1.2"],
+            "versionsDatum" : ["1.3.11", "30.09.2012"],
+            "semester" : ["SoSe 11", "WiSe 10", "WiSe 11/12", "WiSe 2012/13"],
+            "infoString" : ["SoSe 11 (Vers.0.9 vom 1.3.11)",
+                            "WiSe 2012/13 Vers 1.2  vom  30.09.2012",
+                           ],
+            "ersteZeile" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
+                            "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
+                            "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011",
+                            "Stundenplan  WiSe 2012/13 Vers 1.2  vom  30.09.2012",
+                           ],
+            "zweiteZeile" : ["Semestergruppe  M-AI1"],
+            "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
+                        "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011\nSemestergruppe  B-AI1",
+                        ],
+            "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
+            "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
-                       dateiTestDatum7, dateiTestDatum8, dateiTestDatum9]
-	}
+                       dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
+                       dateiTestDatum10
+                       ]
+        }
 
-	for token in tokenTestData:
-	    production = token
-	    testData = tokenTestData[token]
-	    for testDatum in testData:
-	        success, children, nextcharacter = HawParser.parse(testDatum, production)
-		def errStr():
-		    from pprint import pformat
-		    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
-		             repr(testDatum), production, nextcharacter, len(testDatum))
-	            r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))
-	            r += "\n\nparsed:\n+++\n" + str(testDatum)[0:nextcharacter] + "\n+++"
-	            r += "\n\nNOT parsed:\n+++\n" + str(testDatum)[nextcharacter:len(testDatum)] + "\n+++"
-		    return r
-		assert success and nextcharacter==len(testDatum), errStr()
+        for token in tokenTestData:
+            production = token
+            testData = tokenTestData[token]
+            for testDatum in testData:
+                success, children, nextcharacter = HawParser.parse(testDatum, production)
+                def errStr():
+                    from pprint import pformat
+                    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
+                             repr(testDatum), production, nextcharacter, len(testDatum))
+                    r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))
+                    r += "\n\nparsed:\n+++\n" + str(testDatum)[0:nextcharacter] + "\n+++"
+                    r += "\n\nNOT parsed:\n+++\n" + str(testDatum)[nextcharacter:len(testDatum)] + "\n+++"
+                    return r
+                assert success and nextcharacter==len(testDatum), errStr()
 
 
 if __name__ == "__main__":
