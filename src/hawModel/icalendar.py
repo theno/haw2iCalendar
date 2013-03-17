@@ -55,68 +55,68 @@ class Icalendar:
                [ (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString), ... ]
         """
         self.header = HEADER
-	self.events = []
-	for e in events:
-	    self.events.append(IcalEvent(e))
+        self.events = []
+        for e in events:
+            self.events.append(IcalEvent(e))
 
     def icalStr(self):
         result = HEADER
-	for event in self.events:
-	    result += event.icalStr()
-	result += "END:VCALENDAR" + CRLF
-	return result
+        for event in self.events:
+            result += event.icalStr()
+        result += "END:VCALENDAR" + CRLF
+        return result
     
 class IcalEvent:
     def __init__(self, (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)):
         self.fach = fach
-	self.dozent = dozent
-	self.raum = raum
-	self.anfangsDatum = createDateTimeString(dateTime(jahr,woche,tag,anfang))
-	self.endDatum = createDateTimeString(dateTime(jahr,woche,tag,ende))
-	self.dateTimeStamp = createDateTimeString(time.gmtime())
-	self.infoString = infoString
+        self.dozent = dozent
+        self.raum = raum
+        self.anfangsDatum = createDateTimeString(dateTime(jahr,woche,tag,anfang))
+        self.endDatum = createDateTimeString(dateTime(jahr,woche,tag,ende))
+        self.dateTimeStamp = createDateTimeString(time.gmtime())
+        self.infoString = infoString
     
     def icalStr(self):
-	summary = "SUMMARY:"
-	description = "DESCRIPTION:"
+        summary = "SUMMARY:"
+        description = "DESCRIPTION:"
 
-	# SUMMARY
+        # SUMMARY
         r  = "BEGIN:VEVENT" + CRLF
 
         fullName = tryGetFullName(self.fach)
         if fullName != "":
             summary += fullName
-	    description += self.fach + "\\n"
+            description += self.fach + "\\n"
         else:
             summary += self.fach
-	    logging.warning("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
-	r += summary + CRLF
+            logging.warning("No full name found for '" + self.fach + "' in 'veranstaltungen.py'")
+        r += summary + CRLF
 
         # DESCRIPTION
-	if self.dozent != "":
-	    description += "Prof.: " + self.dozent + "\\n\\n" + CRLF + " " 
-	else:
-	    description += "\\n"
-	r += description + self.infoString + CRLF
+        if self.dozent != "":
+            description += "Prof.: " + self.dozent + "\\n\\n" + CRLF + " " 
+        else:
+            description += "\\n"
+        r += description + self.infoString + CRLF
 
         # DATETIME
         r += "DTSTART;TZID=Europe/Berlin:" + self.anfangsDatum + CRLF
-	r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + CRLF
-	r += "DTSTAMP:" + self.dateTimeStamp + CRLF
+        r += "DTEND;TZID=Europe/Berlin:" + self.endDatum + CRLF
+        r += "DTSTAMP:" + self.dateTimeStamp + CRLF
 
-	# LOCATION
-	raum = ""
-	if self.raum != "":
-	    raum = "Rm. "
+        # LOCATION
+        raum = ""
+        if self.raum != "":
+            raum = "Rm. "
             if len(self.raum) == 4 and self.raum.isdigit():
                 raum += self.raum[0:2] + "." + self.raum[2:4]
             else:
                 raum += self.raum
-	r += "LOCATION:" + raum + CRLF
+        r += "LOCATION:" + raum + CRLF
 
-	r += "UID:" + createUid(self.dateTimeStamp) + CRLF
-	r += "END:VEVENT" + CRLF
-	return r
+        r += "UID:" + createUid(self.dateTimeStamp) + CRLF
+        r += "END:VEVENT" + CRLF
+        return r
 
 def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     """@return: time.struct_time"""
@@ -129,12 +129,24 @@ def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     else:
         jahr = jahrKuerzel
 
+    wochentage = {"mo": "1", "di": "2", "mi": "3", "do": "4", "fr": "5", "sa": "6", "so": "0"}
+    wochentag = wochentage[wochentag.lower()]
+
+    # gregorian offset (ISO 8601)
+    # Week no 1 in gregorian contains the first thursday of the year,
+    # but week no 1 in time.strptime %w contains the first monday.
+    # So, if the year starts with a tuesday, wednesday, or thursday
+    # we need to apply an offset by -1
+    # cf. http://docs.python.org/2/library/time.html#time.strftime
+    #     and http://de.wikipedia.org/wiki/Woche#Kalenderwoche
+    struct_time_ersterJanuar = time.strptime(jahrKuerzel + " 01 01", "%Y %m %d")
+    wochentagNummerErsterJanuar = time.strftime("%w", struct_time_ersterJanuar)
+    if (wochentagNummerErsterJanuar in [wochentage['di'], wochentage['mi'], wochentage['do']]):
+      wochennummer = str(int(wochennummer) - 1)
+
     if (int(wochennummer) > 52):
       wochennummer = str(int(wochennummer) - 52)
       jahr = "%.4d" % (int(jahr) + 1)
-
-    wochentage = {"mo": "1", "di": "2", "mi": "3", "do": "4", "fr": "5", "sa": "6", "so": "0"}
-    wochentag = wochentage[wochentag.lower()]
 
     stunde, minute = uhrzeit
 
@@ -176,6 +188,10 @@ def test():
     dateTimeString = createDateTimeString(time.localtime())
     print dateTimeString
     print createUid(dateTimeString)
+    print time.localtime()
+    dt =  createDateTimeString(dateTime('2013', '1', 'do', ('00','00')))
+    print dt
+    print dt=="20130103T000000"
 
 
 if __name__ == "__main__":

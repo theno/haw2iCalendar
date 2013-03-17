@@ -1,4 +1,7 @@
 2013-03-16 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+	* src/hawModel/icalendar.py: Replaced tabs by 8 spaces
+
+2013-03-16 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 	* src/hawModel/hawParser.py: New formulation for version string
 	* src/hawModel/hawParserTest.py: New test case for new formulation for
 	 version string

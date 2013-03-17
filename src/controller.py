@@ -56,8 +56,8 @@ class Controller:
         else:
             text_cp1252 = sys.stdin.read()
 
-            text_unicode = text_cp1252.decode("cp1252")
-            text_utf8 = text_unicode.encode("utf-8")
+        text_unicode = text_cp1252.decode("cp1252")
+        text_utf8 = text_unicode.encode("utf-8")
         return text_utf8
 
     def setOutFileName(self, name):
