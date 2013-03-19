@@ -19,8 +19,12 @@ Download: <https://github.com/theno/haw2iCalendar>
 ---
 Anleitung zur 'haw2iCalendar-klickiBunti.py':
 
- * Screenshots:
-    http://www.flickr.com/photos/62642553@N06/sets/72157627606253923/
+ * Screenshots: http://www.flickr.com/photos/62642553@N06/sets/72157627606253923/
+
+   Studentensicht: http://www.flickr.com/photos/62642553@N06/6173044417/in/set-72157627606253923/
+   Dozentensicht: http://www.flickr.com/photos/62642553@N06/8572120989/in/set-72157627606253923/
+   Google Calendar Import (Foto-Story): http://www.flickr.com/photos/62642553@N06/8573215362/in/set-72157627606253923/
+   Android: http://www.flickr.com/photos/62642553@N06/8572121329/in/set-72157627606253923/
 
  * haw2iCalendar: HAW-Kalender Textdatei einlesen, Termine auswählen
                   und diese als iCalendar-Datei (*.ics) speichern.
@@ -43,8 +47,8 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
   gespeichert.
   
   Das Besondere an haw2iCalender ist, daß aus einer Abkürzung der volle Name
-  einer Veranstaltung abgeleitet wird. So mußt Du nicht diese ganzen komischen
-  Abkürzungen auswendig lernen.
+  einer Veranstaltung abgeleitet wird. So mußt Du nicht diese ganzen
+  komischen Abkürzungen auswendig lernen.
   Jedoch geht keine Info verloren: In der Beschreibung zu einem Termin wird
   sowohl die eigentliche Abkürzung, das Kürzel des Dozenten als auch die
   Version des HAW-Kalender aufgeführt.
