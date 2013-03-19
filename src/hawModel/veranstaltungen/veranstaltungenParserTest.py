@@ -73,22 +73,22 @@ tokenTestData = {
 class TestParser(unittest.TestCase):
 
     def testDeclaration(self):
-	for token in tokenTestData:
-	    production = token
-	    testData = tokenTestData[token]
-	    for testDatum in testData:
-	        success, children, nextcharacter = VeranstaltungParser.parse(testDatum, production)
+        for token in tokenTestData:
+            production = token
+            testData = tokenTestData[token]
+            for testDatum in testData:
+                success, children, nextcharacter = VeranstaltungParser.parse(testDatum, production)
 
-		from pprint import pformat
-		def errStr():
-		    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
-		             repr(testDatum), production, nextcharacter, len(testDatum))
-	            r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))
-	            r += "\n\nparsed:\n+++\n" + str(testDatum)[0:nextcharacter] + "\n+++"
-	            r += "\n\nNOT parsed:\n+++\n" + str(testDatum)[nextcharacter:len(testDatum)] + "\n+++"
-		    return r
+                from pprint import pformat
+                def errStr():
+                    r =  """Could not parse %s\nas a\n\n%s\t(%s chars parsed of %s)"""%(
+                             repr(testDatum), production, nextcharacter, len(testDatum))
+                    r += "\n\nreturned value was:\n\n" + pformat((success, children, nextcharacter))
+                    r += "\n\nparsed:\n+++\n" + str(testDatum)[0:nextcharacter] + "\n+++"
+                    r += "\n\nNOT parsed:\n+++\n" + str(testDatum)[nextcharacter:len(testDatum)] + "\n+++"
+                    return r
 
-		assert success and nextcharacter==len(testDatum), errStr()
+                assert success and nextcharacter==len(testDatum), errStr()
                 print testDatum + ": " + production + " parsed, details:\n " + pformat(children)
 
 if __name__ == "__main__":

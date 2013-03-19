@@ -57,7 +57,7 @@ def parseArgsAndOpts():
 
     if len(args) != 1:
         print >> sys.stderr, "only exactly one argument allowed (use option '--help' for info)"
-	sys.exit(0)
+        sys.exit(0)
 
     inFile = args[0]
 

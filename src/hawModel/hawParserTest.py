@@ -118,6 +118,10 @@ f = open("testData/Sem_IuE.SoSe2013.v106.txt", 'r')
 dateiTestDatum11 = f.read()
 f.close()
 
+f = open("testData/Sem_I.SoSe2013.v10.txt", 'r')
+dateiTestDatum12 = f.read()
+f.close()
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -151,7 +155,7 @@ class TestParser(unittest.TestCase):
             "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
                        dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
-                       dateiTestDatum10, dateiTestDatum11,
+                       dateiTestDatum10, dateiTestDatum11, dateiTestDatum12,
                        ]
         }
 

@@ -223,7 +223,7 @@ class MyFrame(wx.Frame):
         # frame pane
         self.button_Load = wx.Button(self, BTN_LOAD_ID, "HAW-Kalender einlesen")
         self.button_Export = wx.Button(self, BTN_EXPORT_ID, "Termin-Auswahl als iCalendar exportieren")
-        self.infoString = wx.StaticText(self.panel_1, TXT_INFO_STRING_ID, "      Bitte eine HAW-Kalender Textdatei einlesen")
+        self.infoString = wx.StaticText(self.panel_1, TXT_INFO_STRING_ID, "      Bitte eine HAW-Kalender Textdatei einlesen                    ")
         self.treeCtrl_Stud = wx.TreeCtrl(self.notebook_1_pane_1, TREE_CTRL_STUD_ID, style=wx.TR_HIDE_ROOT|wx.TR_HAS_BUTTONS|wx.TR_NO_LINES|wx.TR_DEFAULT_STYLE|wx.SUNKEN_BORDER|wx.TR_MULTIPLE)
         self.treeCtrl_Doz = wx.TreeCtrl(self.notebook_1_pane_2, TREE_CTRL_DOZ_ID, style=wx.TR_HIDE_ROOT|wx.TR_HAS_BUTTONS|wx.TR_NO_LINES|wx.TR_DEFAULT_STYLE|wx.SUNKEN_BORDER|wx.TR_MULTIPLE)
 
@@ -288,7 +288,7 @@ class MyFrame(wx.Frame):
         if dlg.ShowModal() == wx.ID_OK:
             path = dlg.GetPath()
             self.ctrl = Controller(inFileName=path, outFileName=None)
-            self.infoString.SetLabel(self.space + self.ctrl.getInfoString())
+            self.infoString.SetLabel(self.space + "HAW-Kalender: " + self.ctrl.getInfoString())
 
             self.fillTrees()
 
@@ -439,7 +439,7 @@ class MyFrame(wx.Frame):
         try:
             sys.stdin = urllib.urlopen("http://www.etech.haw-hamburg.de/Stundenplan/Sem_IuE.txt")
             self.ctrl = Controller(inFileName=None, outFileName=None)
-            self.infoString.SetLabel(self.space + self.ctrl.getInfoString())
+            self.infoString.SetLabel(self.space + "HAW-Kalender: " + self.ctrl.getInfoString())
             self.fillTrees()
 
             self.updateExportButton()
@@ -456,7 +456,7 @@ class MyFrame(wx.Frame):
         try:
             sys.stdin = urllib.urlopen("http://www.informatik.haw-hamburg.de/fileadmin/Homepages/ProfPadberg/stundenplaene/Sem_I.txt")
             self.ctrl = Controller(inFileName=None, outFileName=None)
-            self.infoString.SetLabel(self.space + self.ctrl.getInfoString())
+            self.infoString.SetLabel(self.space + "HAW-Kalender: " + self.ctrl.getInfoString())
             self.fillTrees()
 
             self.updateExportButton()
