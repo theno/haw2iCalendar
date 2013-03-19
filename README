@@ -17,23 +17,10 @@ Download: <https://github.com/theno/haw2iCalendar>
 
 
 ---
-user@host:~/haw2iCalendar$ ./haw2iCalendar.py --help
+Anleitung zur 'haw2iCalendar-klickiBunti.py':
 
-Usage: haw2iCalendar.py [-o ICS-FILE] INFILE
-
-Parse a haw calendar text file (Sem_I.txt or Sem_IuE.txt),
-select dates, convert the dates to the iCalendar format (rfc5545)
-and write them to stdout.
-
-Options:
-  -h, --help        show this help message and exit
-  -p, --prof        group by lecturers
-  -i, --informatik  alternative grouping (by semestergruppe from header)
-  -o ICS-FILE       write iCalendar-output to file instead stdout
-
-
----
-Anleitung zur haw2iCalendar-klickiBunti.py:
+ * Screenshots:
+    http://www.flickr.com/photos/62642553@N06/sets/72157627606253923/
 
  * haw2iCalendar: HAW-Kalender Textdatei einlesen, Termine auswählen
                   und diese als iCalendar-Datei (*.ics) speichern.
@@ -156,9 +143,12 @@ Anleitung zur haw2iCalendar-klickiBunti.py:
   - HAW Stundenplan Tool:
      <http://blog.seveq.de/haw-stundenplan-tool/>
 
-  - hawplantool
-     zu finden im pub:
+  - HAWPlantool
+     * zu finden im pub:
       userName@shell:/home/pub> ls **/* | grep -C 5 -i plantool)
+
+     * hexren hat das HAWPlantool von Arvid auf github 'gelagert':
+      https://github.com/Hexren/HAWPlantool
 
   - HAWapp:
      <http://www.myhaw.de/board/index.php?showtopic=9080&st=0&#entry68128>
@@ -184,10 +174,29 @@ Anleitung zur haw2iCalendar-klickiBunti.py:
 
 
 ---
+'haw2iCalendar.py'
+
+user@host:~/haw2iCalendar$ ./haw2iCalendar.py --help
+
+Usage: haw2iCalendar.py [-o ICS-FILE] INFILE
+
+Parse a haw calendar text file (Sem_I.txt or Sem_IuE.txt),
+select dates, convert the dates to the iCalendar format (rfc5545)
+and write them to stdout.
+
+Options:
+  -h, --help        show this help message and exit
+  -p, --prof        group by lecturers
+  -i, --informatik  alternative grouping (by semestergruppe from header)
+  -o ICS-FILE       write iCalendar-output to file instead stdout
+
+
+---
 'src/allgroups2icalendar.py' zeigt, wie haw2icalendar automatisiert (z.b. in
 einer webanwendung -- spontan fällt mir django ein) verwendet werden kann,
 etwa um von vorne herein ein standardisiertes format der veröffentlichten
 veranstaltungspläne zu verwenden (wink-mit-dem-zaunpfahl).
+
 
 ---
 contact: theodor.nolte@{,www.informatik.}haw-hamburg.de
