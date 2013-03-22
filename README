@@ -77,7 +77,8 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
       der notwendigen Schritte.
 
   haw2iCalendar selber wird 'installiert', indem es in einen Ordner Deiner
-  Wahl abgelegt wird.
+  Wahl abgelegt wird:
+   'git clone https://github.com/theno/haw2iCalendar.git'
 
   Im Root-Dir liegen die zwei GUIs:
   - haw2iCalendar.py: startet die commandGui.py
