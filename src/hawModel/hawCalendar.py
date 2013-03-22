@@ -58,6 +58,7 @@ class HawCalendar:
         events = [(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
                    for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
                      in self.eventTupelList]
+        events = list(set(events)) # remove duplicates 
         ical = Icalendar(events)
         return ical.icalStr()
 
