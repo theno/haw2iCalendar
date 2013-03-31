@@ -37,7 +37,7 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
   strukturierte Form, jedoch folgt sie keinem Standard. DER Standard für
   Kalenderdateien ist im RFC5545 definiert und heißt iCalendar.
   
-  Eine HAW-Kalender Textdatei wird wird von haw2iCalendar geladen und
+  Eine HAW-Kalender Textdatei wird von haw2iCalendar geladen und
   anschließend geparst. Nun sind alle Veranstaltungen in einem aufklappbaren
   Menü aufgelistet.
   Dieses Menü kann nach den Semestern gruppiert werden (Studentensicht) oder
