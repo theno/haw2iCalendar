@@ -5,6 +5,7 @@
 	* src/hawModel/testData/Sem_IuE.WiSe2013.v093.txt: New
 	* haw2iCalendar-klickiBunti.py: Vars (used as vals) for URLs.
 	* texts.py: Set Version to WiSe-2013-1
+	* src/hawModel/icalendar.py: Only try once to get the current ip.
 
 2013-03-22 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 	* src/hawModel/hawCalendar.py(icalStr): Remove duplicates

@@ -49,6 +49,14 @@ HEADER += "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU" + CRLF
 HEADER += "END:STANDARD" + CRLF
 HEADER += "END:VTIMEZONE"+ CRLF
 
+#FIXME: Does not handle with ipv6
+import socket
+try:
+  IP = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
+          if not ip.startswith("127.")][0]
+except Exception as e:
+  IP = None
+
 class Icalendar:
     def __init__(self, events):
         """@param events:
@@ -174,15 +182,12 @@ def createUid(dateTime):
     import random
     rand = reduce(lambda x,y : str(x) + str(random.randint(0,9)), [random.randint(0,9)] + range(9))
 
-    import socket
-    #FIXME: Does not handle with ipv6
-    try:
-      ip = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
-              if not ip.startswith("127.")][0]
-    except Exception as e:
-      ip = ""
+    result = "{} Atomkraft? Nein Danke! {}".format(dateTime, rand)
 
-    return dateTime + " Atomkraft? Nein Danke! " + rand + "@" + ip
+    if IP:
+        result += "@{}".format(IP)
+
+    return result
 
 def test():
     dateTimeString = createDateTimeString(time.localtime())
