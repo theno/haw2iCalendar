@@ -37,7 +37,7 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
   strukturierte Form, jedoch folgt sie keinem Standard. DER Standard für
   Kalenderdateien ist im RFC5545 definiert und heißt iCalendar.
   
-  Eine HAW-Kalender Textdatei wird wird von haw2iCalendar geladen und
+  Eine HAW-Kalender Textdatei wird von haw2iCalendar geladen und
   anschließend geparst. Nun sind alle Veranstaltungen in einem aufklappbaren
   Menü aufgelistet.
   Dieses Menü kann nach den Semestern gruppiert werden (Studentensicht) oder
@@ -77,7 +77,8 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
       der notwendigen Schritte.
 
   haw2iCalendar selber wird 'installiert', indem es in einen Ordner Deiner
-  Wahl abgelegt wird.
+  Wahl abgelegt wird:
+   'git clone https://github.com/theno/haw2iCalendar.git'
 
   Im Root-Dir liegen die zwei GUIs:
   - haw2iCalendar.py: startet die commandGui.py
