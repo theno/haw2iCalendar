@@ -1,3 +1,8 @@
+2013-07-13 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
+	* src/hawModel/hawParser.py: New formulation of version string
+	* src/hawModel/hawParserTest.py: New test cases for new formulation of
+	 version string and new formulation of token 'fach'.
+
 2013-03-19 Theodor Nolte <nolte_t@{,informatik.}haw-hamburg.de>
 	* src/texts.py: Set Version to SoSe-2013-1
 

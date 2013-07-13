@@ -122,12 +122,18 @@ f = open("testData/Sem_I.SoSe2013.v10.txt", 'r')
 dateiTestDatum12 = f.read()
 f.close()
 
+f = open("testData/Sem_IuE.WiSe2013.v093.txt", 'r')
+dateiTestDatum13 = f.read()
+f.close()
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
         tokenTestData = {
             "gruppe" : ["BAI1", "GWu", "INF", "Vorkurs"],
-            "fach" : ["BAI1-GI/GIÜ", "GWu DANN", "INF-WPP-C2/01", "Vorkurs PRG", "BAI4-CI"],
+            "fach" : ["BAI1-GI/GIÜ", "GWu DANN", "INF-WPP-C2/01", "Vorkurs PRG", "BAI4-CI",
+                      "E1a-ALÜ/01 u. 02", "E1a-PRP1/01,02,03", # IuE.WiSe2013
+                     ],
             "uhrzeit" : ["17:00", "9:00", "8:15", "24:66"],
             "wochentag" : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So", "mo", "mO", "MO"],
             "raum" : ["1260", "1101b", "1101a", "irgendwasOhneKomma"],
@@ -136,27 +142,33 @@ class TestParser(unittest.TestCase):
             "bezeichner" : ["Name, Dozent, Raum, Tag, Anfang, Ende"],
             "section" : [ sectionTestDatum ],
 
-            "version" : ["0.9", "1.2"],
-            "versionsDatum" : ["1.3.11", "30.09.2012"],
-            "semester" : ["SoSe 11", "WiSe 10", "WiSe 11/12", "WiSe 2012/13"],
+            "version" : ["0.9", "1.2", "0.9.3"],
+            "versionsDatum" : ["1.3.11", "30.09.2012", "12.07.2013"],
+            "semester" : ["SoSe 11", "WiSe 10", "WiSe 11/12", "WiSe 2012/13",
+                          "WiSe 2013",
+                         ],
             "infoString" : ["SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "WiSe 2012/13 Vers 1.2  vom  30.09.2012",
+                            "WiSe 2013 Vers. 0.9.3 vom  12.07.2013",
                            ],
             "ersteZeile" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011",
                             "Stundenplan  WiSe 2012/13 Vers 1.2  vom  30.09.2012",
+                            "Stundenplan  WiSe 2013 Vers. 0.9.3 vom  12.07.2013",
                            ],
-            "zweiteZeile" : ["Semestergruppe  M-AI1"],
+            "zweiteZeile" : ["Semestergruppe  M-AI1", "Semestergruppe  A-M"],
             "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
                         "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011\nSemestergruppe  B-AI1",
-                        ],
+                        "Stundenplan  WiSe 2013 Vers. 0.9.3 vom  12.07.2013\nSemestergruppe  A-M",
+                       ],
             "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
             "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
                        dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
                        dateiTestDatum10, dateiTestDatum11, dateiTestDatum12,
-                       ]
+                       dateiTestDatum13,
+                      ]
         }
 
         for token in tokenTestData:

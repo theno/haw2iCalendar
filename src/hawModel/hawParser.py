@@ -28,7 +28,7 @@ semestergruppe     := header, (t/lb)*, sections?
 header             := ersteZeile, lb, zweiteZeile
 
 ersteZeile         := "Stundenplan", ts, infoString
-infoString         := semester, ts, "("?, "Vers", "."/ts, version, ts, "vom", ts, versionsDatum, ")"?
+infoString         := semester, ts, "("?, "Vers", ("."/ts), ts?, version, ts, "vom", ts, versionsDatum, ")"?
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int, ("/", int)?
 <version>          := -ts+
@@ -51,7 +51,7 @@ eintrag            := septupel / sixtupel
 sixtupel           := fach, tr, dozent, tr, raum, tr, wochentag, tr, anfang, tr, ende
 septupel           := fach, tr, dozent, tr, gebaeude, tr, raum, tr, wochentag, tr, anfang, tr, ende
 
-fach               := gruppe, ( [ -], keinTrenner+ )?
+fach               := gruppe, ( [ -], keinTrenner+, ( tr, int+ )* )?
 gruppe             := ("A-M", [0-9]) / ("IK-M", [0-9]) / -("Name" / [ -])+ 
 dozent             := keinTrenner*
 gebaeude           := keinTrenner*
