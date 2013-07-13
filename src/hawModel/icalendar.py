@@ -51,11 +51,11 @@ HEADER += "END:VTIMEZONE"+ CRLF
 
 #FIXME: Does not handle with ipv6
 import socket
+IP = None
 try:
-  IP = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2]
-          if not ip.startswith("127.")][0]
+    IP = [ip for ip in socket.gethostbyname_ex(socket.gethostname())[2] if not ip.startswith("127.")][0]
 except Exception as e:
-  IP = None
+    pass # swallow error
 
 class Icalendar:
     def __init__(self, events):
