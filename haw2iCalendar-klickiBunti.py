@@ -16,6 +16,12 @@ from src.controller import Controller
 from src.hawModel.hawCalendar import DOZENT, SEMESTERGRUPPE, GRUPPENKUERZEL
 import src.texts as texts
 
+STUNDENPLAN_SITE_EuI = "http://www.etech.haw-hamburg.de/Stundenplan/"
+STUNDENPLAN_URL_EuI = "http://www.etech.haw-hamburg.de/Stundenplan/Sem_IuE.txt"
+
+STUNDENPLAN_SITE_Inf = "http://www.informatik.haw-hamburg.de/veranstaltungsplaene.html"
+STUNDENPLAN_URL_Inf = "http://www.informatik.haw-hamburg.de/fileadmin/Homepages/ProfPadberg/stundenplaene/Sem_I.txt"
+
 def iterChildren(treeCtrl, itemId):
     curId, curItem = treeCtrl.GetFirstChild(itemId)
     while curId.IsOk(): 
@@ -433,11 +439,11 @@ class MyFrame(wx.Frame):
             dlg.Destroy()
 
     def onMenuItem_EuI(self, event):
-        webbrowser.open("http://www.etech.haw-hamburg.de/Stundenplan/", autoraise=True)
+        webbrowser.open(STUNDENPLAN_SITE_EuI, autoraise=True)
 
     def onMenuItem_EuI_load(self, event):
         try:
-            sys.stdin = urllib.urlopen("http://www.etech.haw-hamburg.de/Stundenplan/Sem_IuE.txt")
+            sys.stdin = urllib.urlopen(STUNDENPLAN_URL_EuI)
             self.ctrl = Controller(inFileName=None, outFileName=None)
             self.infoString.SetLabel(self.space + "HAW-Kalender: " + self.ctrl.getInfoString())
             self.fillTrees()
@@ -450,11 +456,11 @@ class MyFrame(wx.Frame):
             print "Could not open EuI-url: " + str(e)
 
     def onMenuItem_Inf(self, event):
-        webbrowser.open("http://www.informatik.haw-hamburg.de/veranstaltungsplaene.html", autoraise=True)
+        webbrowser.open(STUNDENPLAN_SITE_Inf, autoraise=True)
 
     def onMenuItem_Inf_load(self, event):
         try:
-            sys.stdin = urllib.urlopen("http://www.informatik.haw-hamburg.de/fileadmin/Homepages/ProfPadberg/stundenplaene/Sem_I.txt")
+            sys.stdin = urllib.urlopen(STUNDENPLAN_URL_Inf)
             self.ctrl = Controller(inFileName=None, outFileName=None)
             self.infoString.SetLabel(self.space + "HAW-Kalender: " + self.ctrl.getInfoString())
             self.fillTrees()
