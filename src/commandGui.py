@@ -26,14 +26,14 @@ import controller
 
 class CommandGui:
     def __init__(self, controller):
-	self.controller = controller
+        self.controller = controller
         self.keineAuswahlState = KeineAuswahlState(self)
 
-	self.curState = self.setState(self.keineAuswahlState)
+        self.curState = self.setState(self.keineAuswahlState)
 
     def setState(self, state):
         self.curState = state
-	self.curState.onEntry()
+        self.curState.onEntry()
 
 def pd(str):
     """(global) dialog printer;
@@ -48,29 +48,29 @@ class State:
     #common used helper
 
     def write(self):
-	if self.fsm.controller.selectedVeranstaltungen != set([]):
-	    sum = self.fsm.controller.writeIcalendar()
-	    pd("\niCalendar with %i events written" % sum)
-	else:
-	    pd("\nno events selected -> no icalendar written")
+        if self.fsm.controller.selectedVeranstaltungen != set([]):
+            sum = self.fsm.controller.writeIcalendar()
+            pd("\niCalendar with %i events written" % sum)
+        else:
+            pd("\nno events selected -> no icalendar written")
 
     def toggleVeranstaltung(self, veranstaltung):
         if veranstaltung in self.fsm.controller.selectedVeranstaltungen:
-	    self.unselectVeranstaltung(veranstaltung)
-	else:
-	    self.selectVeranstaltung(veranstaltung)
+            self.unselectVeranstaltung(veranstaltung)
+        else:
+            self.selectVeranstaltung(veranstaltung)
 
     def unselectVeranstaltung(self, veranstaltung):
         if veranstaltung in self.fsm.controller.selectedVeranstaltungen:
-	    self.fsm.controller.selectedVeranstaltungen.remove(veranstaltung)
+            self.fsm.controller.selectedVeranstaltungen.remove(veranstaltung)
 
     def selectVeranstaltung(self, veranstaltung):
         if veranstaltung not in self.fsm.controller.selectedVeranstaltungen:
-	    self.fsm.controller.selectedVeranstaltungen.add(veranstaltung)
+            self.fsm.controller.selectedVeranstaltungen.add(veranstaltung)
 
     def handleInvalidInput(self):
-	pd("invalid input")
-	self.fsm.setState(self)
+        pd("invalid input")
+        self.fsm.setState(self)
 
 class KeineAuswahlState(State):
     def __init__(self, fsm):
@@ -79,11 +79,11 @@ class KeineAuswahlState(State):
         self.groups = sorted(self.fsm.controller.getKeys())
 
     def onEntry(self):
-	self.printLegend()
+        self.printLegend()
         self.printGroups()
-	self.printGruppenauswahlDialog()
+        self.printGruppenauswahlDialog()
 
-	input = sys.stdin.readline()
+        input = sys.stdin.readline()
         
         if self.couldNavigate(input): pass
         elif self.couldToggleSelection(input): pass
@@ -96,13 +96,13 @@ class KeineAuswahlState(State):
     def couldNavigate(self, input):
         result = False
 
-	m = re.match(r"n([0-9]+)", input)
-	if m != None:
-	    number = int(m.group(1)) -1
+        m = re.match(r"n([0-9]+)", input)
+        if m != None:
+            number = int(m.group(1)) -1
             if 0 <= number and number < len(self.groups):
                 # navigate
-	        semestergruppe = self.groups[number]
-	        self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
+                semestergruppe = self.groups[number]
+                self.fsm.setState(VeranstaltungenState(self.fsm, semestergruppe))
                 result = True
             else:
                 # wrong index number
@@ -140,7 +140,7 @@ class KeineAuswahlState(State):
     def couldWriteAndQuit(self, input):
         result = False
 
-	if re.match("wq", input) != None:
+        if re.match("wq", input) != None:
             self.write()
             result = True
 
@@ -153,15 +153,15 @@ class KeineAuswahlState(State):
             formatter = "{0:>" + str(len(str(len(self.groups)))) + "}"
             lineNumber = formatter.format(i+1)
 
-	    semestergruppe = self.groups[i]
+            semestergruppe = self.groups[i]
 
-	    selected = "  "
-	    if self.gruppeFullSelected(semestergruppe):
-	        selected = " *"
-	    elif self.gruppePartialOrFullSelected(semestergruppe):
-	        selected = " +"
+            selected = "  "
+            if self.gruppeFullSelected(semestergruppe):
+                selected = " *"
+            elif self.gruppePartialOrFullSelected(semestergruppe):
+                selected = " +"
 
-    	    pd(lineNumber + selected + semestergruppe)
+            pd(lineNumber + selected + semestergruppe)
 
     def printGruppenauswahlDialog(self):
         pd("navigate: n<number>, select/unselect all: <number>, write&quit: wq")
@@ -172,13 +172,13 @@ class KeineAuswahlState(State):
     # helper
 
     def gruppeFullSelected(self, semestergruppe):
-	return (self.fsm.controller.selectedVeranstaltungen &
-	          set(self.fsm.controller.getVeranstaltungen(semestergruppe)) == 
-		set(self.fsm.controller.getVeranstaltungen(semestergruppe)))
+        return (self.fsm.controller.selectedVeranstaltungen &
+                  set(self.fsm.controller.getVeranstaltungen(semestergruppe)) == 
+                set(self.fsm.controller.getVeranstaltungen(semestergruppe)))
 
     def gruppePartialOrFullSelected(self, semestergruppe):
-	return (self.fsm.controller.selectedVeranstaltungen &
-	         set(self.fsm.controller.getVeranstaltungen(semestergruppe)) != set([]))
+        return (self.fsm.controller.selectedVeranstaltungen &
+                 set(self.fsm.controller.getVeranstaltungen(semestergruppe)) != set([]))
 
 class VeranstaltungenState(State):
     def __init__(self, fsm, semestergruppe):
@@ -188,36 +188,36 @@ class VeranstaltungenState(State):
        self.veranstaltungen = sorted(self.fsm.controller.getVeranstaltungen(semestergruppe))
 
     def onEntry(self):
-	self.printLegend()
-	self.printVeranstaltungen()
+        self.printLegend()
+        self.printVeranstaltungen()
         self.printVeranstaltungenAuswahlDialog()
 
-	result = sys.stdin.readline()
+        result = sys.stdin.readline()
         
-	#navigate
-	m = re.match(r"(b).*", result)
-	if m != None:
-	    self.fsm.setState(self.fsm.keineAuswahlState)
-	else:
-	    # toggle selection
-	    m = re.match("([0-9]+)", result)
-	    if m != None:
-	        number = int(m.group(1)) -1
+        #navigate
+        m = re.match(r"(b).*", result)
+        if m != None:
+            self.fsm.setState(self.fsm.keineAuswahlState)
+        else:
+            # toggle selection
+            m = re.match("([0-9]+)", result)
+            if m != None:
+                number = int(m.group(1)) -1
                 if 0 <= number and number < len(self.veranstaltungen):
-	            pd("toggle selection")
-		    pd(self.veranstaltungen[number])
-		    self.toggleVeranstaltung(self.veranstaltungen[number])
-		    self.fsm.setState(self)
+                    pd("toggle selection")
+                    pd(self.veranstaltungen[number])
+                    self.toggleVeranstaltung(self.veranstaltungen[number])
+                    self.fsm.setState(self)
                 else:
                     # wrong input
                     pd("invalid input")
                     self.fsm.setState(self)
-	    # write and quit
-	    elif re.match("wq", result) != None:
-		self.write()
-	    else:
-	        pd("invalid input")
-	        self.fsm.setState(self)
+            # write and quit
+            elif re.match("wq", result) != None:
+                self.write()
+            else:
+                pd("invalid input")
+                self.fsm.setState(self)
 
     # state specific behavior
 
@@ -230,9 +230,9 @@ class VeranstaltungenState(State):
             formatter = "{0:>" + str(len(str(len(self.veranstaltungen)))) + "}"
             lineNumber = formatter.format(i+1)
 
-	    selected = "  "
-	    if self.veranstaltungSelected(veranstaltung):
-	        selected = " *"
+            selected = "  "
+            if self.veranstaltungSelected(veranstaltung):
+                selected = " *"
 
             fullName = self.fsm.controller.tryGetFullName(veranstaltung)
 
@@ -242,7 +242,7 @@ class VeranstaltungenState(State):
             if 'Ü' in leftAlignedVeranstaltung:
                 leftAlignedVeranstaltung += " "
 
-    	    pd(lineNumber + selected + leftAlignedVeranstaltung + fullName)
+            pd(lineNumber + selected + leftAlignedVeranstaltung + fullName)
 
     def printVeranstaltungenAuswahlDialog(self):
         pd("back: b, toggle selection: <number>, write&quit: wq")
@@ -253,6 +253,6 @@ class VeranstaltungenState(State):
     # helper
 
     def veranstaltungSelected(self, veranstaltung):
-	return (self.fsm.controller.selectedVeranstaltungen &
-	         set([veranstaltung]) != set([]))
+        return (self.fsm.controller.selectedVeranstaltungen &
+                 set([veranstaltung]) != set([]))
 

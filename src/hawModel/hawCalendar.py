@@ -28,7 +28,7 @@ SEMESTERGRUPPE, GRUPPENKUERZEL, FACH, DOZENT, RAUM, JAHR, WOCHE, WOCHENTAG, ANFA
 class HawCalendar:
     def __init__(self, eventTupelLists):
         """
-        event ~ veranstaltung
+        event ~ veranstaltung (but a 'veranstaltung' has several 'events')
 
         @param eventTupelLists:
         [
@@ -38,6 +38,8 @@ class HawCalendar:
           ],
           ...
         ]
+
+        alias for 'fach': 'veranstaltung'
         """
 
         # eventTupelList = [eventTupel,

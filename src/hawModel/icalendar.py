@@ -57,6 +57,7 @@ try:
 except Exception as e:
     pass # swallow error
 
+
 class Icalendar:
     def __init__(self, events):
         """@param events:
@@ -74,6 +75,7 @@ class Icalendar:
         result += "END:VCALENDAR" + CRLF
         return result
     
+
 class IcalEvent:
     def __init__(self, (fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)):
         self.fach = fach
@@ -126,6 +128,7 @@ class IcalEvent:
         r += "END:VEVENT" + CRLF
         return r
 
+
 def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     """@return: time.struct_time"""
 
@@ -161,6 +164,7 @@ def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     struct_time = time.strptime(jahr + " " + wochennummer + " " + wochentag + " " + stunde + " " + minute, "%Y %W %w %H %M")
     return struct_time
 
+
 def createDateTimeString(struct_time):
     """result: date string with (non-utc) time"""
     t = struct_time
@@ -175,8 +179,6 @@ def createDateTimeString(struct_time):
 
     return yyyy + mm + dd + "T" + HH + MM + SS
 
-def monthAndDay(jahr, woche, tag):
-    return (woche, tag)
 
 def createUid(dateTime):
     import random
@@ -188,6 +190,7 @@ def createUid(dateTime):
         result += "@{}".format(IP)
 
     return result
+
 
 def test():
     dateTimeString = createDateTimeString(time.localtime())
@@ -201,4 +204,3 @@ def test():
 
 if __name__ == "__main__":
     test()
-
