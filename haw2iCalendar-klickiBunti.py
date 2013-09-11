@@ -416,9 +416,7 @@ class MyFrame(wx.Frame):
             self.button_Export.Disable()
 
     def groupFullSelected(self, key):
-        return (self.ctrl.selectedVeranstaltungen &
-                  set(self.ctrl.getVeranstaltungen(key)) ==
-                set(self.ctrl.getVeranstaltungen(key)))
+        return (self.ctrl.selectedVeranstaltungen & set(self.ctrl.getVeranstaltungen(key)) == set(self.ctrl.getVeranstaltungen(key)))
 
     def onMenuItem_BatchStudUndDoz(self, event):
 
