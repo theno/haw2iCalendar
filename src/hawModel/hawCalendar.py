@@ -53,8 +53,7 @@ class HawCalendar:
         """@param veranstaltungen: List of type String (Veranstaltungskuerzel ~ fach)
            @result: HawCalendar
         """
-        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k): veranstaltung in veranstaltungen,
-                                    self.eventTupelList)])
+        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k): veranstaltung in veranstaltungen, self.eventTupelList)])
 
     def icalStr(self):
         events = [(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
@@ -68,6 +67,4 @@ class HawCalendar:
         return set([eventTupel[tupelKeyIndex] for eventTupel in self.eventTupelList])
 
     def getVeranstaltungenFromKey(self, key, tupelKeyIndex):
-        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k
-                    in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
-
+        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])

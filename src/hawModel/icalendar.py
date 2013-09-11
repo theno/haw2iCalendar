@@ -18,8 +18,9 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
-import time
 import logging
+import random
+import time
 
 from veranstaltungen.veranstaltungenParser import tryGetFullName
 
@@ -181,10 +182,11 @@ def createDateTimeString(struct_time):
 
 
 def createUid(dateTime):
-    import random
     rand = reduce(lambda x,y : str(x) + str(random.randint(0,9)), [random.randint(0,9)] + range(9))
 
-    result = "{} Atomkraft? Nein Danke! {}".format(dateTime, rand)
+    result = "{}_Atomkraft?_Nein_Danke!_{}".format(dateTime, rand)
+    if random.randint(0,9) % 2 == 0:
+        result = "{}_Freiheit_statt_Angst_{}".format(dateTime, rand)
 
     if IP:
         result += "@{}".format(IP)
