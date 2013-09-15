@@ -60,7 +60,7 @@ Anleitung zur 'haw2iCalendar-klickiBunti.py':
  * Installation
 
   haw2iCalendar ist in Python geschrieben. Neben einer Standard
-  Python-Installation (2.6.x) benötigt es noch:
+  Python-Installation (2.7.x) benötigt es noch:
 
   - SimpleParse: <http://simpleparse.sourceforge.net/>
   - wxglade (nur für klickiBunti.py): <http://wxglade.sourceforge.net/> 
