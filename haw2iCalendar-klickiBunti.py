@@ -20,7 +20,7 @@ STUNDENPLAN_SITE_EuI = "http://www.etech.haw-hamburg.de/Stundenplan/"
 STUNDENPLAN_URL_EuI = "http://www.etech.haw-hamburg.de/Stundenplan/Sem_IuE.txt"
 
 STUNDENPLAN_SITE_Inf = "http://www.informatik.haw-hamburg.de/veranstaltungsplaene.html"
-STUNDENPLAN_URL_Inf = "http://www.informatik.haw-hamburg.de/fileadmin/Homepages/ProfPadberg/stundenplaene/Sem_I.txt"
+STUNDENPLAN_URL_Inf = "http://www.haw-hamburg.de/fileadmin/user_upload/TI-I/Studium/Veranstaltungsplaene/Sem_I.txt"
 
 def iterChildren(treeCtrl, itemId):
     curId, curItem = treeCtrl.GetFirstChild(itemId)

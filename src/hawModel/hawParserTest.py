@@ -62,6 +62,26 @@ Name,Dozent,Raum,Tag,Anfang,Ende
 MINF2-TH1/ue,HFFM,0480,Di,12:30,15:45
 MINF2-TH1,HFFM,0480,Di,12:30,15:45"""
 
+semestergruppeTestDatum3 = """\
+Dozentenplan   WiSe 2013 Vers. 1.20 vom  24.9.2013
+
+
+44, 47, 50
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-PRP2/01,WND/[Oel],1102,Do,12:30,15:45
+BAI2-RMP,BRN,Stiftstr.69  R107,Fr,8:15,11:30
+BAI2-AF/AFÜ,NEUH,1260,Mi,12:30,17:45
+BAI2-RMPP/02,BRN/[Ben],0709,Di,8:15,11:30
+BAI2-LB,KLC,NB 01.11,Do,8:15,11:30
+BAI2-LBP/03,KLC/[Nmn],1101b,Do,12:30,15:45
+BAI2-DBP/01,ZKN/[Bro],1101b,Fr,12:30,15:45
+BAI2-PRP2/04 optional,WND/[Oel],1102,Mi,8:15,11:30
+BAI2-DB,ZKN,0360,Mo,14:00,17:15
+BAI2-PR2,WND,NB 01.11,Di,12:30,15:45
+
+<>
+"""
+
 
 dateiTestDatum1 = semestergruppeTestDatum
 dateiTestDatum2 = semestergruppeTestDatum + "\n" + semestergruppeTestDatum2
@@ -126,6 +146,10 @@ f = open("testData/Sem_IuE.WiSe2013.v093.txt", 'r')
 dateiTestDatum13 = f.read()
 f.close()
 
+dateiTestDatum14 = None
+with open("testData/Sem_I.WiSe2013.v120.txt", 'r') as f:
+    dateiTestDatum14 = f.read()
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -150,24 +174,29 @@ class TestParser(unittest.TestCase):
             "infoString" : ["SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "WiSe 2012/13 Vers 1.2  vom  30.09.2012",
                             "WiSe 2013 Vers. 0.9.3 vom  12.07.2013",
-                           ],
+                       ],
             "ersteZeile" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)",
                             "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011",
                             "Stundenplan  WiSe 2012/13 Vers 1.2  vom  30.09.2012",
                             "Stundenplan  WiSe 2013 Vers. 0.9.3 vom  12.07.2013",
+                            "Dozentenplan   WiSe 2013 Vers. 1.20 vom  24.9.2013",
                            ],
             "zweiteZeile" : ["Semestergruppe  M-AI1", "Semestergruppe  A-M"],
             "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
                         "Stundenplan  WiSe 11/12 Vers.1.01 vom 16.09.2011\nSemestergruppe  B-AI1",
                         "Stundenplan  WiSe 2013 Vers. 0.9.3 vom  12.07.2013\nSemestergruppe  A-M",
+                        # Geändertes Format: header besteht nur noch aus einer Zeile
+                        "Dozentenplan   WiSe 2013 Vers. 1.20 vom  24.9.2013",
                        ],
-            "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2],
+            "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2,
+                                semestergruppeTestDatum3,
+                               ],
             "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
                        dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
                        dateiTestDatum10, dateiTestDatum11, dateiTestDatum12,
-                       dateiTestDatum13,
+                       dateiTestDatum13, dateiTestDatum14,
                       ]
         }
 

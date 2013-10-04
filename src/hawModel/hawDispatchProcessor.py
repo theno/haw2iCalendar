@@ -22,6 +22,10 @@ from simpleparse import dispatchprocessor
 from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
 
 class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
+
+    def __init__(self):
+        self.next_phony_gruppenkuerzel = "01"
+
     def semestergruppe(self,tup,buffer):
         """@result: 
         
@@ -47,7 +51,11 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def header(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
         infoString, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
-        gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
+        gruppenKuerzel = ''
+        if 'zweiteZeile' in subTree:
+            gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
+        else:
+            gruppenKuerzel = self._next_phony_gruppenkuerzel()
         return (infoString, jahr, gruppenKuerzel)
     def ersteZeile(self, tup, buffer): 
         subTree = multiMap(tup[-1],buffer=buffer)
@@ -174,3 +182,7 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def m(self, tup, buffer):
         return str(getString(tup, buffer))
 
+    def _next_phony_gruppenkuerzel(self):
+        result = self.next_phony_gruppenkuerzel
+        self.next_phony_gruppenkuerzel = "{:02d}".format(int(self.next_phony_gruppenkuerzel) + 1)
+        return result
