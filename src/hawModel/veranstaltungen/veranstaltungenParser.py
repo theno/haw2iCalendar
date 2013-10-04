@@ -48,7 +48,7 @@ wpPraktikum          := "INF-WPP-", alphanumGruppe, no, "/", gruppe
 #catch all:
 unknown              := -[$]+
 
-semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / ("BWI", [0-9]) / "MINF1" / "BMT5" / -"-"+
+semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / ("BWI", [0-9]) / "MINF1" / "BMT5" / "BTI1" / -"-"+
 >kuerzel<            := fachKuerzel, nummer?
 prakKuerzel          := [A-Z], [A-Z], "P"
 verbKuerzel          := [A-Z], [A-Z], "J"

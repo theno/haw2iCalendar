@@ -28,7 +28,7 @@ tokenTestData = {
     "fachKuerzel" : ["PJ", "AW", "DB", "BU"],
     "gwKuerzel" : ["DANN", "ZOEL", "STFF_Z", "SRHF_TK"],
     "kuerzel" : ["PJ1", "AW2", "DB"],
-    "semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2", "A-M2", "BWI1"],
+    "semesterkuerzel" : ["BTI5", "BAI5", "BAI1", "MINF2", "A-M2", "BWI1", "BTI1"],
 
     # mid level token
     "awSeminar" : ["MINF1-AW1", "MINF2-AW2"],
@@ -38,7 +38,7 @@ tokenTestData = {
     "praktikum" : ["BAI1-PRP1/02", "BTI1-GTP/02", "A-M2-PSP", "BMT5- BUP"],
     "projekt" : ["INF-PRO 8", "INF-PRO 4"],
     "seminar" : ["BAI5-AIS+BTI5-TIS"],
-    "teamStudienEinstieg" : ["BTI1-TSE/02", "BTI1-TSE/01", "BAI1-TSE/02", "E1a-TSE", "BWI1 TSE/01"],
+    "teamStudienEinstieg" : ["BTI1-TSE/02", "BTI1-TSE/01", "BAI1-TSE/02", "E1a-TSE", "BWI1 TSE/01", "BTI1 TSE"],
     "tutorium" : ["E1a-ET1 Tutor", "E1b-PH1 Tutor", "E4a/b GR Tutor"],
     "uebung" : ["MINF2-THÜ/01", "BMT2-TM2 Ü/01"],
     "verbundprojekt" : ["A-M2-VPJ"],
