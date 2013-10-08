@@ -1,3 +1,4 @@
+# ~*~ encoding: utf-8 ~*~
 
 ###########################################################################
 #  Copyright 2011 Theodor Nolte                                           #
@@ -24,7 +25,7 @@ from simpleparse.dispatchprocessor import dispatchList, getString, multiMap
 class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 
     def __init__(self):
-        self.next_phony_gruppenkuerzel = "01"
+        self.next_count = "01"
 
     def semestergruppe(self,tup,buffer):
         """@result: 
@@ -42,6 +43,9 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         if "sections" in subTree:
             eintraege = dispatchList(self,subTree['sections'], buffer)[0]
 
+            if semestergruppe == None:
+                semestergruppe = self._derive_gruppenkuerzel(eintraege)
+
             for e in eintraege:
                 gruppenKuerzel, fach, dozent, raum, woche, wochentag, anfang, ende = e
                 result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString))
@@ -55,7 +59,7 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         if 'zweiteZeile' in subTree:
             gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
         else:
-            gruppenKuerzel = self._next_phony_gruppenkuerzel()
+            gruppenKuerzel = None
         return (infoString, jahr, gruppenKuerzel)
     def ersteZeile(self, tup, buffer): 
         subTree = multiMap(tup[-1],buffer=buffer)
@@ -182,7 +186,48 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def m(self, tup, buffer):
         return str(getString(tup, buffer))
 
-    def _next_phony_gruppenkuerzel(self):
-        result = self.next_phony_gruppenkuerzel
-        self.next_phony_gruppenkuerzel = "{:02d}".format(int(self.next_phony_gruppenkuerzel) + 1)
+    # Try to derive
+    # 1. by semestergruppe
+    # 2. "Wahlfächer""
+    # 3. Phony
+    def _derive_gruppenkuerzel(self, eintraege):
+
+        result = None
+
+        kuerzel_set = set()
+
+        for e in eintraege:
+            kuerzel = e[0]
+            kuerzel_set.add(kuerzel)
+
+        semestergruppen = [
+               'MINF4', 'MINF3', 'MINF2', 'MINF1',
+               'BAI6', 'BAI5', 'BAI4', 'BAI3', 'BAI2', 'BAI1',
+               'BTI6', 'BTI5', 'BTI4', 'BTI3', 'BTI2', 'BTI1',
+               'BWI6', 'BWI5', 'BWI4', 'BWI3', 'BWI2', 'BWI1', 
+        ]
+
+        # first hit succeeds
+        for gruppe in semestergruppen:
+            if gruppe in kuerzel_set:
+                result = gruppe
+                break
+
+        if result == None:
+            wahlfaecher = ['GW', 'INF']
+            if not set(wahlfaecher).isdisjoint(kuerzel_set):
+                result = "Wahlfächer"
+                if self.next_count != "01":
+                    result += "_{}".format(self.next_count)
+                self.next_count = "{:02d}".format(int(self.next_count) + 1)
+            else:
+                # fallback to phony identifier
+                result = self.next_phony_gruppenkuerzel()
+
         return result
+
+    def _next_phony_gruppenkuerzel(self):
+        prefix = "PHONY_"
+        count = self.next_count
+        self.next_count = "{:02d}".format(int(self.next_count) + 1)
+        return prefix + count
