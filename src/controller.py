@@ -23,7 +23,7 @@ import sys
 
 from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
-from hawModel.hawParser import HawParser
+from hawModel.hawParser import HawParser, prepared_Sem_I_txt
 from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
@@ -36,6 +36,7 @@ class Controller:
         self.tupleKeyIndex = tupleKeyIndex
 
         text = self.__fetchInputText(inFileName)
+        text = prepared_Sem_I_txt(text)
         success, resultList, strIndex = HawParser.parse(text, processor=HawDispatchProcessor())
         self.__hawCal = HawCalendar(resultList)
 
@@ -111,3 +112,9 @@ class Controller:
             keyIndex = GRUPPENKUERZEL
 
         return keyIndex
+
+    def data_tuples(self):
+        #TODO version statt infostring als version zurueckliefern
+        return [(semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, infoString, tryGetFullName(fach))
+                for (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString)
+                in self.__hawCal.eventTupelList]

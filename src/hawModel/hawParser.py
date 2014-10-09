@@ -1,3 +1,4 @@
+# ~*~ encoding: utf-8 ~*~
 
 ###########################################################################
 #  Copyright 2011 Theodor Nolte                                           #
@@ -74,3 +75,36 @@ m                  := int
 
 HawParser = Parser(declaration, root="datei")
 
+
+def prepared_Sem_I_txt(text):
+    """
+    Make errornous Sem_I.txt content parsable.
+
+    Problem: ',' ist der Feldtrenner.  Aber das Komma wird in den Department-
+    Informtik-Textdateien auch bei den Dozentennamen verwendet (Nachname, Vorname).
+    Manchmal gibt es mehr als einen Dozenten, also auch mehrere Kommas zuviel.
+    Diese Kommas werden vorm Parsen durch ein anderes Zeichen ersetzt. Dann
+    ist das Komma wieder ausschließlich Feldtrenner.
+    """
+    import re
+
+    if ('Padberg, Julia' in text):
+        # Now we know: the comma ',' is used in a wrong way
+
+        # <Nachname> von, <Vorname>
+        pattern = r'([a-zA-ZäöüÄÖÜß -]+)\s+von\s*,\s+([a-zA-ZäöüÄÖÜß -]+)'
+        repl = r'\2 von \1'
+        text = re.sub(pattern, repl, text, count=0, flags=0)
+    
+        # <Nachname>, <Vorname>
+        pattern = r'([a-zA-ZäöüÄÖÜß -]+), ([a-zA-ZäöüÄÖÜß -]+)' # ☃
+        repl = r'\2 \1'
+        text = re.sub(pattern, repl, text, count=0, flags=0)
+    
+        pattern = r'\s[ ]+'
+        repl = r' '
+        text = re.sub(pattern, repl, text, count=0, flags=0)
+
+#    print(text) #TODO DEBUG
+
+    return text

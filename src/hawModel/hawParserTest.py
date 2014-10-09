@@ -21,7 +21,7 @@
 
 import unittest
 
-from hawParser import HawParser
+from hawParser import HawParser, prepared_Sem_I_txt
 
 sectionTestDatum = r"""15, 18, 21
 Name,Dozent,Raum,Tag,Anfang,Ende
@@ -150,18 +150,32 @@ dateiTestDatum14 = None
 with open("testData/Sem_I.WiSe2013.v120.txt", 'r') as f:
     dateiTestDatum14 = f.read()
 
+dateiTestDatum15 = None
+with open("testData/Sem_I.WiSe2014.v100.txt", 'r') as f:
+    dateiTestDatum15_cp1252 = f.read()
+    dateiTestDatum15_unicode = dateiTestDatum15_cp1252.decode("cp1252")
+    dateiTestDatum15_utf8 = dateiTestDatum15_unicode.encode("utf-8")
+    dateiTestDatum15 = prepared_Sem_I_txt(dateiTestDatum15_utf8)
+
+dateiTestDatum16 = None
+with open("testData/Sem_IuE.WiSe2014.v112.txt", 'r') as f:
+    dateiTestDatum16_cp1252 = f.read()
+    dateiTestDatum16_unicode = dateiTestDatum16_cp1252.decode("cp1252")
+    dateiTestDatum16_utf8 = dateiTestDatum16_unicode.encode("utf-8")
+    dateiTestDatum16 = prepared_Sem_I_txt(dateiTestDatum16_utf8)
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
         tokenTestData = {
             "gruppe" : ["BAI1", "GWu", "INF", "Vorkurs"],
             "fach" : ["BAI1-GI/GIÜ", "GWu DANN", "INF-WPP-C2/01", "Vorkurs PRG", "BAI4-CI",
-                      "E1a-ALÜ/01 u. 02", "E1a-PRP1/01,02,03", # IuE.WiSe2013
+                      "E1a-ALÜ/01 u. 02", "E1a-PRP1/01,02,03", "BAI1-PTP/07 optional", # IuE.WiSe2013
                      ],
             "uhrzeit" : ["17:00", "9:00", "8:15", "24:66"],
             "wochentag" : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So", "mo", "mO", "MO"],
             "raum" : ["1260", "1101b", "1101a", "irgendwasOhneKomma"],
-            "dozent" : ["SRS", "WND/[Oel]"],
+            "dozent" : ["SRS", "WND/[Oel]", "Birgit/_Oelker"],
             "wochen" : ["11", "12, 18, 21"],
             "bezeichner" : ["Name, Dozent, Raum, Tag, Anfang, Ende"],
             "section" : [ sectionTestDatum ],
@@ -189,6 +203,8 @@ class TestParser(unittest.TestCase):
                         # Geändertes Format: header besteht nur noch aus einer Zeile
                         "Dozentenplan   WiSe 2013 Vers. 1.20 vom  24.9.2013",
                        ],
+            "eintrag" : ["BAI1-PTP/07 optional,Birgit Wendholt/_Gerhard Oelker,1165,Fr,8:15,11:30",
+                        ],
             "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2,
                                 semestergruppeTestDatum3,
                                ],
@@ -196,7 +212,7 @@ class TestParser(unittest.TestCase):
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
                        dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
                        dateiTestDatum10, dateiTestDatum11, dateiTestDatum12,
-                       dateiTestDatum13, dateiTestDatum14,
+                       dateiTestDatum13, dateiTestDatum14, dateiTestDatum15,
                       ]
         }
 

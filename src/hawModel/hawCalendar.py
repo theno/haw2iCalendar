@@ -68,3 +68,87 @@ class HawCalendar:
 
     def getVeranstaltungenFromKey(self, key, tupelKeyIndex):
         return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
+
+#    def data_dict(self):
+#
+#        # data = {
+#        #
+#        #     DataImport: {
+#        #         infostring: 'hihi',
+#        #         version_text_datei: 'hoho',
+#        #         comment: 'huhu',
+#        #     },
+#        #
+#        #     Veranstaltungen: [
+#        #         {
+#        #             semestergruppen: 'a',
+#        #             department: 'b',
+#        #             semester: 'c',
+#        #             gruppenkuerzel: 'd',
+#        #             veranstaltungskuerzel: 'e',
+#        #             veranstaltungsname: 'f',
+#        #             full_name: 'f1',
+#        #
+#        #             Events: [
+#        #                 {
+#        #                     veranstaltung: 'g',
+#        #                     data_import: 'h',
+#        #
+#        #                     dozent: 'i',
+#        #                     ort: 'j',
+#        #                     jahr: 'k',
+#        #                     wochen: 'l',
+#        #                     wochentag: 'm',
+#        #                     anfang: 'n',
+#        #                     ende: 'o',
+#        #                     icalevent: 'p',
+#        #                 },
+#        #                 ...
+#        #             ],
+#        #         },
+#        #         ...
+#        #     ],
+#        #
+#        # }
+#
+#        data = {
+#            'DataImport': {
+#                'infostring': 'hihi',
+#                'version_text_datei': 'hoho',
+#            }
+#
+#            for v in veranstaltungen:
+#
+#                data['Veranstaltungen'].append(
+#                    {
+#                       'semestergruppen': 'a',
+#                       'department': 'b',
+#                       'semester': 'c',
+#                       'gruppenkuerzel': 'd',
+#                       'veranstaltungskuerzel': 'e',
+#                       'veranstaltungsname': 'f',
+#
+#                       'Events': [],
+#                    }
+#                )
+#
+#                for e in events:
+#
+#                    data['Veranstaltungen']['Events'].append(
+#                         {
+#                             veranstaltung: 'g',
+#                             data_import: 'h',
+#        
+#                             dozent: 'i',
+#                             ort: 'j',
+#                             jahr: 'k',
+#                             wochen: 'l',
+#                             wochentag: 'm',
+#                             anfang: 'n',
+#                             ende: 'o',
+#                             icalevent: 'p',
+#                         }
+#                     )
+#        }
+#
+#        return data

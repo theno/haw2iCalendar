@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-version = "haw2iCalendar 2013-WiSe-3"
+version = "haw2iCalendar 2014-WiSe-1"
 
 homepage = "https://github.com/theno/haw2iCalendar"
 
