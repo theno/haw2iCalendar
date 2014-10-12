@@ -32,7 +32,7 @@ ersteZeile         := ("Stundenplan" / "Dozentenplan"), ts, infoString
 infoString         := semester, ts, "("?, "Vers", ("."/ts), ts?, version, ts, "vom", ts, versionsDatum, ")"?
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int, ("/", int)?
-<version>          := -ts+
+version            := -ts+
 <versionsDatum>    := int, (".", int)*
 
 zweiteZeile        := "Semestergruppe", ts, gruppenKuerzel

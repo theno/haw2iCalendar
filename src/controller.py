@@ -24,6 +24,7 @@ import sys
 from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser, prepared_Sem_I_txt
+from hawModel.icalendar import IcalEvent
 from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
@@ -114,7 +115,31 @@ class Controller:
         return keyIndex
 
     def data_tuples(self):
+
         #TODO version statt infostring als version zurueckliefern
-        return [(semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, infoString, tryGetFullName(fach))
-                for (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString)
-                in self.__hawCal.eventTupelList]
+        #
+        # data_tuples = [
+        #     (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, full_name, ical_event_str)
+        #     ...
+        # ]
+        #
+        return [
+            {
+                'semestergruppe': semestergruppe,
+                'gruppenkuerzel': gruppenkuerzel,
+                'fach': fach,
+                'dozent': dozent,
+                'ort': ort,
+                'jahr': jahr,
+                'woche': woche,
+                'wochentag': wochentag,
+                'anfang': anfang,
+                'ende': ende,
+                'info_string': infoString,
+                'version': version,
+                'full_name': tryGetFullName(fach),
+                'ical_string': IcalEvent((fach,dozent,ort,jahr,woche,wochentag,anfang,ende,infoString)).icalStr(),
+            }
+            for (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version)
+            in self.__hawCal.eventTupelList
+        ]

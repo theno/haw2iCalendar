@@ -33,7 +33,7 @@ class HawCalendar:
         @param eventTupelLists:
         [
           [ 
-            (semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
+            (semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version),
             ...
           ],
           ...
@@ -43,8 +43,8 @@ class HawCalendar:
         """
 
         # eventTupelList = [eventTupel,
-        #                   (semestergruppe, gruppenkuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString),
-        #                   (a,b,c,d,e,f,g,h,i,j,k),
+        #                   (semestergruppe, gruppenkuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version),
+        #                   (a,b,c,d,e,f,g,h,i,j,k,l),
         #                   ...
         #                  ]
         self.eventTupelList = [event for eventTupelList in eventTupelLists for event in eventTupelList] 
@@ -53,11 +53,11 @@ class HawCalendar:
         """@param veranstaltungen: List of type String (Veranstaltungskuerzel ~ fach)
            @result: HawCalendar
         """
-        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k): veranstaltung in veranstaltungen, self.eventTupelList)])
+        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k,l): veranstaltung in veranstaltungen, self.eventTupelList)])
 
     def icalStr(self):
         events = [(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
-                   for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
+                   for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString, l)
                      in self.eventTupelList]
         events = list(set(events)) # remove duplicates 
         ical = Icalendar(events)
@@ -67,88 +67,4 @@ class HawCalendar:
         return set([eventTupel[tupelKeyIndex] for eventTupel in self.eventTupelList])
 
     def getVeranstaltungenFromKey(self, key, tupelKeyIndex):
-        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
-
-#    def data_dict(self):
-#
-#        # data = {
-#        #
-#        #     DataImport: {
-#        #         infostring: 'hihi',
-#        #         version_text_datei: 'hoho',
-#        #         comment: 'huhu',
-#        #     },
-#        #
-#        #     Veranstaltungen: [
-#        #         {
-#        #             semestergruppen: 'a',
-#        #             department: 'b',
-#        #             semester: 'c',
-#        #             gruppenkuerzel: 'd',
-#        #             veranstaltungskuerzel: 'e',
-#        #             veranstaltungsname: 'f',
-#        #             full_name: 'f1',
-#        #
-#        #             Events: [
-#        #                 {
-#        #                     veranstaltung: 'g',
-#        #                     data_import: 'h',
-#        #
-#        #                     dozent: 'i',
-#        #                     ort: 'j',
-#        #                     jahr: 'k',
-#        #                     wochen: 'l',
-#        #                     wochentag: 'm',
-#        #                     anfang: 'n',
-#        #                     ende: 'o',
-#        #                     icalevent: 'p',
-#        #                 },
-#        #                 ...
-#        #             ],
-#        #         },
-#        #         ...
-#        #     ],
-#        #
-#        # }
-#
-#        data = {
-#            'DataImport': {
-#                'infostring': 'hihi',
-#                'version_text_datei': 'hoho',
-#            }
-#
-#            for v in veranstaltungen:
-#
-#                data['Veranstaltungen'].append(
-#                    {
-#                       'semestergruppen': 'a',
-#                       'department': 'b',
-#                       'semester': 'c',
-#                       'gruppenkuerzel': 'd',
-#                       'veranstaltungskuerzel': 'e',
-#                       'veranstaltungsname': 'f',
-#
-#                       'Events': [],
-#                    }
-#                )
-#
-#                for e in events:
-#
-#                    data['Veranstaltungen']['Events'].append(
-#                         {
-#                             veranstaltung: 'g',
-#                             data_import: 'h',
-#        
-#                             dozent: 'i',
-#                             ort: 'j',
-#                             jahr: 'k',
-#                             wochen: 'l',
-#                             wochentag: 'm',
-#                             anfang: 'n',
-#                             ende: 'o',
-#                             icalevent: 'p',
-#                         }
-#                     )
-#        }
-#
-#        return data
+        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k,l in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
