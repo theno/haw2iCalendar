@@ -37,7 +37,7 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
         """
         subTree = multiMap(tup[-1],buffer=buffer)
 
-        infoString, version, jahr, semestergruppe = dispatchList(self,subTree['header'], buffer)[0]
+        infoString, version, semester, jahr, semestergruppe = dispatchList(self,subTree['header'], buffer)[0]
 
         result = []
         if "sections" in subTree:
@@ -48,35 +48,36 @@ class HawDispatchProcessor( dispatchprocessor.DispatchProcessor ):
 
             for e in eintraege:
                 gruppenKuerzel, fach, dozent, raum, woche, wochentag, anfang, ende = e
-                result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version))
+                result.append((semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version, semester))
 
         return result
 
     def header(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
-        infoString, version, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
+        infoString, version, semester, jahr = dispatchList(self,subTree['ersteZeile'], buffer)[0]
         gruppenKuerzel = ''
         if 'zweiteZeile' in subTree:
             gruppenKuerzel = dispatchList(self,subTree['zweiteZeile'], buffer)[0]
         else:
             gruppenKuerzel = None
-        return (infoString, version, jahr, gruppenKuerzel)
+        return (infoString, version, semester, jahr, gruppenKuerzel)
     def ersteZeile(self, tup, buffer): 
         subTree = multiMap(tup[-1],buffer=buffer)
-        infoString, version, jahr = dispatchList(self,subTree['infoString'], buffer)[0]
-        return (infoString, version, jahr)
+        infoString, version, semester, jahr = dispatchList(self,subTree['infoString'], buffer)[0]
+        return (infoString, version, semester, jahr)
     def infoString(self, tup, buffer):
         subTree = multiMap(tup[-1],buffer=buffer)
         version = dispatchList(self,subTree['version'], buffer)[0]
-        jahr = dispatchList(self,subTree['semester'], buffer)[0]
+        semester, jahr = dispatchList(self,subTree['semester'], buffer)[0]
         infoString = str(getString(tup, buffer))
-        return (infoString, version, jahr)
+        return (infoString, version, semester, jahr)
     def version(self, tup, buffer):
         return str(getString(tup, buffer))
     def semester(self, tup, buffer):
+        semester = str(getString(tup, buffer))
         subTree = multiMap(tup[-1],buffer=buffer)
         jahr = dispatchList(self,subTree['jahr'], buffer)[0]
-        return jahr
+        return semester, jahr
     def jahr(self, tup, buffer):
         return str(getString(tup, buffer))
     def zweiteZeile(self, tup, buffer):

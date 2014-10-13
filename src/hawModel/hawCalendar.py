@@ -33,7 +33,7 @@ class HawCalendar:
         @param eventTupelLists:
         [
           [ 
-            (semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version),
+            (semestergruppe, gruppenKuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version, semester),
             ...
           ],
           ...
@@ -43,8 +43,8 @@ class HawCalendar:
         """
 
         # eventTupelList = [eventTupel,
-        #                   (semestergruppe, gruppenkuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version),
-        #                   (a,b,c,d,e,f,g,h,i,j,k,l),
+        #                   (semestergruppe, gruppenkuerzel, fach, dozent, raum, jahr, woche, wochentag, anfang, ende, infoString, version, semester),
+        #                   (a,b,c,d,e,f,g,h,i,j,k,l,m),
         #                   ...
         #                  ]
         self.eventTupelList = [event for eventTupelList in eventTupelLists for event in eventTupelList] 
@@ -53,11 +53,11 @@ class HawCalendar:
         """@param veranstaltungen: List of type String (Veranstaltungskuerzel ~ fach)
            @result: HawCalendar
         """
-        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k,l): veranstaltung in veranstaltungen, self.eventTupelList)])
+        return HawCalendar([filter(lambda (a,b, veranstaltung, d,e,f,g,h,i,j,k,l,m): veranstaltung in veranstaltungen, self.eventTupelList)])
 
     def icalStr(self):
         events = [(fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString)
-                   for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString, l)
+                   for (a,b, fach,dozent,raum,jahr,woche,tag,anfang,ende,infoString, l, m)
                      in self.eventTupelList]
         events = list(set(events)) # remove duplicates 
         ical = Icalendar(events)
@@ -67,4 +67,36 @@ class HawCalendar:
         return set([eventTupel[tupelKeyIndex] for eventTupel in self.eventTupelList])
 
     def getVeranstaltungenFromKey(self, key, tupelKeyIndex):
-        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k,l in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
+        return set([veranstaltung for a,b, veranstaltung, d,e,f,g,h,i,j,k,l,m in filter(lambda eventTupel: eventTupel[tupelKeyIndex]==key, self.eventTupelList)])
+
+
+# Input example: WiSe 2014
+#
+# Return example: 2014-2_Wintersemester 2014/15
+# Return example: 2014-1_Sommersemester 2014
+#
+def semester2lexicographically_ordered_verbose_string(semester):
+
+    kind, year = semester.split(' ', 1)
+
+    full_year = year
+
+    if kind == 'SoSe':
+
+        no = '1'
+
+        full_name = 'Sommersemester'
+        full_year = year
+
+    elif kind == 'WiSe':
+
+        no = '2'
+
+        full_name = 'Wintersemester'
+        full_year = year + '/' + str(int(year[2:]) + 1)
+
+    else:
+        # TODO warn
+        return semester
+
+    return '{year}-{no}_{full_name} {full_year}'.format(**locals())

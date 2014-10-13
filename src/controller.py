@@ -21,10 +21,10 @@
 import logging
 import sys
 
-from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE
+from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE, semester2lexicographically_ordered_verbose_string
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser, prepared_Sem_I_txt
-from hawModel.icalendar import IcalEvent
+from hawModel.icalendar import IcalEvent, HEADER, ENDING
 from hawModel.veranstaltungen.veranstaltungenParser import tryGetFullName
 
 class Controller:
@@ -143,3 +143,64 @@ class Controller:
             for (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version)
             in self.__hawCal.eventTupelList
         ]
+
+    def data_dict(self):
+
+        # data_dict structure with example values
+        #
+        # data_dict = {
+        #
+        #     DataImport: {
+        #         # department: 'EuI'
+        #         infostring: 'WiSe 2014 Vers. 1.00  vom 3.10.2014',
+        #         version_text_datei: '1.00',
+        #         # comment: 'imported automatically by script',
+        #         semester: 'WiSe 2014',
+        #         ical_header: 'BEGIN:VCALENDAR...'
+        #         ical_ending: '...END:VCALENDAR''
+        #     },
+        #
+        #     Veranstaltungen: [
+        #         {
+        #             semestergruppen: ['B-EE2','B-EE3',...] (for EuI)  or [] (for Inf)
+        #             gruppenkuerzel: 'BTI2',
+        #             veranstaltungskuerzel: 'BTI2-GS',
+        #             veranstaltungsname: 'Grundlagen Systemprogrammierung',
+        #
+        #             Events: [
+        #                 {
+        #                     #veranstaltung: Fremdschluessel,
+        #                     #data_import: Fremdschluessel,
+        #
+        #                     dozent: 'Friedrich Esser',
+        #                     ort: 'Rm. 12.83',
+        #                     wochen: '41, 42, ...',
+        #                     wochentag: 'Di'
+        #                     anfang: ('10','00'),
+        #                     ende: ('13',15'),
+        #                     icalevent: 'BEGIN:VEVENT...',
+        #                 },
+        #                 ...
+        #             ],
+        #         },
+        #         ...
+        #     ],
+        #
+        # }
+
+        first_event = self.__hawCal.eventTupelList[0]
+        (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, semester) = first_event
+
+        semester = semester2lexicographically_ordered_verbose_string(semester)
+
+        data_import = {
+            'infostring': infoString,
+            'version_text_datei': version,
+            'semester': semester,
+            'ical_header': HEADER,
+            'ical_ending': ENDING,
+        }
+
+        veranstaltungen = []
+
+        return {'DataImport': data_import, 'Veranstaltungen': veranstaltungen}

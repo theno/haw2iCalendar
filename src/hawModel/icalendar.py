@@ -50,6 +50,8 @@ HEADER += "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU" + CRLF
 HEADER += "END:STANDARD" + CRLF
 HEADER += "END:VTIMEZONE"+ CRLF
 
+ENDING = "END:VCALENDAR" + CRLF
+
 #FIXME: Does not handle with ipv6
 import socket
 IP = None
@@ -73,7 +75,7 @@ class Icalendar:
         result = HEADER
         for event in self.events:
             result += event.icalStr()
-        result += "END:VCALENDAR" + CRLF
+        result += ENDING
         return result
     
 
