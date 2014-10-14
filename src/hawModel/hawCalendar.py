@@ -100,3 +100,24 @@ def semester2lexicographically_ordered_verbose_string(semester):
         return semester
 
     return '{year}-{no}_{full_name} {full_year}'.format(**locals())
+
+# Arg kuerzel: 'Mo', 'Di', ... , 'So'
+# Return: 0, 1, ... ,6
+#
+def wochentagabk2weekdayno(kuerzel):
+    result = None
+    if (kuerzel == 'Mo'):
+        result = 0
+    if (kuerzel == 'Di'):
+        result = 1
+    if (kuerzel == 'Mi'):
+        result = 2
+    if (kuerzel == 'Do'):
+        result = 3
+    if (kuerzel == 'Fr'):
+        result = 4
+    if (kuerzel == 'Sa'):
+        result = 5
+    if (kuerzel == 'So'):
+        result = 6
+    return result

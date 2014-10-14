@@ -21,7 +21,7 @@
 import logging
 import sys
 
-from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE, semester2lexicographically_ordered_verbose_string
+from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE, semester2lexicographically_ordered_verbose_string, wochentagabk2weekdayno
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser, prepared_Sem_I_txt
 from hawModel.icalendar import IcalEvent, HEADER, ENDING
@@ -199,10 +199,11 @@ class Controller:
                     {
                         'dozent': dozent,
                         'ort': ort,
+                        'jahr': jahr,
                         'wochen': woche,
-                        'wochentag': wochentag,
-                        'anfang': anfang,
-                        'ende': ende,
+                        'wochentag': wochentagabk2weekdayno(wochentag),
+                        'anfang': anfang[0] + ':' + anfang[1],
+                        'ende': ende[0] + ':' + ende[1],
                         'icalevent': IcalEvent((fach,dozent,ort,jahr,woche,wochentag,anfang,ende,infoString)).icalStr(),
                     }
             )
