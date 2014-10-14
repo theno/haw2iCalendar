@@ -114,36 +114,6 @@ class Controller:
 
         return keyIndex
 
-    def data_tuples(self):
-
-        #TODO version statt infostring als version zurueckliefern
-        #
-        # data_tuples = [
-        #     (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, full_name, ical_event_str)
-        #     ...
-        # ]
-        #
-        return [
-            {
-                'semestergruppe': semestergruppe,
-                'gruppenkuerzel': gruppenkuerzel,
-                'fach': fach,
-                'dozent': dozent,
-                'ort': ort,
-                'jahr': jahr,
-                'woche': woche,
-                'wochentag': wochentag,
-                'anfang': anfang,
-                'ende': ende,
-                'info_string': infoString,
-                'version': version,
-                'full_name': tryGetFullName(fach),
-                'ical_string': IcalEvent((fach,dozent,ort,jahr,woche,wochentag,anfang,ende,infoString)).icalStr(),
-            }
-            for (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version)
-            in self.__hawCal.eventTupelList
-        ]
-
     def data_dict(self):
 
         # data_dict structure with example values
@@ -188,10 +158,10 @@ class Controller:
         #
         # }
 
+        # create data_import
+
         first_event = self.__hawCal.eventTupelList[0]
         (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, semester) = first_event
-
-        semester = semester2lexicographically_ordered_verbose_string(semester)
 
         data_import = {
             'infostring': infoString,
@@ -201,6 +171,42 @@ class Controller:
             'ical_ending': ENDING,
         }
 
-        veranstaltungen = []
+        # create veranstaltungen
+
+        semester = semester2lexicographically_ordered_verbose_string(semester)
+
+        faecher = set([(gruppenkuerzel, fach) for a,gruppenkuerzel,fach,d,e,f,g,h,i,j,k,l,m in self.__hawCal.eventTupelList])
+
+        veranstaltungen_dicts = {}
+        for (gruppenkuerzel, fach) in faecher:
+            veranstaltungen_dicts[fach] = {
+                    'semestergruppen': [],
+                    'gruppenkuerzel': gruppenkuerzel,
+                    'veranstaltungskuerzel': fach,
+                    'veranstaltungsname': tryGetFullName(fach),
+                    'Events': []
+            }
+
+        for event in self.__hawCal.eventTupelList:
+            (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, semester) = event
+
+            veranstaltung = veranstaltungen_dicts[fach]
+
+            if semestergruppe != '' and semestergruppe not in veranstaltung['semestergruppen']:
+                veranstaltung['semestergruppen'].append(semestergruppe)
+
+            veranstaltung['Events'].append(
+                    {
+                        'dozent': dozent,
+                        'ort': ort,
+                        'wochen': woche,
+                        'wochentag': wochentag,
+                        'anfang': anfang,
+                        'ende': ende,
+                        'icalevent': IcalEvent((fach,dozent,ort,jahr,woche,wochentag,anfang,ende,infoString)).icalStr(),
+                    }
+            )
+
+        veranstaltungen = veranstaltungen_dicts.values()
 
         return {'DataImport': data_import, 'Veranstaltungen': veranstaltungen}
