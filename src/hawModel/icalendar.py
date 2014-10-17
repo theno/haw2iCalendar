@@ -153,7 +153,7 @@ def dateTime(jahrKuerzel, wochennummer, wochentag, uhrzeit):
     # we need to apply an offset by -1
     # cf. http://docs.python.org/2/library/time.html#time.strftime
     #     and http://de.wikipedia.org/wiki/Woche#Kalenderwoche
-    struct_time_ersterJanuar = time.strptime(jahrKuerzel + " 01 01", "%Y %m %d")
+    struct_time_ersterJanuar = time.strptime(jahr + " 01 01", "%Y %m %d")
     wochentagNummerErsterJanuar = time.strftime("%w", struct_time_ersterJanuar)
     if (wochentagNummerErsterJanuar in [wochentage['di'], wochentage['mi'], wochentage['do']]):
       wochennummer = str(int(wochennummer) - 1)

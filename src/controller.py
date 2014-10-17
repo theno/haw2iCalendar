@@ -102,7 +102,7 @@ class Controller:
         self.__outFileName = outFileName
 
     def getInfoString(self):
-        a,b,c,d,e,f,g,h,i,j,infoString = self.__hawCal.eventTupelList[0]
+        a,b,c,d,e,f,g,h,i,j,infoString,l,m = self.__hawCal.eventTupelList[0]
         return infoString
 
     def optimalGruppenKeyIndex(self):
