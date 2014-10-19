@@ -19,6 +19,7 @@
 ###########################################################################
 
 import logging
+import re
 
 from icalendar import Icalendar
 
@@ -79,6 +80,8 @@ def semester2lexicographically_ordered_verbose_string(semester):
 
     kind, year = semester.split(' ', 1)
 
+    year = normalized_year(year)
+
     full_year = year
 
     if kind == 'SoSe':
@@ -100,6 +103,19 @@ def semester2lexicographically_ordered_verbose_string(semester):
         return semester
 
     return '{year}-{no}_{full_name} {full_year}'.format(**locals())
+
+
+def normalized_year(year):
+    year = year.split('/')[0] # '12/13' -> '12', '2014' -> '2014'
+    if len(year) == 2:
+        year = '20' + year # '12' -> '2012'
+    return year
+
+
+def normalized_ort(ort):
+    p = re.compile(r'^(\d\d)(\d\d)(?!\d)')
+    return p.sub(r'Rm. \1.\2', ort)
+
 
 # Arg kuerzel: 'Mo', 'Di', ... , 'So'
 # Return: 0, 1, ... ,6

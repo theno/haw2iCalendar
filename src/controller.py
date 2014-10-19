@@ -21,7 +21,7 @@
 import logging
 import sys
 
-from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE, semester2lexicographically_ordered_verbose_string, wochentagabk2weekdayno
+from hawModel.hawCalendar import HawCalendar, GRUPPENKUERZEL, SEMESTERGRUPPE, semester2lexicographically_ordered_verbose_string, normalized_year, normalized_ort, wochentagabk2weekdayno
 from hawModel.hawDispatchProcessor import HawDispatchProcessor
 from hawModel.hawParser import HawParser, prepared_Sem_I_txt
 from hawModel.icalendar import IcalEvent, HEADER, ENDING
@@ -163,6 +163,8 @@ class Controller:
         first_event = self.__hawCal.eventTupelList[0]
         (semestergruppe, gruppenkuerzel, fach, dozent, ort, jahr, woche, wochentag, anfang, ende, infoString, version, semester) = first_event
 
+        semester = semester2lexicographically_ordered_verbose_string(semester)
+
         data_import = {
             'infostring': infoString,
             'version_text_datei': version,
@@ -172,8 +174,6 @@ class Controller:
         }
 
         # create veranstaltungen
-
-        semester = semester2lexicographically_ordered_verbose_string(semester)
 
         faecher = set([(gruppenkuerzel, fach) for a,gruppenkuerzel,fach,d,e,f,g,h,i,j,k,l,m in self.__hawCal.eventTupelList])
 
@@ -198,8 +198,8 @@ class Controller:
             veranstaltung['Events'].append(
                     {
                         'dozent': dozent,
-                        'ort': ort,
-                        'jahr': jahr,
+                        'ort': normalized_ort(ort),
+                        'jahr': normalized_year(jahr),
                         'wochen': woche,
                         'wochentag': wochentagabk2weekdayno(wochentag),
                         'anfang': anfang[0] + ':' + anfang[1],
