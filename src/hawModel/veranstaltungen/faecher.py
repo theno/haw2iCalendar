@@ -68,7 +68,7 @@ infFaecher = {
     'BWL' : 'Betriebswirtschaftslehre',
     'IST' : 'IT-Sicherheit',
     'IS'  : 'Intelligente Systeme',
-    'MS'  : 'Mikroelektronische Systeme',
+    'MS'  : 'Masterseminar',
 #    'GM'  : '',
 #    'GWI' : '',
 #    'REC' : '',
