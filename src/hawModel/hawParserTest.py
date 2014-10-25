@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 # -*- encoding: utf-8 -*-
 
 ###########################################################################
@@ -164,6 +165,13 @@ with open("testData/Sem_IuE.WiSe2014.v112.txt", 'r') as f:
     dateiTestDatum16_utf8 = dateiTestDatum16_unicode.encode("utf-8")
     dateiTestDatum16 = prepared_Sem_I_txt(dateiTestDatum16_utf8)
 
+dateiTestDatum17 = None
+with open("testData/Sem_IuE.WiSe2014.v112.txt", 'r') as f:
+    dateiTestDatum17_cp1252 = f.read()
+    dateiTestDatum17_unicode = dateiTestDatum17_cp1252.decode("cp1252")
+    dateiTestDatum17_utf8 = dateiTestDatum17_unicode.encode("utf-8")
+    dateiTestDatum17 = prepared_Sem_I_txt(dateiTestDatum17_utf8)
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -213,6 +221,7 @@ class TestParser(unittest.TestCase):
                        dateiTestDatum7, dateiTestDatum8, dateiTestDatum9,
                        dateiTestDatum10, dateiTestDatum11, dateiTestDatum12,
                        dateiTestDatum13, dateiTestDatum14, dateiTestDatum15,
+                       dateiTestDatum16, dateiTestDatum17,
                       ]
         }
 

@@ -22,7 +22,7 @@
 infFaecher = {
     "AA"  : "Analysis und Lineare Algebra",
     "AD"  : "Algorithmen und Datenstrukturen",
-    "AF"  : "Automatentheorie und Formale Sprachen",
+#    "AF"  : "Automatentheorie und Formale Sprachen",
     "AI"  : "Architektur von Informationssystemen",
     "AW"  : "Anwendungen",
     "BS"  : "Betriebssysteme",
@@ -36,7 +36,6 @@ infFaecher = {
     "GS"  : "Grundlagen Systemnahes Programmieren",
     "GT"  : "Grundlagen Technische Informatik",
     "GKA" : "Graphentheoretische Konzepte und Algorithmen",
-    "IS"  : "Intelligente Systeme",
     "LB"  : "Logik und Berechenbarkeit",
     "MA"  : "Mathematik",
     "MG"  : "Mathematische Grundlagen",
@@ -47,7 +46,7 @@ infFaecher = {
     "PL"  : "Prozesslenkung",
     "PR"  : "Programmieren",
     "PRG" : "Grundlagen Programmieren",
-    "RMP" : "Rechnerstrukturen und Maschinennahe Programmierung",
+#    "RMP" : "Rechnerstrukturen und Maschinennahe Programmierung",
     "RN"  : "Rechnernetze",
     "RS"  : "Rechnerstrukturen",
     "SE"  : "Software Engineering",
@@ -58,8 +57,27 @@ infFaecher = {
     "TT"  : "Technik und Technologie",
     "UO"  : "Unternehmensorientierung",
     "VS"  : "Verteilte Systeme",
-    "WP"  : "Wahlpflichtmodul"
+    "WP"  : "Wahlpflichtmodul",
+
+    # WiSe 2014
+    'PM'  : 'Programmiermethodik',
+    'PT'  : 'Programmiertechnik',
+    'AF'  : 'Automatentheorie und Formale Sprachen',
+    'RMP' : 'Rechnerstrukturen und Maschinennahe Programmierung',
+    'GKA' : 'Graphentheoretische Konzepte und Algorithmen',
+    'BWL' : 'Betriebswirtschaftslehre',
+    'IST' : 'IT-Sicherheit',
+    'IS'  : 'Intelligente Systeme',
+    'MS'  : 'Mikroelektronische Systeme',
+#    'GM'  : '',
+#    'GWI' : '',
+#    'REC' : '',
+#    'SEA' : '',
+#    'WI'  : '',
+#    'WS'  : '',
+#    'WPnurWI' : '',
 }
+
 
 etechFaecher = {
     "AL"  : "Algebra",
@@ -136,17 +154,17 @@ etechFaecher = {
     "VP"  : "Verbundprojekt Autonome Systeme",
     "WA"  : "Wissenschaftliches Arbeiten",
     "WP"  : "Wahlpflichtmodul",
-    "ZR"  : "Zustandsregelung"
+    "ZR"  : "Zustandsregelung",
 }
 
 etechFaecherEngl = {
     "DI" : "Digital Circuits",
     "ET" : "Electronics",
     "GE" : "German",
-    "LS"  : "Learning and Study Methods",
+    "LS" : "Learning and Study Methods",
     "SO" : "Software Construction",
     "SS" : "Entwurf schneller Schaltungen",
-    "TE"  : "Technical Englisch"
+    "TE" : "Technical Englisch",
 }
 
 faecher = dict(etechFaecher, **infFaecher) # when keys overlapping: inf overwrites etech

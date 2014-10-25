@@ -285,7 +285,7 @@ class VeranstaltungDispatchProcessor( dispatchprocessor.DispatchProcessor ):
     def verbKuerzel(self, tup, buffer):
         return getString(tup, buffer)
 
-# TODO: replace this four methods with a (modified) veranstaltung2FullName
+# FIXME: replace this four methods with a (modified) veranstaltung2FullName
 def gwKurs2FullName(gwKuerzel):
     return "GW-Kurs " + gwKuerzel
 

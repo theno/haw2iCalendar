@@ -22,8 +22,6 @@
 import re
 import sys
 
-import controller
-
 class CommandGui:
     def __init__(self, controller):
         self.controller = controller

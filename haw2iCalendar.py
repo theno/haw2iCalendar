@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 # -*- coding: utf-8 -*-
 
@@ -25,8 +25,8 @@ import logging
 import sys
 from optparse import OptionParser
 
-from src.commandGui import CommandGui
 from src.controller import Controller
+from src.commandGui import CommandGui
 from src.hawModel.hawCalendar import SEMESTERGRUPPE, GRUPPENKUERZEL, DOZENT
 
 usage = """%prog [-o ICS-FILE] INFILE

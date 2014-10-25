@@ -1,0 +1,4010 @@
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,NB 01.11,Fr,12:30,15:45
+BAI1-PM1/PT,Böhm, Michael,0405,Do,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/07 optional,Wendholt, Birgit/_Oelker, Gerhard,1165,Fr,8:15,11:30
+BAI1-GI/GIP,Luck von, Kai,1060,Mi,12:30,17:45
+BAI1-BW1/BWÜ1,Klindworth, Holger,1260,Mo,12:30,17:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-BW1/BWÜ1,Klindworth, Holger,0660,Mo,12:30,17:45
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,0405,Do,8:15,11:30
+BAI1-PTP/06,Böhm, Michael/_Oelker, Gerhard,1105,Di,8:15,11:30
+BAI1-PTP/04,Böhm, Michael/_Oelker, Gerhard,1102,Mi,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/02,Böhm, Michael/_Oelker, Gerhard,1102,Do,12:30,15:45
+BAI1-GI/GIP,Luck von, Kai,1060,Mi,12:30,17:45
+
+41, 43, 45, 47, 49, 51, 56
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-BW1/BWÜ1,Klindworth, Holger,0660,Mo,12:30,17:45
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,NB 01.11,Fr,12:30,15:45
+BAI1-PM1/PT,Böhm, Michael,0405,Do,8:15,11:30
+BAI1-PTP/05,Böhm, Michael/_Oelker, Gerhard,1105,Di,8:15,11:30
+BAI1-PTP/03,Böhm, Michael/_Oelker, Gerhard,1102,Mi,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/01,Böhm, Michael/_Oelker, Gerhard,1102,Do,12:30,15:45
+BAI1-PTP/08 optional,Wendholt, Birgit/_Oelker, Gerhard,1165,Fr,8:15,11:30
+BAI1-GI/GIP,Luck von, Kai,1060,Mi,12:30,17:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-BW1/BWÜ1,Klindworth, Holger,0660,Mo,12:30,17:45
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PTP/04,Böhm, Michael/_Oelker, Gerhard,1101b,Do,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,NB 01.11,Fr,12:30,15:45
+BAI1-PTP/06,Böhm, Michael/_Oelker, Gerhard,1105,Di,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/02,Böhm, Michael/_Oelker, Gerhard,1102,Do,12:30,15:45
+BAI1-PTP/07 optional,Wendholt, Birgit/_Oelker, Gerhard,1165,Fr,8:15,11:30
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-BW1/BWÜ1,Klindworth, Holger,0660,Mo,12:30,17:45
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,0405,Do,8:15,11:30
+BAI1-PTP/06,Böhm, Michael/_Oelker, Gerhard,1105,Di,8:15,11:30
+BAI1-PTP/04,Böhm, Michael/_Oelker, Gerhard,1102,Mi,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/02,Böhm, Michael/_Oelker, Gerhard,1102,Do,12:30,15:45
+BAI1-PTP/07 optional,Wendholt, Birgit/_Oelker, Gerhard,1165,Fr,8:15,11:30
+BAI1-GI/GIP,Luck von, Kai,1060,Mi,12:30,17:45
+
+46, 48, 50, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI1-BW1/BWÜ1,Klindworth, Holger,0660,Mo,12:30,17:45
+BAI1-MGÜ,Klauck, Christoph,0405,Mo,8:15,11:30
+BAI1-PM1/PT,Böhm, Michael,NB 01.11,Fr,12:30,15:45
+BAI1-PM1/PT,Böhm, Michael,0405,Do,8:15,11:30
+BAI1-PTP/06,Böhm, Michael/_Oelker, Gerhard,1105,Di,8:15,11:30
+BAI1-PTP/04,Böhm, Michael/_Oelker, Gerhard,1102,Mi,8:15,11:30
+BAI1-MG,Klauck, Christoph,NB 01.13,Di,12:30,15:45
+BAI1-PTP/02,Böhm, Michael/_Oelker, Gerhard,1102,Do,12:30,15:45
+BAI1-PTP/07 optional,Wendholt, Birgit/_Oelker, Gerhard,1165,Fr,8:15,11:30
+BAI1-GI/GIP,Luck von, Kai,1060,Mi,12:30,17:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,8:15,11:30
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-PRP2/01,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-LBP/01,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/02,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-PRP2/04 Optional,Schmolitzky, Axel/_Blanck, Ilona,1102,Mo,14:15,17:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,14:00
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/01,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/02,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/03,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-PRP2/01,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/02,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/03,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-LBP/04 opt,Stockhusen, Christoph/_TutorNN,1101b,Fr,12:45,16:00
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/03,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/01,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-RMPP/04 ,Meisel, Andreas/_Behn, Silke,0709,Do,16:00,19:15
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/02,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-PRP2/04 Optional,Schmolitzky, Axel/_Blanck, Ilona,1102,Mo,14:15,17:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,14:00
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+45, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/01,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/02,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/03,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-PRP2/01,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/02,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/03,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-LBP/04 opt,Stockhusen, Christoph/_TutorNN,1101b,Fr,12:45,16:00
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/03,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/01,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-RMPP/04 ,Meisel, Andreas/_Behn, Silke,0709,Do,16:00,19:15
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/02,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-PRP2/04 Optional,Schmolitzky, Axel/_Blanck, Ilona,1102,Mo,14:15,17:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,14:00
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/01,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/02,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/03,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-PRP2/01,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/02,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/03,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/03,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/01,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-RMPP/04 ,Meisel, Andreas/_Behn, Silke,0709,Do,16:00,19:15
+BAI2-LBP/04 opt,Stockhusen, Christoph/_TutorNN,1101b,Fr,12:45,16:00
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-PRP2/02,Schmolitzky, Axel/_Blanck, Ilona,1165,Di,8:15,11:30
+BAI2-PRP2/04 Optional,Schmolitzky, Axel/_Blanck, Ilona,1102,Mo,14:15,17:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,14:00
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/02,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-LBP/03,Stockhusen, Christoph/_TutorNN,1101a,Fr,12:45,16:00
+BAI2-DBP/01,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/02,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI2-RMP,Meisel, Andreas,Stiftstr.69  R205,Do,12:30,15:45
+BAI2-AF/AFÜ,Neitzke, Michael,0660,Di,12:30,17:45
+BAI2-RMPP/03,Meisel, Andreas/_Behn, Silke,0709,Mo,8:15,11:30
+BAI2-RMPP/04 ,Meisel, Andreas/_Behn, Silke,0709,Do,16:00,19:15
+BAI2-LBP/04 opt,Stockhusen, Christoph/_TutorNN,1101b,Fr,12:45,16:00
+BAI2-DBP/03,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,8:15,9:45
+BAI2-DBP/04,Gerken, Wolfgang/_Brodersen, Michael,0380a,Do,10:00,11:30
+BAI2-DB,Gerken, Wolfgang,Stiftstr 69 R304a,Mi,12:30,15:45
+BAI2-PR2,Schmolitzky, Axel,NB 01.12,Mo,12:30,15:45
+BAI2-LB,Stockhusen, Christoph,1001,Fr,9:00,12:15
+BAI2-AF/AFÜ,Neitzke, Michael,Stiftstr.69  R106,Mi,16:00,17:30
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-AD,Klauck, Christoph,0460,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-AD,Klauck, Christoph,0460,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-ADP/01,Klauck, Christoph/_Neumann, Oliver,1165,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+BAI3-BWP2/03,Gerken, Wolfgang,1101a,Fr,8:15,11:30
+BAI3-GKAP/01,Padberg, Julia/_Oelker, Gerhard,1102,Do,8:15,11:30
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-SEP1/01,Sarstedt, Stefan/_Kasperczyk-Borgmann, Norbert,1102,Di,8:15,11:30
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+BAI3-BSP/01,Schwarz, Bernd/_Schulz, Hartmut,0765,Fr,8:15,11:30
+
+43, 46, 49, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-ADP/02,Klauck, Christoph/_Neumann, Oliver,1165,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-SEP1/02,Sarstedt, Stefan/_Kasperczyk-Borgmann, Norbert,1102,Di,8:15,11:30
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+BAI3-BSP/02,Schwarz, Bernd/_Schulz, Hartmut,0765,Fr,8:15,11:30
+BAI3-BWP2/01,Gerken, Wolfgang,1101a,Fr,8:15,11:30
+BAI3-GKAP/02,Padberg, Julia/_Oelker, Gerhard,1102,Do,8:15,11:30
+
+44, 47, 50, 56
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-ADP/03,Klauck, Christoph/_Neumann, Oliver,1165,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-SEP1/03,Sarstedt, Stefan/_Kasperczyk-Borgmann, Norbert,1102,Di,8:15,11:30
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+BAI3-BSP/03,Schwarz, Bernd/_Schulz, Hartmut,0765,Fr,8:15,11:30
+BAI3-BWP2/02,Gerken, Wolfgang,1101a,Fr,8:15,11:30
+BAI3-GKAP/03,Padberg, Julia/_Oelker, Gerhard,1102,Do,8:15,11:30
+BAI3-GKAP/04,Padberg, Julia/_Oelker, Gerhard,1105,Di,12:30,15:45
+
+45, 48, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI3-ADP/01,Klauck, Christoph/_Neumann, Oliver,1165,Mi,8:15,11:30
+BAI3-SE1,Sarstedt, Stefan,Stiftstr.69  R206,Mi,12:30,15:45
+BAI3-SEP1/01,Sarstedt, Stefan/_Kasperczyk-Borgmann, Norbert,1102,Di,8:15,11:30
+BAI3-AD,Klauck, Christoph,1001,Do,12:30,15:45
+BAI3-BS,Schwarz, Bernd,0265,Mo,12:30,15:45
+BAI3-GKA,Padberg, Julia,Stiftstr.69  R106,Mo,8:15,11:30
+BAI3-BW2,Gerken, Wolfgang,Stiftstr 69 R304a,Fr,12:30,15:45
+BAI3-BSP/01,Schwarz, Bernd/_Schulz, Hartmut,0765,Fr,8:15,11:30
+BAI3-BWP2/03,Gerken, Wolfgang,1101a,Fr,8:15,11:30
+BAI3-GKAP/01,Padberg, Julia/_Oelker, Gerhard,1102,Do,8:15,11:30
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+BAI4-CI,Neitzke, Michael,Stiftstr.69  R106,Do,12:30,15:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW SZEP,Szepansky,1486,Di,16:15,19:30
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI4-SEP2/02,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/03,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+BAI4-RNP/01,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN3,Stanjek,0405,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+GW STAN2,Stanjek,1281,Di,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/03,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/01,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/02,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+GW STAN1,Stanjek,1281,Di,16:00,19:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI4-SEP2/01,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/02,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/03,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/02,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/03,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+BAI4-RNP/01,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI4-SEP2/03,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/01,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/02,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/01,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/02,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/03,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI4-SEP2/02,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/03,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+BAI4-RNP/01,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/03,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/01,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/02,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI4-SEP2/01,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/02,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/03,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/02,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/03,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+BAI4-RNP/01,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI4-SEP2/03,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/01,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/02,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+GW ZOEL,Zoellner,1486,Fr,16:30,18:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI4-SEP2/01,Zukunft, Olaf,1101b,Di,8:15,11:30
+BAI4-CIP/02,Neitzke, Michael/_Neumann, Oliver,0380b,Do,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+BAI4-RNP/03,Kossakowski, Klaus-Peter /_Schulz, Hartmut,0765,Do,8:15,11:30
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+BAI4-SE2,Zukunft, Olaf,Stiftstr.69  R206,Mo,8:15,11:30
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI4-RN,Kossakowski, Klaus-Peter ,Stiftstr.69  R107,Mo,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BAI4-CI,Neitzke, Michael,0660,Do,12:30,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Di,8:15,11:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/01,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/02,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/02,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/03,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/03,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/01,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/01,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/02,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/02,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/03,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/03,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/01,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/01,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/02,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/02,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/03,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/03,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/01,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/01,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/02,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/02,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/03,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI5-AIP/03,Steffens, Ulrike,0380b,Di,8:15,11:30
+BAI5-VS,Klauck, Christoph,Stiftstr.69  R107,Do,8:15,11:30
+BAI5-VSP/01,Klauck, Christoph/_Schulz, Hartmut,0765,Di,8:15,11:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+BAI5-AI,Steffens, Ulrike,Stiftstr.69  R107,Do,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/03,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW SZEP,Szepansky,1486,Di,16:15,19:30
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN3,Stanjek,0405,Mo,16:00,19:00
+GW STAN2,Stanjek,1281,Di,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/01,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+GW STAN1,Stanjek,1281,Di,16:00,19:00
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/02,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI6-ISP/03,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI6-ISP/01,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/02,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+BAI6-ISP/03,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/01,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/02,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI6-ISP/03,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI6-ISP/01,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW ZOEL,Zoellner,1486,Fr,16:30,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BAI6-IS,Neitzke, Michael,Stiftstr.69  R205,Mo,14:15,17:30
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+BAI6-ISP/02,Neitzke, Michael/_Behnke, Lutz,1165,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PTP/08 optional,Becker-Pechau, Petra,1101a,Mi,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PTP/02,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/04,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/06,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+BTI1-PTP/01,Becker-Pechau, Petra/_Blanck, Ilona,1104,Di,12:30,15:45
+BTI1-PTP/03,Schäfers, Michael/_Blanck, Ilona,1165,Do,8:15,11:30
+BTI1-PTP/05,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1105,Di,12:30,15:45
+BTI1-PTP/07 optional,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101b,Do,8:15,11:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/02,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-PTP/07 optional,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,12:30,15:45
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/01,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/03,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/05,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/03,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+
+43, 49
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/01,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PTP/08 optional,Becker-Pechau, Petra,1101a,Mi,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/02,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/04,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/06,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+
+44, 50
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/02,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-PTP/07 optional,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,12:30,15:45
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/01,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/03,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/05,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+BTI1-GTP/04,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,16:00,19:15
+
+45, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/03,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PTP/08 optional,Becker-Pechau, Petra,1101a,Mi,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/02,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/04,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/06,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+
+46, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/01,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-PTP/07 optional,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,12:30,15:45
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/01,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/03,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/05,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/02,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PTP/08 optional,Becker-Pechau, Petra,1101a,Mi,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/02,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/04,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/06,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+BTI1-GTP/04,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,16:00,19:15
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GTP/03,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,12:30,15:45
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-PTP/07 optional,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,12:30,15:45
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/01,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/03,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/05,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI1-GT,Heitmann, Hans Heinrich,1260,Fr,8:15,11:30
+BTI1-GE1,Schwarz, Bernd,NB 01.13,Mo,8:15,11:30
+BTI1-MG,Köhler-Bußmeier, Michael,NB 01.13,Di,8:15,11:30
+BTI1-MGÜ,Köhler-Bußmeier, Michael,Stiftstr 69 R304a,Mo,12:30,15:45
+BTI1-PTP/08 optional,Becker-Pechau, Petra,1101a,Mi,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,NB 01.10,Do,12:30,15:45
+BTI1-PM1/PT,Schmolitzky, Axel,0660,Fr,12:30,15:45
+BTI1-PTP/02,Becker-Pechau, Petra/_Blanck, Ilona,1101b,Mi,8:15,11:30
+BTI1-PTP/04,Schäfers, Michael/_Blanck, Ilona,1101b,Mi,12:30,15:45
+BTI1-PTP/06,Schmolitzky, Axel/_Kasperczyk-Borgmann, Norbert,1101a,Mi,8:15,11:30
+BTI1-GTP/04,Heitmann, Hans Heinrich/_Behn, Silke/_Lohmann, Alfred,0701,Di,16:00,19:15
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-GE2,Fohl, Wolfgang,Stiftstr 69 R304a,Mo,14:15,15:45
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-PR2,Schäfers, Michael,Stiftstr.69  R106,Do,12:30,15:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW SZEP,Szepansky,1486,Di,16:15,19:30
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/02,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN3,Stanjek,0405,Mo,16:00,19:00
+GW STAN2,Stanjek,1281,Di,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW STAN1,Stanjek,1281,Di,16:00,19:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/03,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/01,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/02,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/03,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/01,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/02,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/03,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/01,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/02,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW ZOEL,Zoellner,1486,Fr,16:30,18:00
+BTI2-GSP/03,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/03,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/01,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/02,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/01,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GSP/01,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,8:15,11:30
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+BTI2-GS,Baran, Reinhard,Stiftstr.69  R205,Mo,10:00,13:15
+BTI2-PR2,Schäfers, Michael,0265,Do,8:15,11:30
+BTI2-DB,Schumann, Sabine,1281,Di,8:15,11:30
+BTI2-PRP2/01,Schäfers, Michael/_Kasperczyk-Borgmann, Norbert,1165,Do,12:30,15:45
+BTI2-DBP/03,Schumann, Sabine/_Brodersen, Michael,1101a,Di,12:30,14:00
+BTI2-DBP/04,Schumann, Sabine/_Brodersen, Michael,1101a,Di,14:15,15:45
+BTI2-GEP2/02,Fohl, Wolfgang/_Rachow,0502,Mi,8:15,11:30
+BTI2-GEP2/03,Fohl, Wolfgang/_Rachow,0502,Do,12:30,15:45
+BTI2-GSP/02,Baran, Reinhard/_Lohmann, Alfred,0701,Fr,12:30,15:45
+BTI2-AF/AFÜ,Hollatz, Ralph,0405,Mi,12:30,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+BTI2-GE2,Fohl, Wolfgang,Stiftstr.69  R206,Mo,14:15,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-DT,Schäfers, Michael,1001,Fr,12:30,15:45
+BTI3-BS,Korf, Franz,Stiftstr.69  R107,Mi,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-BS,Korf, Franz,Stiftstr.69  R107,Mi,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-DT,Schäfers, Michael,1001,Fr,12:30,15:45
+BTI3-SEP1/01,Dai, Zhen Ru/_Christophers, Enrico,0761,Mi,8:15,11:30
+BTI3-BSP/01,Korf, Franz/_Christophers, Enrico,0761,Mi,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-DTP/01,Schäfers, Michael/_Link,0801,Fr,12:30,15:45
+BTI3-ADP/03,Kleine, Moritz,0709,Mo,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+43, 46, 49, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-SEP1/02,Dai, Zhen Ru/_Christophers, Enrico,0761,Mi,8:15,11:30
+BTI3-DTP/02,Schäfers, Michael/_Link,0801,Fr,12:30,15:45
+BTI3-BSP/02,Korf, Franz/_Christophers, Enrico,0761,Mi,12:30,15:45
+BTI3-ADP/01,Kleine, Moritz,0709,Mo,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+44, 47, 50, 56
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-SEP1/03,Dai, Zhen Ru/_Christophers, Enrico,0761,Mi,8:15,11:30
+BTI3-DTP/03,Schäfers, Michael/_Link,0801,Fr,12:30,15:45
+BTI3-BSP/03,Korf, Franz/_Christophers, Enrico,0761,Mi,12:30,15:45
+BTI3-ADP/02,Kleine, Moritz,0709,Mo,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+
+45, 48, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI3-SEP1/01,Dai, Zhen Ru/_Christophers, Enrico,0761,Mi,8:15,11:30
+BTI3-DTP/01,Schäfers, Michael/_Link,0801,Fr,12:30,15:45
+BTI3-BSP/01,Korf, Franz/_Christophers, Enrico,0761,Mi,12:30,15:45
+BTI3-ADP/03,Kleine, Moritz,0709,Mo,12:30,15:45
+BTI3-SE1,Dai, Zhen Ru,Stiftstr 69 R304a,Di,8:15,11:30
+BTI3-DT,Schäfers, Michael,Stiftstr.69  R206,Di,12:30,15:45
+BTI3-BS,Korf, Franz,0265,Fr,8:15,11:30
+BTI3-AD,Kleine, Moritz,1283,Mo,8:15,11:30
+BTI3-AA/AAÜ,Völler, Reinhard,0265,Do,12:30,17:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,1465,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,1465,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-RNP/01,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,1465,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/02,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-RNP/03,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/01,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/02,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-RNP/03,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/01,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-SE2,Lehmann, Thomas,Stiftstr 69 R304a,Mo,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/02,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-RNP/03,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/01,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-SEP2/02,Fohl, Wolfgang/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-CEP/01,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-RNP/02,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-PL,Pareigis, Stephan,Stiftstr.69  R106,Di,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI4-CE,Heitmann, Hans Heinrich/Schwarz, Bernd,0405,Di,8:15,11:30
+BTI4-RNP/03,Heitmann, Hans Heinrich/_Schulz, Hartmut,0765,Mi,8:15,11:30
+BTI4-CEP/02,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,8:15,11:30
+BTI4-NS/NSÜ,Völler, Reinhard,1065,Mo,12:30,17:45
+BTI4-SEP2/01,Lehmann, Thomas/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,12:30,15:45
+BTI4-SEP2/03,Pareigis, Stephan/_Christophers, Enrico/_Lohmann, Alfred,0701,Do,8:15,11:30
+BTI4-SY,Fohl, Wolfgang,0405,Di,12:30,15:45
+BTI4-CEP/03,Heitmann, Hans Heinrich/Schwarz, Bernd/_Behn, Silke,0709,Do,12:30,15:45
+BTI4-RN,Heitmann, Hans Heinrich,1265,Mi,12:30,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/02,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/03,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/01,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/02,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/03,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/01,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/02,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/03,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VSP/01,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VSP/02,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VSP/03,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-VS,Schmidt, Thomas,1265,Do,8:15,11:30
+BTI5-VSP/01,Schmidt, Thomas/_Schulz, Hartmut,0765,Mi,12:30,15:45
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BTI5-BW/BWÜ,Schwarz, Renate,1265,Do,11:45,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS C,Canzler, Thomas (LBA)/Schmolitzky, Axel,1001,Di,16:00,18:00
+INF-PRO 2,Korf, Franz,0765,Mo,8:15,14:00
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+BAI5-AIS+BTI5-TIS E,Kossakowski, Klaus-Peter /Köhler-Bußmeier, Michael,0560,Do,16:00,18:00
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+BAI5-AIS+BTI5-TIS D,Jenke, Philipp/Kossakowski, Klaus-Peter ,1001,Mo,16:00,18:00
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-PRO 1,_Behnke, Lutz,1105,Mo,8:15,14:00
+INF-PRO 9,Sarstedt, Stefan/_Neumann, Oliver,1101a,Mo,10:15,16:00
+INF-PRO 3,Pareigis, Stephan/_Christophers, Enrico,0761,Mo,8:15,14:00
+INF-PRO 8,Steffens, Ulrike,1101b,Mo,10:15,16:00
+INF-PRO 7,Fohl, Wolfgang,0701,Mo,8:15,14:00
+INF-PRO 4,Neitzke, Michael,1165,Mo,8:15,14:00
+INF-PRO 5,Dai, Zhen Ru,0380a,Mo,8:15,14:00
+INF-PRO 6,Kluth, Sascha,1102,Mo,8:15,14:00
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW SZEP,Szepansky,1486,Di,16:15,19:30
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN3,Stanjek,0405,Mo,16:00,19:00
+GW STAN2,Stanjek,1281,Di,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+GW STAN1,Stanjek,1281,Di,16:00,19:00
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW ZOEL,Zoellner,1486,Fr,16:30,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,Stiftstr.69  R106,Di,8:15,11:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/01,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/02,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/05,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mi,8:15,11:30
+BWI1-PTP/06,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mo,12:30,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GMÜ,Padberg, Julia,1486,Mo,12:30,17:00
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/03,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/04,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/01,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/01,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/02,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/06,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mo,12:30,15:45
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/02,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-GMÜ,Padberg, Julia,1486,Mo,12:30,17:00
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/03,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/04,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/05,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mi,8:15,11:30
+
+44, 50
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/03,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/01,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/02,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/05,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mi,8:15,11:30
+BWI1-PTP/06,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mo,12:30,15:45
+
+45, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/01,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-GMÜ,Padberg, Julia,1486,Mo,12:30,17:00
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/03,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/04,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+
+46, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/02,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/01,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/03,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/05,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mi,8:15,11:30
+BWI1-PTP/06,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mo,12:30,15:45
+
+47, 56
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/03,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-GMÜ,Padberg, Julia,1486,Mo,12:30,17:00
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/02,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/04,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/01,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/01,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+BWI1-PTP/02,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/05,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mi,8:15,11:30
+BWI1-PTP/06,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Mo,12:30,15:45
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI1-GM,Padberg, Julia,NB 01.12,Mi,12:30,15:45
+BWI1-BWL1,Düsterlho von , Jens-Eric ,NB 03.15,Fr,12:30,15:45
+BWI1-GWI,Schöneberg (W) ,NB 01.11,Do,13:30,16:45
+BWI1-GWIÜ/02,Schöneberg (W) ,,Do,8:15,11:30
+BWI1-GMÜ,Padberg, Julia,1486,Mo,12:30,17:00
+BWI1-BWLP1,Düsterlho von , Jens-Eric ,NB 03.11,Fr,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,1060,Mo,8:15,11:30
+BWI1-PM1/PT,Kahlbrandt, Bernd,0360,Di,8:15,11:30
+BWI1-PTP/03,Kahlbrandt, Bernd/_Behnke, Lutz,1105,Do,8:15,11:30
+BWI1-PTP/04,Kahlbrandt, Bernd/_Behnke, Lutz,1101b,Di,12:30,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-SEAP1/01,Buth, Bettina/_Neumann, Oliver,1105,Do,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-SEAP1/02,Buth, Bettina/_Neumann, Oliver,1105,Do,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+42, 45, 48, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-ADP/02,Jenke, Philipp,1101b,Do,12:30,15:45
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-WSP/01,Köhler-Bußmeier, Michael,Stiftstr.69  R106,Do,12:30,15:45
+BWI3-WIP1/01,Braun, Brigitte (W),NB 06.19,Fr,12:30,15:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-SEAP1/03,Buth, Bettina/_Neumann, Oliver,1105,Do,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-WSP/04,Köhler-Bußmeier, Michael,Stiftstr.69  R107,Mo,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+43, 46, 49
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-ADP/03,Jenke, Philipp/_Blanck, Ilona,1101b,Do,12:30,15:45
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-WSP/02,Köhler-Bußmeier, Michael,Stiftstr.69  R106,Do,12:30,15:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-WIP1/02,Braun, Brigitte (W),NB 06.19,Fr,12:30,15:45
+BWI3-SEAP1/01,Buth, Bettina/_Neumann, Oliver,1105,Do,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+44, 47, 50
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-ADP/01,Jenke, Philipp,1101b,Do,12:30,15:45
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-WSP/03,Köhler-Bußmeier, Michael,Stiftstr.69  R106,Do,12:30,15:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-WIP1/03,Braun, Brigitte (W),NB 06.19,Fr,12:30,15:45
+BWI3-SEAP1/02,Buth, Bettina/_Neumann, Oliver,1105,Do,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-ADP/04,Jenke, Philipp/_Blanck, Ilona,0380b,Mo,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-ADP/03,Jenke, Philipp/_Blanck, Ilona,1101b,Do,12:30,15:45
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-WSP/02,Köhler-Bußmeier, Michael,Stiftstr.69  R106,Do,12:30,15:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-WIP1/02,Braun, Brigitte (W),NB 06.19,Fr,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+BWI3-ADP/01,Jenke, Philipp,1101b,Do,12:30,15:45
+BWI3-BWLP3,Düsterlho von , Jens-Eric ,NB 02.16,Mi,8:15,11:30
+BWI3-BWL3,Düsterlho von , Jens-Eric ,NB 05.13,Mi,13:30,16:45
+BWI3-WI1,Braun, Brigitte (W),NB 02.13,Fr,8:15,11:30
+BWI3-WSP/03,Köhler-Bußmeier, Michael,Stiftstr.69  R106,Do,12:30,15:45
+BWI3-SEA1,Buth, Bettina,Stiftstr.69  R206,Di,8:15,11:30
+BWI3-WIP1/03,Braun, Brigitte (W),NB 06.19,Fr,12:30,15:45
+BWI3-WS,Köhler-Bußmeier, Michael,Stiftstr.69  R206,Do,8:15,11:30
+BWI3-ADP/04,Jenke, Philipp/_Blanck, Ilona,0380b,Mo,8:15,11:30
+BWI3-AD,Jenke, Philipp,1001,Mo,12:30,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW SZEP,Szepansky,1486,Di,16:15,19:30
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+GW WLTP,Waltrup,1283,Sa,8:00,16:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW WLTP,Waltrup,1281,Fr,16:00,21:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+GW SZEP,Szepansky,1486,Sa,10:00,18:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+GW STAN3,Stanjek,0405,Mo,16:00,19:00
+GW STAN2,Stanjek,1281,Di,16:00,19:00
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+43
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+GW STAN1,Stanjek,1281,Di,16:00,19:00
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+44
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+GW SZEP,Szepansky,1283,Di,16:15,19:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+45
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW BLHA,Blaha,1486,Fr,16:00,19:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW BLHA,Blaha,1281,Sa,9:00,15:30
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+46
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+GW HRRS TE,Harris,1201,Do,16:00,19:00
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+GW HRRS BE,Harris,1283,Mi,16:00,19:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW SCHM,Schmahl,1281,Mo,16:00,19:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+GW STAN2,Stanjek,1001,Sa,9:00,16:00
+
+47
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+48
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+49
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0665,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-C2/03,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+GW STAN1,Stanjek,1486,Sa,9:00,16:00
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WPP-A4/01,Schwarz, Bernd,0761,Di,12:30,15:45
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+GW ZOEL,Zoellner,1001,Fr,16:30,19:30
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WPP-B2/01,Pareigis, Stephan,0701,Mi,8:15,11:30
+INF-WPP-B3/02,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WP-A2,Köhler-Bußmeier, Michael/Padberg, Julia,1283,Di,12:30,15:45
+INF-WPP-C2/01,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B4/01,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,8:15,11:30
+INF-WPP-C3/02,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-A3/01,Sarstedt, Stefan,0380b,Di,12:30,15:45
+INF-WPP-C4/01 ,Falkenberg, Eike ,0380a,Fr,12:30,15:45
+GW ZOEL,Zoellner,1486,Fr,16:30,18:00
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-B1,Gerken, Wolfgang,Stiftstr.69  R107,Mi,8:15,11:30
+INF-WPP-B4/02,Meisel, Andreas/_Lohmann, Alfred,0709,Mi,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WP-A1,Jenke, Philipp,Stiftstr.69  R107,Di,12:30,15:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+INF-WP-B2,Pareigis, Stephan,1060,Mi,8:15,11:30
+INF-WPP-A1/01,Jenke, Philipp/_Behnke, Lutz,0380a,Di,12:30,15:45
+INF-WP-C3,Zukunft, Olaf,Stiftstr.69  R206,Fr,8:15,11:30
+INF-WPP-C3/01 ,Zukunft, Olaf,0380b,Fr,12:30,15:45
+INF-WPP-C2/02,Kossakowski, Klaus-Peter /_Behnke, Lutz,1165,Fr,12:30,15:45
+INF-WPP-A1/02,Jenke, Philipp/_Behnke, Lutz,0380a,Di,8:15,11:30
+INF-WP-A4,Schwarz, Bernd,1265,Di,12:30,15:45
+INF-WPP-A2/01,Köhler-Bußmeier, Michael/Padberg, Julia,1102,Di,12:30,15:45
+GW SCHZ,Schwarz, Renate,1283,Do,16:15,17:45
+INF-WPP-B1/01,Gerken, Wolfgang/_Brodersen, Michael,1105,Mi,8:15,11:30
+INF-WP-A3,Sarstedt, Stefan,Stiftstr.69  R106,Di,12:30,15:45
+INF-WP-C4,Falkenberg, Eike ,0861,Fr,12:30,15:45
+INF-WP-B3,Kahlbrandt, Bernd,1065,Mi,8:15,11:30
+INF-WP-B4,Meisel, Andreas,Stiftstr.69  R206,Mi,8:15,11:30
+INF-WPP-C1/01,Canzler, Thomas (LBA),1102,Fr,8:15,11:30
+INF-WPP-B3/01,Kahlbrandt, Bernd,1105,Mi,12:30,15:45
+INF-WP-C2,Kossakowski, Klaus-Peter ,1060,Fr,8:15,11:30
+INF-WP-C1,Canzler, Thomas (LBA),0460,Fr,12:30,15:45
+INF-WPnurWI/01,Düsterlho von , Jens-Eric ,NB 05.16,Mi,17:45,21:00
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 05.13,Mo,8:15,9:45
+INF-WPnurWI/02,Klante, Oliver /Meister, Sandra ,NB 03.17,Di,12:30,14:00
+GW DANN,Dannenberg,1283,Mo,16:15,17:45
+GW STAN3,Stanjek,1283,Sa,9:00,16:00
+INF-WPnurWI/04,Thulesius (W),NB 02.18,Mi,14:15,17:30
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/01  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/02  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+42, 45, 48
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MIP/01,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/01 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-THÜ2/03 (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+
+43, 46, 49
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MIP/02,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/02  (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/01  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+44, 47
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/02  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/02  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MIP/01,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/01 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF3-THÜ2/03 (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MIP/02,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/02  (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-AW1 (GSM),Meisel, Andreas/Wendholt, Birgit,Stiftstr.69  R206,Fr,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+38
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+
+39-40
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF2-PJ1,,,Mi,8:15,15:45
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF2-PJ1,,,Mi,8:15,15:45
+
+42, 45, 48
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-MIP/01,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/01 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF2-PJ1,,,Mi,8:15,15:45
+
+43, 46, 49, 55
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-MIP/02,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/02  (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF2-PJ1,,,Mi,8:15,15:45
+
+44, 47
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TT1  (TTV),Schmidt, Thomas,Stiftstr 69 R304a,Do,12:30,15:45
+MINF2-PJ1,,,Mi,8:15,15:45
+
+50
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-TTP1/03 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF2-PJ1,,,Mi,8:15,15:45
+
+51
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-MIP/01,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF1-TTP1/01 (TTVP),Schmidt, Thomas,0709,Fr,8:15,11:30
+MINF2-PJ1,,,Mi,8:15,15:45
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF1-MIP/03,Thiel-Clemen, Thomas/_Neumann, Oliver,1165,Di,12:30,15:45
+MINF2-AW2,Jenke, Philipp/Sarstedt, Stefan,0665,Do,8:15,11:30
+MINF1-MI,Thiel-Clemen, Thomas,Stiftstr.69  R205,Di,8:15,11:30
+MINF2-PJ1,,,Mi,8:15,15:45
+<>
+Dozentenplan   WiSe 2014 Vers. 1.2 vom 23.10.2014
+
+
+39
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+
+40
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+MINF3-THÜ2/01  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+41
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/02  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+
+42
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-THÜ2/03 (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+
+43, 46, 49
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-UOÜ/01,Hübner, Martin/Steffens, Ulrike,0380b,Mi,12:30,15:45
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+MINF3-THÜ2/01  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+
+44, 47, 50
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-UOÜ/02,Hübner, Martin/Steffens, Ulrike,0380b,Mi,12:30,15:45
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-THÜ2/02  (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+
+45, 48, 51
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-THÜ2/03 (SVPP),Buth, Bettina,1101a,Do,8:15,11:30
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+
+55
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-UOÜ/01,Hübner, Martin/Steffens, Ulrike,0380b,Mi,12:30,15:45
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+
+56
+Name,Dozent,Raum,WT,Anfang,Ende
+MINF3-UOÜ/02,Hübner, Martin/Steffens, Ulrike,0380b,Mi,12:30,15:45
+MINF3-MS,Buth, Bettina/Luck von, Kai,Stiftstr 69 R304a,Di,12:30,15:45
+MINF3-TH2 (SVP),Buth, Bettina,0460,Mo,8:15,11:30
+MINF3-PJ2,,,Fr,8:15,15:45
+MINF3-UO,Hübner, Martin/Steffens, Ulrike,Stiftstr 69 R304a,Mi,8:15,11:30
+<>

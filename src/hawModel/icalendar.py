@@ -187,8 +187,10 @@ def createUid(dateTime):
     rand = reduce(lambda x,y : str(x) + str(random.randint(0,9)), [random.randint(0,9)] + range(9))
 
     result = "{0}_Atomkraft?_Nein_Danke!_{1}".format(dateTime, rand)
-    if random.randint(0,9) % 2 == 0:
+    if random.randint(0,9) % 3 == 0:
         result = "{0}_Freiheit_statt_Angst_{1}".format(dateTime, rand)
+    if random.randint(0,9) % 3 == 1:
+        result = "{0}_Asyl_fuer_Edward_Snowden_{1}".format(dateTime, rand)
 
     if IP:
         result += "@{}".format(IP)

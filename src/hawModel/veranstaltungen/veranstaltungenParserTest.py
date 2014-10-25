@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
 ###########################################################################
@@ -49,25 +50,41 @@ tokenTestData = {
     "wpPraktikum" : ["INF-WPP-B4/01", "INF-WPP-A1/01"],
 
     # high level token
-    "veranstaltung" : ["INF-WPP-B4/01", "INF-WPP-A1/01",
-                       "GWb SRHF_TK", "GWu STFF_Z",
-                       "GWu ZOEL", "GWu DANN",
-                       "BTI1-OE I", "BTI2-OE II",
-                       "BAI1-PRP1/02", "BTI1-GTP/02",
-                       "INF-PRO 8", "INF-PRO 4",
-                       "BAI5-AIS+BTI5-TIS",
-                       "MINF2-THÜ/01", "BMT2-TM2 Ü/01",
-                       "BAI1-PR1", "E1a-TSE",
-                       "IE2-EEL2/01", "BMT6-Robot L",
-                       "E1a-ET1 Tutor", "E1b-PH1 Tutor",
-                       "Vorkurs PRG",
-                       "A-M2-VPJ",
-                       "BAI1-GI/GIÜ",
-                       "INF-WP-C1",
-                       "MINF1-AW1", "MINF2-AW2",
-                       "BWI1 OE I", "BWI1 TSE/01", "MINF1 OE",
-                       "BMT5 BU", "BMT5- BUP",
-                       "ficken macht Spaß"]
+    "veranstaltung" : ["INF-WPP-B4/01", "INF-WPP-A1/01", "GWb SRHF_TK", "GWu STFF_Z", "GWu ZOEL", "GWu DANN",
+                       "BTI1-OE I", "BTI2-OE II", "BAI1-PRP1/02", "BTI1-GTP/02", "INF-PRO 8", "INF-PRO 4",
+                       "BAI5-AIS+BTI5-TIS", "MINF2-THÜ/01", "BMT2-TM2 Ü/01", "BAI1-PR1", "E1a-TSE", "IE2-EEL2/01",
+                       "BMT6-Robot L", "E1a-ET1 Tutor", "E1b-PH1 Tutor", "Vorkurs PRG", "A-M2-VPJ", "BAI1-GI/GIÜ",
+                       "INF-WP-C1", "MINF1-AW1", "MINF2-AW2", "BWI1 OE I", "BWI1 TSE/01", "MINF1 OE", "BMT5 BU",
+                       "BMT5- BUP",
+                       
+                       "foo bar baz bla",
+
+                       # Inf, WiSe 2014
+                       'BAI1-PM1/PT', 'BAI1-PTP/01', 'BAI1-PTP/07 optional', 'BAI2-RMP', 'BAI2-RMPP/01',
+                       'BAI3-GKAP/01', 'BWI5-REC', 'BWI5-WI3', 'BWI5-WIP3/01', 'BWI5-WIS A', 'INF-WPnurWI/01',
+                       'BTI1-PM1/PT', 'BTI1-PTP/02', 'BTI1-PTP/08 optional', 'BWI1-GM', 'BWI1-GMÜ', 'BWI1-GWIÜ/01',
+                       'BWI1-PM1/PT', 'BWI1-PTP/04', 'BWI3-SEA1', 'BWI3-SEAP1/03', 'BWI3-WI1', 'BWI3-WIP1/03',
+                       'BWI3-WS', 'BWI3-WSP/03',
+
+                       # EuI, WiSe 2014
+                       'A-M-ASS', 'A-M-MRP/01', 'EuI-M-WP1', 'EuI-M-WP3/WPP3', 'EuI-M-WPP4',
+                       'B-EE1-MA1 Tutorium', 'B-EE1-MA1/MAÜ1', 'B-EE1-PH1', 'B-EE1-PR1', 'B-EE1-PR1 Tutorium',
+                       'BMT1-KO1', 'BMT1-TMA/TMÜA',
+                       'BMT2-TMB', 'BMT2-TMBÜ',
+                       'BMT3-KO3', 'BMT3-KO3/KOP3', 'BMT3-WK',
+                       'BMT4-AT1', 'BMT4-ATP1/02', 'BMT4-ATP1/03 (geparkt)', 'BMT4-EM', 'BMT4-EMP/03', 'BMT4-MK/MKP', 'BMT4-MP',
+                       'BMT5-AT2', 'BMT5-MD/MDP', 'BMT6-ED', 'BMT6-SN', 'BMT6-SNP/01 (geparkt)',
+                       'BMT6-BV', 'BMT6-EDP/01', 'BMT6-HT/HTP', 'BMT6-RO/ROP', 'BMT6-SN',
+                       'E1a-EK/01', 'E1a/b-EK/03',
+                       'E1b-ALÜ/01 u 02',
+                       'E1a/b-W-PRP1/PR1',
+                       'E6-DÜ', 'E6-DÜP/01', 'E6-AÜ', 'E6-AÜP/01', 'E7-PRO1',
+                       'IE3-EM', 'IE3-EME/03',
+                       'IE7-CJ', 'IE7-CM1', 'IE7-CML1/02', 'IE7-CML2/02',
+                       'EuI-M-WP3', 'EuI-M-WP3/WPP3', 'EuI-M-WPP2/02', 'IKM1-HM', 'IKM1-HMP/01', 'IKM1/MES1-AM',
+                       'EuI-M-WPP4', 'MES1-SC',
+                       'EuI-Dienstbesprechung', 'EuI-Konvent', 'IE7-CJ', 'IE7-CM1', 'IE7-CML1/02',
+    ]
 }
 
 class TestParser(unittest.TestCase):
