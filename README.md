@@ -9,7 +9,7 @@ Features
 
  * für **Department Informatik (Inf)** sowie **Department Informations- und Elektrotechnik (IuE)**
  *  für Studenten und Dozenten
- *  ausführliche Veranstaltungsnamen (z.B. 'Praktikum Grundlagen Programmieren (Gruppe 2)' statt 'PRGP-2')
+ *  ausführliche Veranstaltungsnamen (z.B. 'Praktikum Software Engineering 2 (Gruppe 3)' statt 'SEP2/03')
  *  zwei Guis:
    * `haw2iCalendar.py`
    * `haw2iCalendar-klickiBunti.py`
