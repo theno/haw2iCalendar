@@ -7,7 +7,7 @@ Kalenderprogramm (z.B. Google Calendar) verwenden.
 Features
 ----
 
- * für **Department Informatik (Inf)** sowie **Department Informations- und Elektrotechnik (EuI)**
+ * für **Department Informatik (Inf)** sowie **Department Informations- und Elektrotechnik (IuE)**
  *  für Studenten und Dozenten
  *  ausführliche Veranstaltungsnamen (z.B. 'Praktikum Grundlagen Programmieren (Gruppe 2)' statt 'PRGP-2')
  *  zwei Guis:
@@ -23,7 +23,7 @@ Genereller Ablauf
  1. HAW-Kalender Textdatei einlesen
  1. Termine auswählen
  1. Auswahl als iCalendar-Datei (`*.ics`) speichern.
- 1. iCalendar-Datei in eigener Kalender-Anwendung importieren
+ 1. iCalendar-Datei in eigene Kalender-Anwendung importieren
 
 
 Screenshots
