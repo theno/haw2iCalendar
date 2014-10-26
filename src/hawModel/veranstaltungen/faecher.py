@@ -35,7 +35,7 @@ infFaecher = {
     "GI"  : "Grundlagen der Informatik",
     "GS"  : "Grundlagen Systemnahes Programmieren",
     "GT"  : "Grundlagen Technische Informatik",
-    "GKA" : "Graphentheoretische Konzepte und Algorithmen",
+#    "GKA" : "Graphentheoretische Konzepte und Algorithmen",
     "LB"  : "Logik und Berechenbarkeit",
     "MA"  : "Mathematik",
     "MG"  : "Mathematische Grundlagen",
@@ -59,7 +59,7 @@ infFaecher = {
     "VS"  : "Verteilte Systeme",
     "WP"  : "Wahlpflichtmodul",
 
-    # WiSe 2014
+    # WiSe 2014/15
     'PM'  : 'Programmiermethodik',
     'PT'  : 'Programmiertechnik',
     'AF'  : 'Automatentheorie und Formale Sprachen',
@@ -69,8 +69,9 @@ infFaecher = {
     'IST' : 'IT-Sicherheit',
     'IS'  : 'Intelligente Systeme',
     'MS'  : 'Masterseminar',
-#    'GM'  : '',
-#    'GWI' : '',
+    'GM'  : 'Grundlagen Mathematik',
+    'GWI' : 'Grundlagen Wirtschaftsinformatik',
+    # stehen nicht in den Modulhandbüchern:
 #    'REC' : '',
 #    'SEA' : '',
 #    'WI'  : '',
@@ -155,6 +156,8 @@ etechFaecher = {
     "WA"  : "Wissenschaftliches Arbeiten",
     "WP"  : "Wahlpflichtmodul",
     "ZR"  : "Zustandsregelung",
+
+    # WiSe 2014/15
 }
 
 etechFaecherEngl = {

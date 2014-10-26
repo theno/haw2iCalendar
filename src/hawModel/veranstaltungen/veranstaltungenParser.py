@@ -50,7 +50,7 @@ unknown              := -[$]+
 
 semesterkuerzel      := ("A-M", [0-9]) / ("IK-M", [0-9]) / ("BWI", [0-9]) / "MINF1" / "BMT5" / "BTI1" / -"-"+
 >kuerzel<            := fachKuerzel, nummer?
-prakKuerzel          := [A-Z], [A-Z], "P"
+prakKuerzel          := (?-"RMP", [A-Z], [A-Z], "P") / ([A-Z], [A-Z], [A-Z], "P")
 verbKuerzel          := [A-Z], [A-Z], "J"
 labKuerzel           := ([A-Z], [A-Z], "L") / (fachKuerzel, " L")
 gwKuerzel            := [A-Z_-]+, (" ", [a-zA-Z]+)?
