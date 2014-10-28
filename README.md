@@ -235,4 +235,4 @@ Kontakt
 
 Wenn Du einen Fehler findest, eine Idee zur Verbesserung hast, oder Kritik äussern möchtest, melde Dich bitte bei mir:
 
-`theodor.nolte@{,www.informatik.}haw-hamburg.de`
+`theodor.nolte AT {,informatik.}haw-hamburg.de`
