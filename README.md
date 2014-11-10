@@ -203,14 +203,7 @@ Welche anderen Programme gibt es noch, die sich mit diesen HAW-Kalender Textdate
 Wieso kein Webdienst?
 ----
  
-Ein Webdienst macht nur Sinn, wenn er auch durchgehend erreichbar ist.
-Ein Webdienst muss gepflegt werden; ein Programm kannst Du immer verwenden.
-Die Erfahrung hat mich gelehrt, daß der ein- oder andere Web-Dienst der HAW
-"gerne mal ausfällt". haw2iCalendar soll nicht dazu gehören.
-
-Die Idee eines per URL abbonierten Kalenders ist zwar reizvoll wegen
-der Möglichkeit automatischer Updates, andererseits können dort keine
-individuellen Terminänderungen vorgenommen werden.
+Ein Webdienst ist in Arbeit. More is coming soon...
 
 
 Wieso keine Android-App?
