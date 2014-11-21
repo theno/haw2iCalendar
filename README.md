@@ -7,7 +7,7 @@ Kalenderprogramm (z.B. Google Calendar) verwenden.
 Features
 ----
 
- * für **[Department Informatik (Inf)](http://www.haw-hamburg.de/ti-i/studium.html)** sowie **[Department Informations- und Elektrotechnik (IuE)](http://www.haw-hamburg.de/ti-i/studium.html)**
+ * für **[Department Informatik (Inf)](http://www.haw-hamburg.de/ti-i/studium.html)** sowie **[Department Informations- und Elektrotechnik (IuE)](http://www.etech.haw-hamburg.de/Stundenplan/)**
  * für Studenten und Dozenten
  * ausführliche Veranstaltungsnamen (z.B. 'Praktikum Software Engineering 2 (Gruppe 3)' statt 'SEP2/03')
  * zwei Guis:
