@@ -7,10 +7,10 @@ Kalenderprogramm (z.B. Google Calendar) verwenden.
 Features
 ----
 
- * für **Department Informatik (Inf)** sowie **Department Informations- und Elektrotechnik (IuE)**
- *  für Studenten und Dozenten
- *  ausführliche Veranstaltungsnamen (z.B. 'Praktikum Software Engineering 2 (Gruppe 3)' statt 'SEP2/03')
- *  zwei Guis:
+ * für **[Department Informatik (Inf)](http://www.haw-hamburg.de/ti-i/studium.html)** sowie **[Department Informations- und Elektrotechnik (IuE)](http://www.haw-hamburg.de/ti-i/studium.html)**
+ * für Studenten und Dozenten
+ * ausführliche Veranstaltungsnamen (z.B. 'Praktikum Software Engineering 2 (Gruppe 3)' statt 'SEP2/03')
+ * zwei Guis:
    * `haw2iCalendar.py`
    * `haw2iCalendar-klickiBunti.py`
  * {Uni,Linu}x, Windows
@@ -20,7 +20,7 @@ Features
 Genereller Ablauf
 ----
 
- 1. HAW-Kalender Textdatei einlesen
+ 1. HAW-Kalender csv-Textdatei einlesen
  1. Termine auswählen
  1. Auswahl als iCalendar-Datei (`*.ics`) speichern.
  1. iCalendar-Datei in eigene Kalender-Anwendung importieren
