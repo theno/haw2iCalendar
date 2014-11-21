@@ -1,3 +1,7 @@
+Testversion der haw2iCalendar-Webapp online: http://haw2iCalendar.k.vu/  Bitte Bugs reporten!
+====
+
+
 haw2iCalendar
 ====
 
