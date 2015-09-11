@@ -83,6 +83,37 @@ BAI2-PR2,WND,NB 01.11,Di,12:30,15:45
 <>
 """
 
+semestergruppeTestDatum4 = """\
+Stundenplan  WiSe 2015/2016 Vers. 0.9.1 vom 7.9.2015
+Semestergruppe  A-M
+
+
+39
+Name,Dozent,Raum,Tag,Anfang,Ende
+EuI-M-WP3,KZR,0865,Mo,8:10,11:25
+A-M-Begrüßung,WNC,1260,Mo,8:10,9:40
+A-M-NR,MAA,1486,Di,8:10,11:25
+EuI-M-WP2,WNC,Stiftstr69  R205,Mo,9:55,11:25
+A-M-VPJ1,MAA/MNR/VPL/[Huß],0462,Do,8:10,11:25
+A-M-MR,WNC,1486,Di,12:10,15:40
+EuI-M-WP4,SHN,1065,Mo,8:10,11:25
+A-M-VPJ1,MAA/MNR/VPL/[Zey],0462,Do,12:10,15:40
+A-M-EC,MNR,1486,Mi,8:10,11:25
+
+40-41
+Name,Dozent,Raum,Tag,Anfang,Ende
+EuI-M-WP3,KZR,0865,Mo,8:10,11:25
+A-M-NR,MAA,1486,Di,8:10,11:25
+A-M-MR,WNC,1065,Mi,12:10,15:40
+A-M-VPJ1,MAA/MNR/VPL/[Huß],0462,Do,8:10,11:25
+A-M-ASS,WNC,,Fr,8:10,11:25
+A-M-MR,WNC,1486,Di,12:10,15:40
+EuI-M-WP4,SHN,1065,Mo,8:10,11:25
+EuI-M-WP2,WNC,Stiftstr69  R205,Mo,8:10,11:25
+A-M-VPJ1,MAA/MNR/VPL/[Zey],0462,Do,12:10,15:40
+A-M-EC,MNR,1486,Mi,8:10,11:25
+"""
+
 
 dateiTestDatum1 = semestergruppeTestDatum
 dateiTestDatum2 = semestergruppeTestDatum + "\n" + semestergruppeTestDatum2
@@ -172,6 +203,13 @@ with open("testData/Sem_IuE.WiSe2014.v112.txt", 'r') as f:
     dateiTestDatum17_utf8 = dateiTestDatum17_unicode.encode("utf-8")
     dateiTestDatum17 = prepared_Sem_I_txt(dateiTestDatum17_utf8)
 
+dateiTestDatum18 = None
+with open("testData/Sem_IuE.WiSe2015.v091.txt", 'r') as f:
+    dateiTestDatum18_cp1252 = f.read()
+    dateiTestDatum18_unicode = dateiTestDatum18_cp1252.decode("cp1252")
+    dateiTestDatum18_utf8 = dateiTestDatum18_unicode.encode("utf-8")
+    dateiTestDatum18 = prepared_Sem_I_txt(dateiTestDatum18_utf8)
+
 class TestParser(unittest.TestCase):
     def testDeclaration(self):
         
@@ -203,6 +241,7 @@ class TestParser(unittest.TestCase):
                             "Stundenplan  WiSe 2012/13 Vers 1.2  vom  30.09.2012",
                             "Stundenplan  WiSe 2013 Vers. 0.9.3 vom  12.07.2013",
                             "Dozentenplan   WiSe 2013 Vers. 1.20 vom  24.9.2013",
+                            "Stundenplan  WiSe 2015/2016 Vers. 0.9.1 vom 7.9.2015",
                            ],
             "zweiteZeile" : ["Semestergruppe  M-AI1", "Semestergruppe  A-M"],
             "header" : ["Stundenplan  SoSe 11 (Vers.0.9 vom 1.3.11)\nSemestergruppe  M-AI1",
@@ -214,7 +253,7 @@ class TestParser(unittest.TestCase):
             "eintrag" : ["BAI1-PTP/07 optional,Birgit Wendholt/_Gerhard Oelker,1165,Fr,8:15,11:30",
                         ],
             "semestergruppe" : [semestergruppeTestDatum, semestergruppeTestDatum2,
-                                semestergruppeTestDatum3,
+                                semestergruppeTestDatum3, semestergruppeTestDatum4,
                                ],
             "datei" : [dateiTestDatum1, dateiTestDatum2, dateiTestDatum3,
                        dateiTestDatum4, dateiTestDatum5, dateiTestDatum6,
