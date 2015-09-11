@@ -19,16 +19,18 @@
 #  along with haw2iCalendar.  If not, see <http://www.gnu.org/licenses/>. #
 ###########################################################################
 
+import re
+
 from simpleparse.common import numbers #for token 'int'
 from simpleparse.parser import Parser
 
 declaration = r'''#<token> := <definition>
 datei              := semestergruppe, ((t/lb)*, semestergruppe)*, (t/lb)*
-semestergruppe     := header, (t/lb)*, sections?, ((t/lb)*, "<>", (t/lb)*)?
+semestergruppe     := header, (t/lb)*, sections?, ((t/lb)*, "<>", (t/lb)*)?, (t/lb)*
 
 header             := ersteZeile, (lb, zweiteZeile)?
 
-ersteZeile         := ("Stundenplan" / "Dozentenplan"), ts, infoString
+ersteZeile         := ("Stundenplan" / "Dozentenplan"), ts, infoString, ts*
 infoString         := semester, ts, "("?, "Vers", ("."/ts), ts?, version, ts, "vom", ts, versionsDatum, ")"?
 semester           := "WiSe"/"SoSe", ts, jahr
 jahr               := int, ("/", int)?
@@ -76,6 +78,11 @@ m                  := int
 HawParser = Parser(declaration, root="datei")
 
 
+def _truncated(text):
+    """text without empty lines, and each line without leading or trailing spaces."""
+    return '\n'.join([line.strip() for line in text.splitlines() if line.strip() != ''])
+
+
 def prepared_Sem_I_txt(text):
     """
     Make errornous Sem_I.txt content parsable.
@@ -86,7 +93,6 @@ def prepared_Sem_I_txt(text):
     Diese Kommas werden vorm Parsen durch ein anderes Zeichen ersetzt. Dann
     ist das Komma wieder ausschließlich Feldtrenner.
     """
-    import re
 
     if ('Padberg, Julia' in text):
         # Now we know: the comma ',' is used in a wrong way
@@ -104,6 +110,8 @@ def prepared_Sem_I_txt(text):
         pattern = r'\s[ ]+'
         repl = r' '
         text = re.sub(pattern, repl, text, count=0, flags=0)
+
+    text = _truncated(text)
 
 #    print(text) #TODO DEBUG
 
