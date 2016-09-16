@@ -1,5 +1,5 @@
 *****
-Testversion der haw2iCalendar-Webapp online: http://haw2iCalendar-testing.theno.eu/  Bitte Bugs reporten!
+Testversion der haw2iCalendar-Webapp online: http://haw2iCalendar-testing.theno.eu  Bitte Bugs reporten!
 ====
 *****
 
