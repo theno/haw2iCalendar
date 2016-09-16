@@ -1,5 +1,5 @@
 *****
-Testversion der haw2iCalendar-Webapp online: http://haw2iCalendar.k.vu/  Bitte Bugs reporten!
+Testversion der haw2iCalendar-Webapp online: http://haw2iCalendar-testing.theno.eu/  Bitte Bugs reporten!
 ====
 *****
 
@@ -209,7 +209,7 @@ Welche anderen Programme gibt es noch, die sich mit diesen HAW-Kalender Textdate
 Wieso kein Webdienst?
 ----
  
-Ein Webdienst ist in Arbeit ([Testversion](http://haw2icalendar.k.vu/)). More is coming soon...
+Ein Webdienst ist in Arbeit ([Testversion](http://haw2icalendar-testing.theno.eu/)). More is coming soon...
 
 
 Wieso keine Android-App?
